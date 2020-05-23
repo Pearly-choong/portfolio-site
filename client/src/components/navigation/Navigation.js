@@ -65,7 +65,7 @@ class Navigation extends React.Component{
     render(){
         return(
             <div className="pt-5">
-                <Navbar collapseOnSelect expand="lg">  
+                <Navbar inverse collapseOnSelect expand="lg">  
                     <Navbar.Brand onClick={this.home}><img src={logoSignature} alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="text-center" id="responsive-navbar-nav">

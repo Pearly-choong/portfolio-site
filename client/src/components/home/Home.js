@@ -9,7 +9,7 @@ import Navigation from '../navigation/Navigation';
 import Work from '../work/Work';
 import About from '../about/About';
 import Footer from '../footer/Footer';
-
+import Typical from 'react-typical';
 
 
 class Home extends React.Component {
@@ -64,9 +64,18 @@ class Home extends React.Component {
             marginBottom: '50px' 
           }
           
+          const steps = [
+            'Hi, I am Pearly. 👩🏻' , 1500,
+            'I am UI/UX Designer. 👩🏻‍🎨 ', 1500,
+            'I am Front-end Developer. 👩🏻‍💻', 1500,
+            'I am based in Wellington, New Zealand. 🇳🇿', 1500,
+            'Hi, I am Pearly. UI/UX Designer & Front-end Developer based in Wellington, New Zealand.', 2000
+          ]
+
           return(
           // <div className="home-container" style={myBackground}>
           <div>
+          <section id="sec1">
             <div className="home-container">
               <img style={myBackground} src={background} alt="background"/>
               <div className="intro">
@@ -76,18 +85,20 @@ class Home extends React.Component {
                     <span class="letters">Hi, I'm Pearly.</span>
                   </span>
                 </h2> */}
-                <h2 className="intro__nameFont">Hi, I'm Pearly.</h2>
-                <h1 className="intro__titleFont">UI/UX Designer & Front-end Developer based in Wellington, New Zealand.</h1>
-                <button className="my-btn" onClick={this.about}>More About Me</button>
+                {/* <h2 className="intro__nameFont">Hi, I'm Pearly.</h2> */}
+                <Typical wrapper="span" steps={steps} loop={1} className={'intro__titleFont'} />
+                {/* <h1 className="intro__titleFont">UI/UX Designer & Front-end Developer based in Wellington, New Zealand.</h1> */}
+                {/* <button className="my-btn" onClick={this.about}>More About Me</button> */}
               </div>
               <div className="indicator">
-                <p className="pb-4">Selected works</p>
+                <p className="pb-4">Selected works</p>           
                 <span></span>
                 <span></span>
                 <span></span>
               </div>  
             </div>
-           
+          </section>
+          <section id="sec2">
             <div class="container home-content py-5 text-center">
               <div className="ontainer d-flex flex-column mb-5 pt-3 pb-5 m-auto">
                 <img style={projectImg} src={project1} alt="image"/>
@@ -105,11 +116,12 @@ class Home extends React.Component {
                     <img style={projectImg} src={project3} alt="image"/>
                   </div>
               </div> */}
-            <button className="my-btn2" onClick={this.work}>See All Works</button>
+            <button className="my-btn2 mb-5" onClick={this.work}>See All Works</button>
             </div>
 
+          </section> 
           </div>
-        )
+        );
     
     }
 }

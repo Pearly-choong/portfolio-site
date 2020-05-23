@@ -1,3 +1,9 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 .home-container{
     position: relative;
@@ -24,12 +30,14 @@
 
 .intro__nameFont {
     font-size: 1.4rem;
+    font-family: 'Fresca', sans-serif;
     color: #C16F78;
     text-align: left;
 }
 
 .intro__titleFont{
     font-size: 1.5rem;
+    font-family: 'Fresca', sans-serif;
     text-align: left;
     color: #C16F78;
     margin-bottom: 18px;
@@ -53,19 +61,30 @@
 
 .my-btn2{
     border: 1px solid #722227; 
-    color: #722227;
-    background-color:white;
+    color: white;
+    background-color:#722227;
     padding: 7px 20px;
     border-radius: 10px; 
     font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
 }
 
+.my-btn2:hover{
+    box-shadow: 0px 0px 0px 2.5px #fff, 0px 0px 0px 5px #722227, 0px 0px 0px 10px white, 0px 0px 0px 10.5px #722227;
+    background-color: white;
+    color: #722227;
+    transition: 0.5s ease-in-out;
+}
 
 .indicator{
     position: absolute;
     top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.indicator p{
+    font-family: 'Roboto', sans-serif;
 }
 
 .indicator span{
@@ -104,7 +123,6 @@
     }
 
 }
-
 
 
 

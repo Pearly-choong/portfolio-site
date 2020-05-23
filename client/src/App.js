@@ -58,7 +58,7 @@ class App extends React.Component{
                 </linearGradient>
                </defs>
                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
-                </svg><span>Welcome</span></button>  
+                </svg><span>Who Am I?</span></button>  
                         
              </header>  */}
             

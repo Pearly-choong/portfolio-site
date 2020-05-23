@@ -1,4 +1,10 @@
-Nav {
-    font-size: 1.5rem;
-}
 
+
+.navbar-inverse .navbar-nav>a:hover {
+    background-color: green;
+  }
+
+/* Navbar Nav Nav.Link{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+} */
