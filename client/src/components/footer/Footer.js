@@ -4,7 +4,7 @@ import './Footer.scss';
 class Footer extends React.Component{
     render(){
         return (
-             <div className="my-footer-bg py-5 mt-5 text-center">
+             <div className="my-footer-bg py-5 text-center">
                  <p>CONTACT ME: <a className="my-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></p>
                  <div className="social-icons py-3">
                      <a className="link linked" href="https://www.linkedin.com/in/pearly-choong/" target="_blank"><i className="fab fa-linkedin"></i></a>

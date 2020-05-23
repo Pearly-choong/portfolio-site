@@ -25,6 +25,7 @@ class Contact extends React.Component {
 
               <div className="form-container mt-5 pt-5">
                 <div className="container">
+                  <h4 className="pb-3">Write a message</h4>
                   <p>If you have a question or just saying hi, please don’t hesitate to contact me with the contact above or fill in the form.</p>
                   <br></br>
 

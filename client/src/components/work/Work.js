@@ -16,7 +16,7 @@ class Work extends React.Component {
             <div className="text-center mt-5 mb-3 py-3">
               <h1 className="page-title">Portfolio</h1>        
             </div>   
-            <div className="portfolio-content px-5">
+            <div className="portfolio-content px-5 py-5 bg-dark">
               <Portfolio/>
             </div>  
           </div>

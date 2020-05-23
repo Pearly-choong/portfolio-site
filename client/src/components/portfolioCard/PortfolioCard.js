@@ -22,7 +22,7 @@ class PortfolioCard extends React.Component{
                         </div>
                     </figcaption>
                 </figure>
-                <p className="pl-2 mb-5">{this.props.title}</p>
+                <p className="pl-2 mb-5 text-light">{this.props.title}</p>
             </div>
         
         )

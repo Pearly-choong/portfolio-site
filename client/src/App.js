@@ -49,7 +49,7 @@ class App extends React.Component{
     render(){
       return(
         <div className="App">
-              {/* <header className="App-header">      
+              <header className="App-header">      
                 <img src={logo} className="App-logo" alt="logo" /> 
                 <button className="btn mt-5 animated-arrow" onClick={this.home}>  <svg width="277" height="62">
                <defs>
@@ -61,12 +61,12 @@ class App extends React.Component{
                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
                 </svg><span>Who Am I?</span></button>  
                         
-             </header>  */}
+             </header> 
             
                   {/* <Navbar.Brand onClick={this.home}><img src={logo} className="App-logo" alt="logo"/></Navbar.Brand>  */}
-         <Navigation/>
+         {/* <Navigation/>
          <Home/>
-         <Footer/>  
+         <Footer/>   */}
         </div>
        
       )
