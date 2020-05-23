@@ -1,0 +1,130 @@
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px){
+    // style home page
+    .intro__nameFont {
+        font-size: 2.2rem;
+    }
+    
+    .intro__titleFont {
+        font-size: 2.5rem;
+        margin-bottom: 60px;
+    }
+
+    .my-btn {
+        padding: 7px 20px;       
+        font-size: 1rem;
+        float: right;
+    }
+
+    .my-btn2 {     
+        padding: 7px 20px;  
+        font-size: 1rem;
+    }
+
+    .indicator {
+        top: 110%;
+    }
+
+    .page-title {
+        font-size: 2.5rem;
+    }
+   
+    figure.hover-content h5 {
+        font-size: 1.8rem;
+    }
+    
+    figure.hover-content h5 {
+        padding-bottom: 10px;
+    }
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    //style homepage
+    .intro {
+        top: 50%;
+        left: 55%;
+      }
+
+    .intro__nameFont {
+        font-size: 3rem;
+    }
+    
+    .intro__titleFont {
+        font-size: 3.5rem;
+        margin-bottom: 100px;
+    }
+        
+    .indicator {
+        top: 110%;
+    }
+
+    .indicator p {
+        font-size: 1.5rem;
+    }
+
+    .indicator span {
+        margin-left: 60px;
+    }
+    .my-btn {    
+        padding: 10px 20px; 
+        font-size: 1.5rem;
+    }
+
+    .my-btn2 { 
+        padding: 10px 20px;       
+        font-size: 1.5rem;
+    }
+  
+    .page-title {
+        font-size: 2.5rem;
+    }
+
+    figure.hover-content h5 {
+        font-size: 1.8rem;
+    }
+     
+    figure.hover-content p{ 
+        font-size: 1rem;
+    }
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .intro {
+        top: 35%;
+      }
+
+    .intro__nameFont {
+        font-size: 3.3rem;
+    }
+    
+    .intro__titleFont {
+        font-size: 3.7rem;
+        margin-bottom: 100px;
+    }
+
+    .indicator {      
+        top: 66%;
+    }
+
+    .page-title {
+        font-size: 3rem;
+    }
+
+    figure.hover-content h5 {
+        font-size: 2rem;
+    }
+    
+    figure.hover-content a {
+        font-size: 1.2rem;
+    }
+
+}
+

@@ -2,8 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-free/css/fontawesome.min.css';
-import './index.css';
+import './index.scss';
 import App from './App';
+import "./shared/_mediaQuery.scss";
 // import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

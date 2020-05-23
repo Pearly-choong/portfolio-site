@@ -1,0 +1,25 @@
+@import "../../shared/_variables.scss";
+
+.contact-content {
+    width: 100%;
+    height: auto;
+}
+
+.contact-email {
+    color: $theme-button-link-color;
+}
+
+.form-container {
+    font-family: $body-font;
+    background-color: $theme-decoration-color;
+    //background-color: $theme-button-link-color;
+    
+    fieldset input, fieldset textarea{
+        width: 100%;
+    }
+}
+
+.border- {
+    border: 2px solid $theme-button-link-color;
+    padding: 5px;
+}

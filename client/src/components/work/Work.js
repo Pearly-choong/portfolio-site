@@ -1,16 +1,24 @@
 import React from 'react';
-import './Work.css';
+// import ReactDOM from 'react-dom';
+import './Work.scss';
+import Portfolio from '../portfolio/Portfolio';
 
+import $ from 'jquery';
 
 class Work extends React.Component {
+    
+  
+
     render(){
-        
+   
           return(
-          <div>
-            <div className="text-center mt-5 pt-5">
-              <h1 className="title-bg">Portfolio</h1>            
+          <div> 
+            <div className="text-center mt-5 mb-3 py-3">
+              <h1 className="page-title">Portfolio</h1>        
             </div>   
-            <div class="portfolio-content"></div>  
+            <div className="portfolio-content px-5">
+              <Portfolio/>
+            </div>  
           </div>
           
         )

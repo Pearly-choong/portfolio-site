@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './logo2.svg';
-import './App.css';
+import './App.scss';
 import Home from './components/home/Home';
 import Navigation from './components/navigation/Navigation';
 import Footer from './components/footer/Footer';
 import { Navbar} from 'react-bootstrap';
+
 
 // import Nav from './components/nav/Nav';
 

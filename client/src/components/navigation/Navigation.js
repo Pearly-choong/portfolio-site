@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Navigation.css';
+import './Navigation.scss';
 import { Navbar, Nav} from 'react-bootstrap';
 import Home from '../home/Home';
 import Work from '../work/Work';
@@ -64,8 +64,8 @@ class Navigation extends React.Component{
 
     render(){
         return(
-            <div className="pt-5">
-                <Navbar inverse collapseOnSelect expand="lg">  
+            <div className="pt-4">
+                <Navbar collapseOnSelect expand="lg">  
                     <Navbar.Brand onClick={this.home}><img src={logoSignature} alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="text-center" id="responsive-navbar-nav">

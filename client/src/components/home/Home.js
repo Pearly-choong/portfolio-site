@@ -1,30 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './Home.css';
+import './Home.scss';
 import background from '../../background.png';
 import project1 from '../../images/MockupEbook.png';
 import project2 from '../../images/MockupSchoc.png';
 import project3 from '../../images/MockupTreatMe.png';
 import Navigation from '../navigation/Navigation';
 import Work from '../work/Work';
-import About from '../about/About';
+// import About from '../about/About';
 import Footer from '../footer/Footer';
 import Typical from 'react-typical';
-
+// import "../../shared/_mediaQuery.scss";
 
 class Home extends React.Component {
-    about = ()=> {
-      console.log('About');
-      const workSection = (
-        <div> 
-        <Navigation/>  
-        <About/>
-        <Footer/>
-        </div> 
-      )
+    // about = ()=> {
+    //   console.log('About');
+    //   const workSection = (
+    //     <div> 
+    //     <Navigation/>  
+    //     <About/>
+    //     <Footer/>
+    //     </div> 
+    //   )
 
-      ReactDOM.render(workSection, document.getElementById('root'));
-    }  
+    //   ReactDOM.render(workSection, document.getElementById('root'));
+    // }  
 
     work = ()=> {
       console.log('Work');
@@ -99,8 +99,8 @@ class Home extends React.Component {
             </div>
           </section>
           <section id="sec2">
-            <div class="container home-content py-5 text-center">
-              <div className="ontainer d-flex flex-column mb-5 pt-3 pb-5 m-auto">
+            <div className="container home-content py-5 text-center">
+              <div className="container d-flex flex-column mb-5 pt-3 pb-5 m-auto">
                 <img style={projectImg} src={project1} alt="image"/>
                 <img style={projectImg} src={project2} alt="image"/>
                 <img style={projectImg} src={project3} alt="image"/>

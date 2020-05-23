@@ -1,0 +1,21 @@
+@import "../../shared/_variables.scss";
+
+a {
+  font-size: 1.5rem;
+  font-family: $header-font;
+}
+
+// Navbar a:hover{
+//   color: $theme-button-link-color;
+//   text-decoration: underline;
+// }
+
+// .navbar-inverse .navbar-nav>a:hover {
+//   color: $theme-button-link-color;
+//   text-decoration: underline;
+//   }
+
+/* Navbar Nav Nav.Link{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+} */

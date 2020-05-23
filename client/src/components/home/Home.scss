@@ -1,0 +1,215 @@
+@import "../../shared/_variables.scss";
+
+.home-container{
+    position: relative;
+    
+}
+.home-content{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.intro {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  top: 48%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 75%;
+}
+
+
+// .intro__nameFont {
+//     font-size: 1.4rem;
+//     font-family: 'Fresca', sans-serif;
+//     color: #C16F78;
+//     text-align: left;
+// }
+
+.intro__titleFont{
+    font-size: 1.5rem;
+    font-family: $header-font;
+    text-align: left;
+    color: $theme-primary-color;
+    margin-bottom: 18px;
+}
+
+
+.my-btn{
+    border: 1px solid $theme-secondary-color; 
+    color: $theme-primary-color;
+    background-color:#F9F4F4;
+    padding: 7px 20px;
+    border-radius: 10px; 
+    /* float: right; */
+    font-size: 0.8rem;
+    /* position: absolute;
+    z-index: 1;
+    top: 32%;
+    right: 20%; */
+}
+
+
+.my-btn2{
+    border: 1px solid $theme-button-link-color; 
+    color: white;
+    background-color: $theme-button-link-color;
+    padding: 7px 20px;
+    border-radius: 10px; 
+    font-size: 0.8rem;
+    font-family: $body-font;
+}
+
+.my-btn2:hover{
+    box-shadow: 0px 0px 0px 2.5px #fff, 0px 0px 0px 5px #722227, 0px 0px 0px 10px white, 0px 0px 0px 10.5px #722227;
+    background-color: white;
+    color: $theme-secondary-color;
+    transition: 0.5s ease-in-out;
+}
+
+.indicator{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.indicator p{
+    font-family: $body-font;
+}
+
+.indicator span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+    margin-left: 40px;
+}
+
+.indicator span:nth-child(2){
+    animation-delay: -0.3s;
+    
+}
+
+.indicator span:nth-child(3){
+    animation-delay: -0.2s;
+    
+}
+
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    5%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+
+}
+
+
+
+
+// /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (min-width: 768px){
+//     .intro__nameFont {
+//         font-size: 2.2rem;
+//     }
+    
+//     .intro__titleFont{
+//         font-size: 2.5rem;
+//         margin-bottom: 60px;
+//     }
+
+//     .my-btn{
+//         padding: 7px 20px;       
+//         font-size: 1rem;
+//         float: right;
+//     }
+
+//     .my-btn2{     
+//         padding: 7px 20px;  
+//         font-size: 1rem;
+//     }
+
+//     .indicator{
+//         top: 110%;
+//     }
+
+// }
+
+
+
+// /* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) {
+//     .intro {
+//         top: 50%;
+//         left: 55%;
+//       }
+
+//     .intro__nameFont {
+//         font-size: 3rem;
+//     }
+    
+//     .intro__titleFont{
+//         font-size: 3.5rem;
+//         margin-bottom: 100px;
+//     }
+        
+//     .indicator{
+//         top: 110%;
+//     }
+
+//     .indicator p{
+//         font-size: 1.5rem;
+//     }
+
+//     .indicator span{
+//         margin-left: 60px;
+//     }
+//     .my-btn{    
+//         padding: 10px 20px; 
+//         font-size: 1.5rem;
+//     }
+
+//     .my-btn2{ 
+//         padding: 10px 20px;       
+//         font-size: 1.5rem;
+//     }
+  
+
+// }
+
+
+// /* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+//     .intro {
+//         top: 35%;
+//       }
+
+//     .intro__nameFont {
+//         font-size: 3.3rem;
+//     }
+    
+//     .intro__titleFont{
+//         font-size: 3.7rem;
+//         margin-bottom: 100px;
+//     }
+
+//     .indicator{      
+//         top: 66%;
+//     }
+// }
+
