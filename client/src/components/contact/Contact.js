@@ -14,12 +14,12 @@ class Contact extends React.Component {
           return(
             <div> 
               <div className="text-center mt-5 mb-3">
-                <h1 className="page-title">Say Hello</h1>        
+                <h1 className="page-title">Let's Connect</h1>        
               </div>   
 
               <div className="contact-content container px-5 text-center">
                 <img style={myNameCard} src={nameCard} alt="nameCard"/>
-                  <h4>Email: <a className="text-underline contact-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></h4>
+                  <h4>Email me at : <a className="text-underline contact-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></h4>
                   <br></br>
               </div>
 
@@ -53,7 +53,7 @@ class Contact extends React.Component {
                       </div>
 
                       <div className="pb-5">
-                        <button className="submit">Submit</button>
+                        <button className="submit my-btn">Submit</button>
                       </div>
                     </fieldset>
                   </form>

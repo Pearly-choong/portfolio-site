@@ -17,6 +17,10 @@
 //     filter: grayscale(0);
 // }
 
+.img-thumbnail{
+  border: 3px solid $theme-line-color;
+}
+
 figure.hover-content{
     color: #fff;
     position: relative;
@@ -89,6 +93,7 @@ figure.hover-content * {
     transform: translate3d(0%, 50%, 0);
     -webkit-transition-delay: 0.3s;
     transition-delay: 0.3s;
+    color: white;
   }
 //   figure.snip0015 h2 span {
 //     font-weight: 800;
@@ -151,3 +156,16 @@ figure.hover-content h6{
   figure.hover-content:hover figcaption a:hover {
     color: $theme-line-color;
   }
+
+
+  /*Zoom In*/
+.hover-content img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+.hover-content:hover img {
+  -webkit-transform: scale(1.6);
+  transform: scale(1.6);
+}

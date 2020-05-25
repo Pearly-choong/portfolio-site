@@ -116,7 +116,7 @@ class Home extends React.Component {
                     <img style={projectImg} src={project3} alt="image"/>
                   </div>
               </div> */}
-            <button className="my-btn2 mb-5" onClick={this.work}>See All Works</button>
+            <button className="my-btn mb-5" onClick={this.work}>See All Works</button>
             </div>
 
           </section> 

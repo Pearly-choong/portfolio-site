@@ -10,11 +10,11 @@ class PortfolioCard extends React.Component{
             // </div>
             
             <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4" style={{width: '40rem'}}>
-                <figure className="hover-content">   
+                <figure className="hover-content shadow">   
                     <img className="img-thumbnail" src={this.props.imgUrl} alt="Image"/>
                     <figcaption className="d-flex flex-column justify-content-center">
                         <h5>{this.props.title}</h5>
-                        <h6 className="pt-1">{this.props.cat}</h6>
+                        {/* <h6 className="pt-1">{this.props.cat}</h6> */}
                         <p className="pt-1">{this.props.desc}</p>
                         <div className="d-flex flex-column justify-content-center pt-1">
                             <a href={this.props.liveSite} target="_blank">View Live Site</a>
@@ -22,7 +22,7 @@ class PortfolioCard extends React.Component{
                         </div>
                     </figcaption>
                 </figure>
-                <p className="pl-2 mb-5 text-light">{this.props.title}</p>
+                <p className="pl-2">{this.props.title} <i>({this.props.cat})</i></p>
             </div>
         
         )

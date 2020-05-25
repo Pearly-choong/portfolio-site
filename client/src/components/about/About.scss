@@ -1,3 +1,5 @@
+@import "../../shared/_variables.scss";
+
 .about-content{
     width: 100%;
     height: auto;
@@ -6,3 +8,33 @@
 ul li {
     list-style-type: none;
 }
+
+.quotation-mark {
+    font-size: 4rem;
+    font-family: $header-font;
+    color: $theme-primary-color;
+}
+
+h4 {
+    color: $theme-primary-color;
+    font-family: $body-font;
+}
+h5 {
+    color: $theme-button-link-color;
+    font-family: $body-font;
+}
+
+p {
+    font-family: $body-font;
+}
+
+.fa-user-edit, .fa-palette, .fa-file-code, .fa-hand-holding-heart, .fa-users, .fa-shapes {
+    font-size: 2rem;
+    color: $theme-button-link-color;
+}
+
+.card {
+    border: 2px solid $theme-line-color;
+}
+
+
