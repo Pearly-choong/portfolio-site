@@ -17,9 +17,9 @@
 //     filter: grayscale(0);
 // }
 
-.img-thumbnail{
-  border: 3px solid $theme-line-color;
-}
+// .img-thumbnail{
+//   border: 3px solid white;
+// }
 
 figure.hover-content{
     color: #fff;
@@ -27,8 +27,8 @@ figure.hover-content{
     overflow: hidden;
     margin: 10px;
     min-width: 220px;
-    max-width: 450px;
-    max-height: 450px;
+    max-width: 550px;
+    max-height: 550px;
     width: 100%;
     background: #000000;
     text-align: center;

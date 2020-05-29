@@ -77,7 +77,7 @@ class Navigation extends React.Component{
                         </Nav>
                         <Nav>
                             <Nav.Link className="pr-4 text-dark" onClick={this.home}>HOME</Nav.Link>
-                            <Nav.Link className="pr-4 text-dark" onClick={this.work}>WORK</Nav.Link>
+                            {/* <Nav.Link className="pr-4 text-dark" onClick={this.work}>WORK</Nav.Link> */}
                             <Nav.Link className="pr-4 text-dark" onClick={this.about}>ABOUT</Nav.Link>
                             <Nav.Link className="pr-4 text-dark" onClick={this.contact}>CONTACT</Nav.Link>
                         </Nav>

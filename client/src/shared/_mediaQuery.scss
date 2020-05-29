@@ -1,3 +1,11 @@
+/* mobile display only */
+@media only screen and (max-width: 768px){
+    .back-to-top{
+        display: none;
+    }
+}
+
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
@@ -83,6 +91,11 @@
         font-size: 1rem;
     }
 
+    .back-to-top{
+        color: #3317E2;
+        font-size: 1.2rem;
+    }
+
 }
 
 
@@ -116,6 +129,12 @@
     figure.hover-content a {
         font-size: 1.2rem;
     }
+
+    .back-to-top{
+        color: #3317E2;
+        font-size: 1.2rem;
+    }
+    
 
 }
 

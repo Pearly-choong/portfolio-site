@@ -4,11 +4,11 @@
     position: relative;
     
 }
-.home-content{
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
+// .home-content{
+//     width: 100%;
+//     height: auto;
+//     margin-top: 20px;
+// }
 
 .intro {
   /* display: flex;
@@ -127,8 +127,8 @@
     display: block;
     width: 20px;
     height: 20px;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
+    border-bottom: 1px solid $theme-third-color;
+    border-right: 1px solid $theme-third-color;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate 2s infinite;
@@ -160,97 +160,8 @@
 
 }
 
+.home-content{
+    margin-top: 90px;
+}
 
-
-
-// /* Medium devices (landscape tablets, 768px and up) */
-// @media only screen and (min-width: 768px){
-//     .intro__nameFont {
-//         font-size: 2.2rem;
-//     }
-    
-//     .intro__titleFont{
-//         font-size: 2.5rem;
-//         margin-bottom: 60px;
-//     }
-
-//     .my-btn{
-//         padding: 7px 20px;       
-//         font-size: 1rem;
-//         float: right;
-//     }
-
-//     .my-btn2{     
-//         padding: 7px 20px;  
-//         font-size: 1rem;
-//     }
-
-//     .indicator{
-//         top: 110%;
-//     }
-
-// }
-
-
-
-// /* Large devices (laptops/desktops, 992px and up) */
-// @media only screen and (min-width: 992px) {
-//     .intro {
-//         top: 50%;
-//         left: 55%;
-//       }
-
-//     .intro__nameFont {
-//         font-size: 3rem;
-//     }
-    
-//     .intro__titleFont{
-//         font-size: 3.5rem;
-//         margin-bottom: 100px;
-//     }
-        
-//     .indicator{
-//         top: 110%;
-//     }
-
-//     .indicator p{
-//         font-size: 1.5rem;
-//     }
-
-//     .indicator span{
-//         margin-left: 60px;
-//     }
-//     .my-btn{    
-//         padding: 10px 20px; 
-//         font-size: 1.5rem;
-//     }
-
-//     .my-btn2{ 
-//         padding: 10px 20px;       
-//         font-size: 1.5rem;
-//     }
-  
-
-// }
-
-
-// /* Extra large devices (large laptops and desktops, 1200px and up) */
-// @media only screen and (min-width: 1200px) {
-//     .intro {
-//         top: 35%;
-//       }
-
-//     .intro__nameFont {
-//         font-size: 3.3rem;
-//     }
-    
-//     .intro__titleFont{
-//         font-size: 3.7rem;
-//         margin-bottom: 100px;
-//     }
-
-//     .indicator{      
-//         top: 66%;
-//     }
-// }
 

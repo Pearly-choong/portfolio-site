@@ -7,9 +7,9 @@ class About extends React.Component {
         
           return(
             <div> 
-              <div className="text-center mt-5 mb-3 py-3">
+              {/* <div className="text-center mt-5 mb-3 py-3">
                 <h1 className="page-title">About Me</h1>        
-              </div>   
+              </div>    */}
 
               <div className="about-content pb-5">
                 <section className="container row mb-5 pb-5 mx-0">
@@ -32,7 +32,7 @@ class About extends React.Component {
                 <section className="mx-5 para mt-5">
                   <h4 className="pb-3">What I can do</h4>
                   <div className="row mx-0">
-                    <div className="card col-sm-12 col-md-12 col-lg-4 col-xl-4 mr-2 mb-3 shadow p-3" style={{width: '18rem'}}>
+                    <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mr-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
                           <i className="fas fa-user-edit pb-2"></i>
                           <h5 className="card-title">UX research and user centered design</h5>
@@ -43,7 +43,7 @@ class About extends React.Component {
                              and used problem solving techniques to identify appropriate research methods for a user interface.</p>                 
                         </div>
                     </div>
-                    <div className="card col-sm-12 col-md-12 col-lg-4 col-xl-4 mr-2 mb-3 shadow p-3" style={{width: '18rem'}}>
+                    <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mr-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
                           <i className="fas fa-palette pb-2"></i>
                           <h5 className="card-title">UI Design</h5>
@@ -53,7 +53,7 @@ class About extends React.Component {
                             analysed feedback and determined the effectiveness of the developed UI. </p>
                         </div>
                     </div>
-                    <div className="card col-sm-12 col-md-12 col-lg-4 col-xl-4 mr-2 mb-3 shadow p-3" style={{width: '18rem'}}>
+                    <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mr-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
                         <i className="fas fa-file-code pb-2"></i>
                         <h5 className="card-title">Develop for client's need</h5>
@@ -66,7 +66,7 @@ class About extends React.Component {
                   <br></br>
                   <h4 className="py-3">How I do my work</h4>
                   <div className="row mx-0">
-                    <div className="card col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
+                    <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
                           <i class="fas fa-hand-holding-heart pb-2"></i>
                           <h5 className="card-title">Detailed-oriented, sense of responsibility and committed person.</h5>
@@ -74,7 +74,7 @@ class About extends React.Component {
                             I always put my 100% effort, care for each detail part and also try to achieve the goal within timeframes.</p>
                         </div>
                     </div>
-                    <div className="card col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
+                    <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
                           <i className="fas fa-users pb-2"></i>
                           <h5 className="card-title">Enjoy working with others and sharing ideas, meeting new people</h5>
@@ -84,7 +84,7 @@ class About extends React.Component {
                             everyone can discuss the design, everyone works together. </p>
                         </div>
                     </div>
-                    <div className="card col-sm-12 col-md-12 col-lg-4 col-xl-4 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
+                    <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
                         <i class="fas fa-shapes pb-2"></i>
                         <h5 className="card-title">Flexible and comfortable in adapting new skills.</h5>
@@ -96,7 +96,7 @@ class About extends React.Component {
                   </div>
                 </section>
 
-                <section className="container mt-5 pt-5">
+                <section className="mx-5 mt-5 pt-5">
                   <h4 className="pb-4">When I'm not working</h4>
                   <div className="card px-4 mb-3 shadow p-3">
                       <div className="text-left pb-3">

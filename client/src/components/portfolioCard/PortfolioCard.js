@@ -9,20 +9,20 @@ class PortfolioCard extends React.Component{
             //     <img src={this.props.imgUrl} className="card-img-top" alt="Image"/>
             // </div>
             
-            <div className="col-sm-12 col-md-6 col-lg-4 col-xl-4" style={{width: '40rem'}}>
+            <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" style={{width: '35rem'}}>
                 <figure className="hover-content shadow">   
-                    <img className="img-thumbnail" src={this.props.imgUrl} alt="Image"/>
+                    <img src={this.props.imgUrl} alt="Image"/>
                     <figcaption className="d-flex flex-column justify-content-center">
                         <h5>{this.props.title}</h5>
-                        {/* <h6 className="pt-1">{this.props.cat}</h6> */}
                         <p className="pt-1">{this.props.desc}</p>
-                        <div className="d-flex flex-column justify-content-center pt-1">
+                        <a className="pt-1" href={this.props.liveSite} target="_blank">View Project</a>
+                        {/* <div className="d-flex flex-column justify-content-center pt-1">
                             <a href={this.props.liveSite} target="_blank">View Live Site</a>
                             <a href={this.props.cStudy} target="_blank">Case Study</a>
-                        </div>
+                        </div> */}
                     </figcaption>
                 </figure>
-                <p className="pl-2">{this.props.title} <i>({this.props.cat})</i></p>
+                    <h5 className="pl-2 pt-2">{this.props.cat}</h5>  
             </div>
         
         )

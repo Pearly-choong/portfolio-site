@@ -13,17 +13,17 @@ class Contact extends React.Component {
 
           return(
             <div> 
-              <div className="text-center mt-5 mb-3">
-                <h1 className="page-title">Let's Connect</h1>        
+              <div className="mt-5 mb-3 container">
+                <h1 className="page-title">Contact Me</h1>        
               </div>   
 
               <div className="contact-content container px-5 text-center">
-                <img style={myNameCard} src={nameCard} alt="nameCard"/>
+                {/* <img style={myNameCard} src={nameCard} alt="nameCard"/> */}
                   <h4>Email me at : <a className="text-underline contact-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></h4>
                   <br></br>
               </div>
 
-              <div className="form-container mt-5 pt-5">
+              {/* <div className="form-container mt-5 pt-5">
                 <div className="container">
                   <h4 className="pb-3">Write a message</h4>
                   <p>If you have a question or just saying hi, please don’t hesitate to contact me with the contact above or fill in the form.</p>
@@ -59,7 +59,7 @@ class Contact extends React.Component {
                   </form>
 
                 </div>
-              </div>
+              </div> */}
             </div>
         )
     

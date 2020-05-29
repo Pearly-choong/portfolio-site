@@ -66,7 +66,7 @@ class Portfolio extends React.Component{
         console.log(cardComponent);
 
         return(
-            <div className="row px-5 py-5">
+            <div className="row py-5 mx-0">
                 {cardComponent}
             </div>
         )

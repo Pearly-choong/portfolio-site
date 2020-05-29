@@ -7,9 +7,12 @@ import project2 from '../../images/MockupSchoc.png';
 import project3 from '../../images/MockupTreatMe.png';
 import Navigation from '../navigation/Navigation';
 import Work from '../work/Work';
+import Portfolio from '../portfolio/Portfolio';
 // import About from '../about/About';
 import Footer from '../footer/Footer';
 import Typical from 'react-typical';
+import BackToTop from 'react-back-to-top-button';
+
 // import "../../shared/_mediaQuery.scss";
 
 class Home extends React.Component {
@@ -98,13 +101,17 @@ class Home extends React.Component {
               </div>  
             </div>
           </section>
-          <section id="sec2">
-            <div className="container home-content py-5 text-center">
-              <div className="container d-flex flex-column mb-5 pt-3 pb-5 m-auto">
+          <section id="sec2"> 
+            <div className="container home-content">
+            {/* <div className="text-center mt-5 mb-3 py-3">
+              <h1 className="page-title">Portfolio</h1>        
+            </div> */}
+            <Portfolio/>
+              {/* <div className="container d-flex flex-column mb-5 pt-3 pb-5 m-auto">
                 <img style={projectImg} src={project1} alt="image"/>
                 <img style={projectImg} src={project2} alt="image"/>
                 <img style={projectImg} src={project3} alt="image"/>
-              </div>
+              </div> */}
                 {/* <div className="container row">
                   <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                     <img style={projectImg} src={project1} alt="image"/>
@@ -116,9 +123,16 @@ class Home extends React.Component {
                     <img style={projectImg} src={project3} alt="image"/>
                   </div>
               </div> */}
-            <button className="my-btn mb-5" onClick={this.work}>See All Works</button>
+            {/* <button className="my-btn mb-5" onClick={this.work}>See All Works</button> */}
             </div>
-
+            <BackToTop
+              showOnScrollUp
+              showAt={1000}
+              speed={1500}
+              easing="easeInOutQuint"
+            >
+              <span className="back-to-top">Back to top</span>
+             </BackToTop> 
           </section> 
           </div>
         );
