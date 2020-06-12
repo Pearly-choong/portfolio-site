@@ -7,9 +7,9 @@ class About extends React.Component {
         
           return(
             <div> 
-              {/* <div className="text-center mt-5 mb-3 py-3">
+              <div className="text-center mt-5 mb-3 py-3">
                 <h1 className="page-title">About Me</h1>        
-              </div>    */}
+              </div>   
 
               <div className="about-content pb-5">
                 <section className="container row mb-5 pb-5 mx-0">
@@ -68,7 +68,7 @@ class About extends React.Component {
                   <div className="row mx-0">
                     <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
-                          <i class="fas fa-hand-holding-heart pb-2"></i>
+                          <i className="fas fa-hand-holding-heart pb-2"></i>
                           <h5 className="card-title">Detailed-oriented, sense of responsibility and committed person.</h5>
                           <p>I like to be helpful to others in any way possible. All the projects that I have been working through, 
                             I always put my 100% effort, care for each detail part and also try to achieve the goal within timeframes.</p>
@@ -86,7 +86,7 @@ class About extends React.Component {
                     </div>
                     <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
-                        <i class="fas fa-shapes pb-2"></i>
+                        <i className="fas fa-shapes pb-2"></i>
                         <h5 className="card-title">Flexible and comfortable in adapting new skills.</h5>
                           <p>I enjoy learning new things and can assimilate new ideas quickly. Our school has been teaching us a lot of programming 
                             languages/frameworks/libraries like Nodejs, React, PHP, WordPress and all different tools during each module. I have 

@@ -14,7 +14,7 @@ class Footer extends React.Component{
                  <footer className="my-footer-bg py-4 px-1">
                      This website was built with React.js 
                      <a href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> Website on Github</a><br/>
-                     &copy; Copyright 2020 Pearly Choong. All rights reserved | Designed and Developed by Pearly Choong 
+                     &copy; 2020 Pearly Choong. All rights reserved | Designed and Developed by Pearly Choong 
                 </footer>
             </div>
         )

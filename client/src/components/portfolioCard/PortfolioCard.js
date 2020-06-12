@@ -1,8 +1,19 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom';
 import './PortfolioCard.scss';
+import Modal from '../modal/Modal';
+import Project1 from '../project1/Project1';
 
 class PortfolioCard extends React.Component{
+
+    modal = ()=> {
+        const modalContent = (
+          <Modal title={this.props.title} description={this.props.desc} img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} client={this.props.client} challenge={this.props.challenge}
+          approach={this.props.approach} research={this.props.research} wireframe={this.props.wireframe} design={this.props.design}/>
+        )
+        ReactDOM.render(modalContent, document.getElementById('root'));
+      }
+
     render(){
         return(
             // <div id="greyscale" className="col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3" style={{width: '25rem'}}>
@@ -16,13 +27,14 @@ class PortfolioCard extends React.Component{
                         <h5>{this.props.title}</h5>
                         <p className="pt-1">{this.props.desc}</p>
                         <a className="pt-1" href={this.props.liveSite} target="_blank">View Project</a>
+                        <button className="btn-link" onClick={this.modal}>Case Study</button>                     
                         {/* <div className="d-flex flex-column justify-content-center pt-1">
                             <a href={this.props.liveSite} target="_blank">View Live Site</a>
                             <a href={this.props.cStudy} target="_blank">Case Study</a>
                         </div> */}
                     </figcaption>
                 </figure>
-                    <h5 className="pl-2 pt-2">{this.props.cat}</h5>  
+                    <h5 className="pl-2 pt-2">{this.props.cat}</h5>                  
             </div>
         
         )
