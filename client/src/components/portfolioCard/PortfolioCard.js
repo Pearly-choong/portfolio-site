@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './PortfolioCard.scss';
 import Modal from '../modal/Modal';
-import Project1 from '../project1/Project1';
+
 
 class PortfolioCard extends React.Component{
 

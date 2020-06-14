@@ -112,12 +112,23 @@ figure.hover-content h6{
   }
 
 
-  figure.hover-content a, figure.hover-content button {
+  figure.hover-content a {
     color: #ffffff;
     text-decoration: underline;
     font-size: 1rem;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
+  }
+
+  figure.hover-content button {
+    opacity: 0;
+    background-color: inherit;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 1rem;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    border: none;
   }
 
   figure.hover-content:hover img {
@@ -154,7 +165,7 @@ figure.hover-content h6{
     transition-delay: 0s;
   }
 
-  figure.hover-content:hover figcaption a:hover {
+  figure.hover-content:hover figcaption a:hover, figure.hover-content:hover figcaption button:hover {
     color: $theme-line-color;
   }
 
