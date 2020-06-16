@@ -51,7 +51,7 @@ class App extends React.Component{
          <div className="App">
                <header className="App-header">   
                <img src={logo} className="App-logo" alt="logo" /> 
-                  <button className="btn mt-5" onClick={this.home}> Who Am I?</button>  
+                  <button className="btn mt-5" onClick={this.home}> Enter</button>  
                            
                   {/* <img src={logo} className="App-logo" alt="logo" /> 
                   <button className="btn mt-5 animated-arrow" onClick={this.home}>  <svg width="277" height="62">

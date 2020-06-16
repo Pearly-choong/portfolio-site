@@ -3,12 +3,32 @@
     .back-to-top{
         display: none;
     }
+
+    .modal-title {
+       font-size: 2rem;;
+    }
+
+    h1 {
+        font-size: 1.8rem;;
+    }
+
+    h4 {
+        font-size: 1.2rem;;
+    }
+
+    .my-links a {
+        font-size: 1rem;;
+    }
 }
 
 
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
+    p {
+        font-size: 1rem;;
+      }
+    
     // style home page
     .intro__nameFont {
         font-size: 2.2rem;
@@ -47,6 +67,10 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    p {
+        font-size: 1.1rem;;
+      }
+    
     //style homepage
     .intro {
         top: 50%;

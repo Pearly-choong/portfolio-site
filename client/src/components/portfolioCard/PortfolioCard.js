@@ -8,8 +8,10 @@ class PortfolioCard extends React.Component{
 
     modal = ()=> {
         const modalContent = (
-          <Modal title={this.props.title} category={this.props.cat} description={this.props.desc} cStudy={this.props.cStudy} img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} challenge={this.props.challenge}
-          outcome={this.props.outcome} myRole={this.props.myRole} research={this.props.research} wireframe={this.props.wireframe} design={this.props.design}/>
+          <Modal title={this.props.title} category={this.props.cat} tag={this.props.tag} toolUsed={this.props.toolUsed} cStudy={this.props.cStudy} 
+          img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} challenge={this.props.challenge}
+          outcome={this.props.outcome} myRole={this.props.myRole} research={this.props.research} analyse={this.props.analyse} design={this.props.design} 
+          design2={this.props.design2}/>
         )
         ReactDOM.render(modalContent, document.getElementById('root'));
       }
@@ -25,7 +27,7 @@ class PortfolioCard extends React.Component{
                     <img src={this.props.imgUrl} alt="Image"/>
                     <figcaption className="d-flex flex-column justify-content-center">
                         <h5>{this.props.title}</h5>
-                        <p className="pt-1">{this.props.desc}</p>
+                        <p className="pt-1">{this.props.tag}</p>
                         <a className="pt-1" href={this.props.liveSite} target="_blank">View Project</a>
                         <button className="btn-link" onClick={this.modal}>Case Study</button>                     
                         {/* <div className="d-flex flex-column justify-content-center pt-1">

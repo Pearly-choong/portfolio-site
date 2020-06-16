@@ -1,7 +1,12 @@
 @import '../../shared/_variables.scss';
 
 
+.my-links a {
+    color: $theme-button-link-color;
+}
+
 // .close {
 //    font-size: 2rem;
 //    color: $theme-primary-color;
 //   }
+

@@ -11,7 +11,7 @@ import Portfolio from '../portfolio/Portfolio';
 // import About from '../about/About';
 import Footer from '../footer/Footer';
 import Typical from 'react-typical';
-import BackToTop from 'react-back-to-top-button';
+// import BackToTop from 'react-back-to-top-button';
 
 // import "../../shared/_mediaQuery.scss";
 
@@ -125,14 +125,14 @@ class Home extends React.Component {
               </div> */}
             {/* <button className="my-btn mb-5" onClick={this.work}>See All Works</button> */}
             </div>
-            <BackToTop
+            {/* <BackToTop
               showOnScrollUp
               showAt={1000}
               speed={1500}
               easing="easeInOutQuint"
             >
               <span className="back-to-top">Back to top</span>
-             </BackToTop> 
+             </BackToTop>  */}
           </section> 
           </div>
         );
