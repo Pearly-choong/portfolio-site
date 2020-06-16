@@ -9,6 +9,16 @@ ul li {
     list-style-type: none;
 }
 
+.my-contact li a{
+    font-size: 1.1rem;
+    color: $theme-button-link-color;
+    font-family: $body-font;
+}
+
+.my-contact li a:hover{
+    color: $theme-primary-color;
+}
+
 .quotation-mark {
     font-size: 4rem;
     font-family: $header-font;

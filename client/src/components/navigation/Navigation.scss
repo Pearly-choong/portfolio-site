@@ -22,3 +22,42 @@ a {
     font-family: 'Roboto', sans-serif;
 } */
 
+
+// .navbar-light .navbar-brand {
+//   color: rgba(0, 0, 0, 0.9);
+// }
+
+.navbar-light .navbar-brand {
+  color: black;
+}
+
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+  color: $theme-primary-color;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: $theme-primary-color;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+  color: $theme-primary-color;
+}
+
+// .navbar-light .navbar-text {
+//   color: rgba(0, 0, 0, 0.5);
+// }
+
+// .navbar-light .navbar-text a {
+//   color: $theme-primary-color;
+// }
+
+.navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
+  color: $theme-primary-color;
+}

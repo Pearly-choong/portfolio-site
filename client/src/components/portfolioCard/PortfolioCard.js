@@ -8,8 +8,8 @@ class PortfolioCard extends React.Component{
 
     modal = ()=> {
         const modalContent = (
-          <Modal title={this.props.title} description={this.props.desc} img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} client={this.props.client} challenge={this.props.challenge}
-          approach={this.props.approach} research={this.props.research} wireframe={this.props.wireframe} design={this.props.design}/>
+          <Modal title={this.props.title} category={this.props.cat} description={this.props.desc} cStudy={this.props.cStudy} img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} challenge={this.props.challenge}
+          outcome={this.props.outcome} myRole={this.props.myRole} research={this.props.research} wireframe={this.props.wireframe} design={this.props.design}/>
         )
         ReactDOM.render(modalContent, document.getElementById('root'));
       }
@@ -20,7 +20,7 @@ class PortfolioCard extends React.Component{
             //     <img src={this.props.imgUrl} className="card-img-top" alt="Image"/>
             // </div>
             
-            <div className="col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" style={{width: '35rem'}}>
+            <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" style={{width: '35rem'}}>
                 <figure className="hover-content shadow">   
                     <img src={this.props.imgUrl} alt="Image"/>
                     <figcaption className="d-flex flex-column justify-content-center">

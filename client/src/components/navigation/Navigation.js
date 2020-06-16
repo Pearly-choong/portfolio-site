@@ -76,10 +76,11 @@ class Navigation extends React.Component{
                             <Nav.Link onClick={this.home}>CONTACT</Nav.Link> */}
                         </Nav>
                         <Nav>
-                            <Nav.Link className="pr-4 text-dark" onClick={this.home}>HOME</Nav.Link>
+                            <Nav.Link className="pr-4" onClick={this.home}>HOME</Nav.Link>
                             {/* <Nav.Link className="pr-4 text-dark" onClick={this.work}>WORK</Nav.Link> */}
-                            <Nav.Link className="pr-4 text-dark" onClick={this.about}>ABOUT</Nav.Link>
-                            <Nav.Link className="pr-4 text-dark" onClick={this.contact}>CONTACT</Nav.Link>
+                            <Nav.Link className="pr-4" onClick={this.about}>ABOUT</Nav.Link>
+                            {/* <Nav.Link className="pr-4" onClick={this.contact}>CONTACT</Nav.Link> */}
+                            <Nav.Link className="pr-4" href="https://drive.google.com/file/d/1WV3jGfSa8GRRXa6Z4-K0lExnd_oF8cTu/view?usp=sharing" target="_blank">CV</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>              
                 </Navbar> 

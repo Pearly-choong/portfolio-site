@@ -23,13 +23,13 @@ class Portfolio extends React.Component{
                   title: 'Home Automation',
                   category: 'Web App Design',
                   description: 'UX + UI + HTML + SASS + JS + Jquery', 
-                  caseStudy: 'https://www.behance.net/gallery/82015621/Boutique-chocolate-website',
-                  liveSite: '',
-                  github: '',
-                  client: 'ABC',
+                  caseStudy: 'https://docs.google.com/document/d/1zb3Zgfz1OQ8o1tVUXIsuBJWpPuHPHBFvTEqLwcXaCeE/edit?usp=sharing',
+                  liveSite: 'https://github.com/Pearly-choong/zoneSmartHomeAutomation',
+                  github: 'https://github.com/Pearly-choong/zoneSmartHomeAutomation',
+                  brief: 'ABC',
                   challenge: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-                  approach:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   outcome:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  myRole:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   research: pic1,
                   wireframe: pic3,
                   design: pic5 
@@ -37,16 +37,16 @@ class Portfolio extends React.Component{
                 {
                   id: 1,
                   imageUrl: portfolio2,
-                  title: 'Schoc Website',
-                  category: 'Website Redesign',
+                  title: 'Stranger Things 3',
+                  category: 'Web Design',
                   description: 'UX + UI + HTML + CSS + JS',
-                  caseStudy: 'https://www.behance.net/gallery/82015621/Boutique-chocolate-website',
-                  liveSite: '',
-                  github: '',
-                  client: 'DEF',
+                  caseStudy: 'Not available',
+                  liveSite: 'https://pearly-choong.github.io/tvShowWebsite/',
+                  github: 'https://github.com/Pearly-choong/tvShowWebsite',
+                  brief: 'def',
                   challenge: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-                  approach:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   outcome:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  myRole:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   research: pic1,
                   wireframe: pic2,
                   design: pic3  
@@ -54,16 +54,16 @@ class Portfolio extends React.Component{
                 {
                   id: 2,
                   imageUrl: portfolio3,
-                  title: 'TreatMe App',
-                  category: 'C2C Nich Market App',
-                  description: 'UX + UI + HTML + SASS + JS + Nodejs + API',
-                  caseStudy: 'https://www.behance.net/gallery/82015621/Boutique-chocolate-website',
-                  liveSite: 'http://159.89.237.235/',
-                  github: '',
-                  client: 'GHI',
+                  title: 'Americanos Breakfast Restaurant',
+                  category: 'Website Re-design',
+                  description: 'UX + UI + HTML + SASS + JS',
+                  caseStudy: 'Not available',
+                  liveSite: 'https://pearly-choong.github.io/Formative1.2/',
+                  github: 'https://github.com/Pearly-choong/Formative1.2',
+                  brief: 'ghi',
                   challenge: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-                  approach:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   outcome:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  myRole:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   research: pic4,
                   wireframe: pic2,
                   design: pic3  
@@ -71,20 +71,37 @@ class Portfolio extends React.Component{
                 {
                   id: 3,
                   imageUrl: portfolio4,
-                  title: 'Ebook App',
-                  category: 'Web App Design',
-                  description: 'UX + UI + HTML + SASS + JS',
-                  caseStudy: '',
-                  liveSite: 'https://pearly-choong.github.io/tvShowWebsite/',
-                  github: 'https://github.com/Pearly-choong/tvShowWebsite' , 
-                  client: 'JKL',
+                  title: 'Meal Kit Delivery Service',
+                  category: 'WordPress Custom Theme',
+                  description: 'UX + UI + WordPress + PHP + WooCommerce',
+                  caseStudy: 'https://drive.google.com/file/d/1EUlKgbdcT27heweOk3y_LrK2twmZGmYk/view?usp=sharing',
+                  liveSite: 'https://pearly-choong.github.io/ebookApp/',
+                  github: 'https://github.com/Pearly-choong/mealkit-service-wp-theme' , 
+                  brief: 'jkl',
                   challenge: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-                  approach:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   outcome:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  myRole:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   research: pic1,
                   wireframe: pic2,
                   design: pic3
-                }               
+                },
+                {
+                  id: 4,
+                  imageUrl: portfolio4,
+                  title: 'Ebook App',
+                  category: 'Web App Design',
+                  description: 'UX + UI + HTML + SASS + JS',
+                  caseStudy: 'https://docs.google.com/document/d/1Pc3RhdL5Ctr_TNIX0wpx-OOUOWHTmmk9EEpPZEKddqA/edit?usp=sharing',
+                  liveSite: 'https://pearly-choong.github.io/ebookApp/',
+                  github: 'https://github.com/Pearly-choong/ebookApp' , 
+                  brief: 'lmn',
+                  challenge: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  outcome:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  myRole:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  research: pic1,
+                  wireframe: pic2,
+                  design: pic3
+                }                   
             ]
         }
     }
@@ -94,9 +111,9 @@ class Portfolio extends React.Component{
         const cardComponent = this.state.cards.map((card)=>{
             return (
                <PortfolioCard key={card.id} imgUrl={card.imageUrl} title={card.title} cat={card.category} 
-               desc={card.description} cStudy={card.caseStudy} github={card.github} liveSite={card.liveSite}
-               client={card.client} challenge={card.challenge} approach={card.approach} outcome={card.outcome}
-               research={card.research} wireframe={card.wireframe} design={card.design}/> 
+               desc={card.description} cStudy={card.caseStudy} github={card.github} liveSite={card.liveSite} brief={card.brief}
+               challenge={card.challenge} outcome={card.outcome} myRole={card.myRole} research={card.research} 
+               wireframe={card.wireframe} design={card.design}/> 
             )
         })
 

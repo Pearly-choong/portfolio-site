@@ -1,30 +1,43 @@
 import React from 'react';
 import './About.scss';
-
+import profileImg from '../../images/profileImage.jpg';
 
 class About extends React.Component {
     render(){
-        
+      const myProfile = {
+        width: '35%',
+        height: '220px',
+        // borderRadius: '50%'
+      }
           return(
             <div> 
-              <div className="text-center mt-5 mb-3 py-3">
-                <h1 className="page-title">About Me</h1>        
-              </div>   
-
-              <div className="about-content pb-5">
+               
+              <hr></hr>
+              <div className="container about-content pb-5">
                 <section className="container row mb-5 pb-5 mx-0">
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-lx-6">
-                      <img src="" alt="profile image"/>
+                    <div className="col-sm-12 col-md-12 col-lg-6 col-lx-6 text-center">
+                      <img className="mt-5 img-thumbnail" style={myProfile} src={profileImg} alt="profile image"/>
+                      
+                      <ul className="my-contact mt-4">
+                        <li><h4 className="font-weight-bold text-dark">Find Me</h4></li>
+                        <li><a href="https://www.linkedin.com/in/pearly-choong/" target="_blank">LinkedIn</a></li>
+                        <li><a href="mailto:choongpl@gmail.com? subject=subject text" target="_blank">Email</a></li>
+                        <li><a href="https://github.com/Pearly-choong" target="_blank">Github</a></li>
+                      </ul>
+                   
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-lx-6">
-                      <p className="quotation-mark text-bold">"</p>
+                      <div className="text-center mb-3 py-3">
+                        <h1 className="page-title mt-5">About Me</h1>        
+                      </div>  
+                      {/* <p className="quotation-mark text-bold">"</p> */}
                       <p>Hi, my name is Pearly.  I have a passion for web design and web development, creating user experiences that are 
                         seamless and impactful. I have learnt UX / UI design, front-end and back-end development at Yoobee Colleges. 
                         In my two years at Yoobee College, I’ve completed a great deal of assignment on web development, design trends 
                         and best practices, including Programming Languages, Frameworks and Library, Principles of user Experience Design 
                         and Mobile Application Design, where I learned and applied skills such as user journey mapping, application wireframing,
                         designing software along with coding for a variety of mobile devices and operating system. </p>
-                        <p className="quotation-mark text-bold float-right">"</p>
+                        {/* <p className="quotation-mark text-bold float-right">"</p> */}
                       {/* <a className="viewCV" href="https://drive.google.com/file/d/1WV3jGfSa8GRRXa6Z4-K0lExnd_oF8cTu/view?usp=sharing" target="_blank">View My CV</a>  */}
                     </div>
                 </section>
@@ -106,7 +119,7 @@ class About extends React.Component {
                   </div>
                 </section>
 
-                <section className="container">
+                {/* <section className="container">
                   <h4 className="text-center mt-3 pb-4">Skills and tools I use</h4>
 
                   <div className="row">
@@ -144,7 +157,7 @@ class About extends React.Component {
                       </ul>
                     </div>
                   </div>
-                </section>
+                </section> */}
 
               </div>  
             </div>
