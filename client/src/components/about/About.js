@@ -77,7 +77,7 @@ class About extends React.Component {
                     </div>                   
                   </div>
                   <br></br>
-                  <h4 className="py-3">How I do my work</h4>
+                  {/* <h4 className="py-3">How I do my work</h4>
                   <div className="row mx-0">
                     <div className="card col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-2 mb-3 shadow p-3" style={{width: '18rem'}}>
                       <div className="card-body text-left pb-3">
@@ -106,7 +106,7 @@ class About extends React.Component {
                             developed numerous website and responsive web apps with different levels and different kinds of programming languages.</p>
                         </div>
                     </div>                   
-                  </div>
+                  </div> */}
                 </section>
 
                 <section className="mx-5 mt-5 pt-5">

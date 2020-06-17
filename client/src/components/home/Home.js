@@ -2,9 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './Home.scss';
 import background from '../../background.png';
-import project1 from '../../images/MockupEbook.png';
-import project2 from '../../images/MockupSchoc.png';
-import project3 from '../../images/MockupTreatMe.png';
 import Navigation from '../navigation/Navigation';
 import Work from '../work/Work';
 import Portfolio from '../portfolio/Portfolio';
@@ -51,21 +48,7 @@ class Home extends React.Component {
             //backgroundSize: 'cover',  
           }
 
-          // const projectImg = {
-          //   width: '100%',
-          //   height: '300px',
-          //   marginLeft: 'auto',
-          //   marginRight: 'auto',
-          //   marginBottom: '50px' 
-          // }
 
-          const projectImg = {
-            width: '100%',
-            height: 'auto',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            marginBottom: '50px' 
-          }
           
           const steps = [
             'Hi, I am Pearly. 👩🏻' , 1500,
@@ -107,22 +90,7 @@ class Home extends React.Component {
               <h1 className="page-title">Portfolio</h1>        
             </div> */}
             <Portfolio/>
-              {/* <div className="container d-flex flex-column mb-5 pt-3 pb-5 m-auto">
-                <img style={projectImg} src={project1} alt="image"/>
-                <img style={projectImg} src={project2} alt="image"/>
-                <img style={projectImg} src={project3} alt="image"/>
-              </div> */}
-                {/* <div className="container row">
-                  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <img style={projectImg} src={project1} alt="image"/>
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <img style={projectImg} src={project2} alt="image"/>
-                  </div>
-                  <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <img style={projectImg} src={project3} alt="image"/>
-                  </div>
-              </div> */}
+              
             {/* <button className="my-btn mb-5" onClick={this.work}>See All Works</button> */}
             </div>
             {/* <BackToTop
