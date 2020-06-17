@@ -61,3 +61,7 @@ a {
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
   color: $theme-primary-color;
 }
+
+.navbar-brand {
+  cursor: pointer;
+}

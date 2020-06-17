@@ -5,8 +5,8 @@ import profileImg from '../../images/profileImage.jpg';
 class About extends React.Component {
     render(){
       const myProfile = {
-        width: '35%',
-        height: '220px',
+        maxWidth: '50%',
+        height: '200px',
         // borderRadius: '50%'
       }
           return(
@@ -15,19 +15,18 @@ class About extends React.Component {
               <hr></hr>
               <div className="container about-content pb-5">
                 <section className="container row mb-5 pb-5 mx-0">
-                    <div className="col-sm-12 col-md-12 col-lg-6 col-lx-6 text-center">
-                      <img className="mt-5 img-thumbnail" style={myProfile} src={profileImg} alt="profile image"/>
-                      
-                      <ul className="my-contact mt-4">
+                    <div className="col-sm-12 col-md-12 col-lg-1 col-lx-1"></div>
+                    <div className="col-sm-12 col-md-12 col-lg-4 col-lx-4"> 
+                      <img className="mt-5 img-thumbnail" style={myProfile} src={profileImg} alt="profile image"/>                
+                      <ul className="my-contact mt-4 text-left">
                         <li><h4 className="font-weight-bold text-dark">Find Me</h4></li>
                         <li><a href="https://www.linkedin.com/in/pearly-choong/" target="_blank">LinkedIn</a></li>
                         <li><a href="mailto:choongpl@gmail.com? subject=subject text" target="_blank">Email</a></li>
                         <li><a href="https://github.com/Pearly-choong" target="_blank">Github</a></li>
                       </ul>
-                   
                     </div>
                     <div className="col-sm-12 col-md-12 col-lg-6 col-lx-6">
-                      <div className="text-center mb-3 py-3">
+                      <div className="mb-3 py-3">
                         <h1 className="page-title mt-5">About Me</h1>        
                       </div>  
                       {/* <p className="quotation-mark text-bold">"</p> */}
@@ -40,6 +39,7 @@ class About extends React.Component {
                         {/* <p className="quotation-mark text-bold float-right">"</p> */}
                       {/* <a className="viewCV" href="https://drive.google.com/file/d/1WV3jGfSa8GRRXa6Z4-K0lExnd_oF8cTu/view?usp=sharing" target="_blank">View My CV</a>  */}
                     </div>
+                    <div className="col-sm-12 col-md-12 col-lg-1 col-lx-1"></div>
                 </section>
 
                 <section className="mx-5 para mt-5">

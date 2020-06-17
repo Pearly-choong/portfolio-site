@@ -1,8 +1,10 @@
 import React from 'react';
 import portfolio1 from '../../images/homeAtomation.png';
 import portfolio2 from '../../images/MockupStrangerThings3.png';
-import portfolio3 from '../../images/MockupTreatMe.png';
-import portfolio4 from '../../images/ebookApp2.png';
+import portfolio3 from '../../images/MockupAmericanos.png';
+import portfolio4 from '../../images/MockupMealKit.png';
+import portfolio5 from '../../images/MockupEbookApp.png';
+import portfolio6 from '../../images/MockupSalonWebsite.png';
 import PortfolioCard from '../portfolioCard/PortfolioCard';
 import RHome from '../../images/homeAutomation/RHome.jpg';
 import AHome from '../../images/homeAutomation/AHome.jpg';
@@ -91,13 +93,30 @@ class Portfolio extends React.Component{
                 },
                 {
                   id: 4,
-                  imageUrl: portfolio4,
+                  imageUrl: portfolio5,
                   title: 'Ebook App',
                   category: 'Web App Design',
                   tag: 'UX + UI + HTML + SASS + JS',
                   caseStudy: 'https://drive.google.com/file/d/1P5VkUeVY1-dIjWOXls0DKOx1TpR2xKbd/view?usp=sharing',
                   liveSite: 'https://pearly-choong.github.io/ebookApp/',
                   github: 'https://github.com/Pearly-choong/ebookApp' , 
+                  brief: 'lmn',
+                  challenge: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  outcome:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  myRole:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+                  research: pic4,
+                  analyse: pic4,
+                  design: pic4
+                },
+                {
+                  id: 5,
+                  imageUrl: portfolio6,
+                  title: 'Service Industry Website',
+                  category: 'Website Redesign',
+                  tag: 'UI + HTML + CSS',
+                  caseStudy: 'https://drive.google.com/file/d/1JKgtLBd6BdQOi8Ew4mwJYsqqbG2nVqXG/view?usp=sharing',
+                  liveSite: 'https://github.com/Pearly-choong/salonWebsite',
+                  github: 'https://github.com/Pearly-choong/salonWebsite' , 
                   brief: 'lmn',
                   challenge: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
                   outcome:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
