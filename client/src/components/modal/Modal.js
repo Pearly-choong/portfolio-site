@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import Home from '../home/Home';
 import Navigation from '../navigation/Navigation';
 import Footer from '../footer/Footer';
-// import BackToTop from 'react-back-to-top-button';
 
 class Modal extends React.Component{
     close = ()=> {
@@ -72,14 +71,6 @@ class Modal extends React.Component{
                 <div className="mb-3">
                   <button type="button" className="btn btn-primary w-100 px-5 text-center" data-dismiss="modal" onClick={this.close}>Close</button>
                 </div>
-              {/* <BackToTop
-              showOnScrollUp
-              showAt={1000}
-              speed={1500}
-              easing="easeInOutQuint"
-            >
-              <span className="back-to-top"></span>
-             </BackToTop>  */}
               </div>
             </div>
             

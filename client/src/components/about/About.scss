@@ -30,7 +30,7 @@ h4 {
     font-family: $body-font;
 }
 h5 {
-    color: $theme-button-link-color;
+    color: $theme-primary-color;
     font-family: $body-font;
 }
 
@@ -40,11 +40,11 @@ p {
 
 .fa-user-edit, .fa-palette, .fa-file-code, .fa-hand-holding-heart, .fa-users, .fa-shapes {
     font-size: 2rem;
-    color: $theme-button-link-color;
+    color: $theme-primary-color;
 }
 
-.card {
-    border: 2px solid $theme-line-color;
-}
+// .card {
+//     border: 2px solid $theme-line-color;
+// }
 
 
