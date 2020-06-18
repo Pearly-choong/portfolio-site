@@ -27,7 +27,7 @@ class Modal extends React.Component{
         return (
             <div className="modal-content">
               <div className="modal-header">
-                <h5 className="modal-title text-center display-4">{this.props.category}</h5>
+                <h1 className="modal-title text-center">{this.props.category}</h1>
                 <button type="button" className="close"data-dismiss="modal" onClick={this.close}>
                   <span aria-hidden="true">&times;</span>
                 </button>

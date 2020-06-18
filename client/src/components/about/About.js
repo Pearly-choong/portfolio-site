@@ -30,7 +30,7 @@ class About extends React.Component {
                         <h1 className="page-title mt-5">About Me</h1>        
                       </div>  
                       {/* <p className="quotation-mark text-bold">"</p> */}
-                      <h5 className="text-dark font-weight-bold">I have a passion for web design and web development. I enjoyed doing researching, planning, designing and web development.</h5>
+                      <h5 className="font-weight-bold">I have a passion for web design and web development. I enjoyed doing researching, planning, designing and web development.</h5>
                       {/* <p className="quotation-mark text-bold float-right">"</p> */}
                       <p> I like challenging, and building something that could help to solve problems and intuitive, creating user experiences that are seamless and impactful. 
                         I have learnt UX / UI design, front-end and back-end development at Yoobee Colleges. 
