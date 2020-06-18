@@ -158,8 +158,8 @@ class Portfolio extends React.Component{
         const cardComponent = this.state.cards.map((card)=>{
             return (
                <PortfolioCard key={card.id} imgUrl={card.imageUrl} title={card.title} cat={card.category} 
-               tag={card.tag} toolUsed={card.toolUsed} cStudy={card.caseStudy} github={card.github} liveSite={card.liveSite} brief={card.brief}
-               challenge={card.challenge} outcome={card.outcome} myRole={card.myRole} research={card.research} 
+               tag={card.tag} toolUsed={card.toolUsed} cStudy={card.caseStudy} github={card.github} liveSite={card.liveSite} 
+               brief={card.brief} challenge={card.challenge} outcome={card.outcome} myRole={card.myRole} research={card.research} 
                analyse={card.analyse} design={card.design} design2={card.design2}/> 
             )
         })

@@ -20,6 +20,10 @@
         font-size: 1rem;
     }
 
+    .my-contact li, .my-profile-img {
+        text-align: center;
+    }
+
 
 }
 
@@ -125,6 +129,17 @@
 }
 
 
+/* Large devices (tablet landscape/laptops/desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+         
+    .indicator {
+        top: 100%;
+    }
+
+
+}
+
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .intro {
@@ -160,6 +175,18 @@
         color: #3317E2;
         font-size: 1.2rem;
     }
+    
+
+}
+
+
+
+@media only screen and (min-width: 1360px) {
+
+    .indicator {      
+        top: 70%;
+    }
+
     
 
 }

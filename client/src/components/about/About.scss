@@ -43,6 +43,10 @@ p {
     color: $theme-primary-color;
 }
 
+.para h3, .my-contact h3 {
+    font-family: $header-font;
+}
+
 
 // .card {
 //     border: 2px solid $theme-line-color;

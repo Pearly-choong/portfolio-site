@@ -62,9 +62,9 @@ class Modal extends React.Component{
                   <img src={this.props.design2} alt="Scenes" className="w-100 m-auto d-block" />
                 </div>
                 <div className="my-3 text-center row my-links">
-                  <a className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" href={this.props.cStudy} target="_blank"><span><i class="far fa-file-pdf pr-2"></i></span>Read Full Documentation</a>
-                  <a className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" href={this.props.github} target="_blank"><span><i class="fab fa-github pr-2"></i></span>View On Github</a>
-                  <a className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" href={this.props.liveSite} target="_blank"><span><i class="fab fa-chrome pr-2"></i></span>View Live Site</a>
+                  <a className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" href={this.props.cStudy} target="_blank"><span><i className="far fa-file-pdf pr-2"></i></span>Read Full Documentation</a>
+                  <a className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" href={this.props.github} target="_blank"><span><i className="fab fa-github pr-2"></i></span>View On Github</a>
+                  <a className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" href={this.props.liveSite} target="_blank"><span><i className="fab fa-chrome pr-2"></i></span>View Live Site</a>
                 </div>
               </div>
               <div className="modal-footer justify-content-center">

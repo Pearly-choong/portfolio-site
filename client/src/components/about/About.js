@@ -16,10 +16,10 @@ class About extends React.Component {
               <div className="container about-content pb-5">
                 <section className="container row mb-5 pb-5 mx-0">
                     <div className="col-sm-12 col-md-12 col-lg-1 col-lx-1"></div>
-                    <div className="col-sm-12 col-md-12 col-lg-4 col-lx-4"> 
+                    <div className="col-sm-12 col-md-12 col-lg-4 col-lx-4 my-profile-img"> 
                       <img className="my-5 img-thumbnail" style={myProfile} src={profileImg} alt="profile image"/>                
                       <ul className="my-contact mt-4 text-left">
-                        <li><h4 className="font-weight-bold text-dark">Find Me</h4></li>
+                        <li><h3 className="font-weight-bold text-dark">Find Me</h3></li>
                         <li><a href="https://www.linkedin.com/in/pearly-choong/" target="_blank">LinkedIn</a></li>
                         <li><a href="mailto:choongpl@gmail.com? subject=subject text">Email</a></li>
                         <li><a href="https://github.com/Pearly-choong" target="_blank">Github</a></li>
@@ -45,7 +45,7 @@ class About extends React.Component {
                 </section>
 
                 <section className="mx-5 para mt-5">
-                  <h4 className="pb-1 text-dark">What I can do</h4>                   
+                  <h3 className="pb-1 text-dark font-weight-bold">What I can do</h3>                   
                         <i className="fas fa-user-edit pb-2 mt-4"></i>
                         <h5 className="card-title">UX research and user centered design</h5>
                         <p>Design everything that I know about users and their needs. I can plan and conduct user research and
@@ -132,8 +132,8 @@ class About extends React.Component {
                   </div> */}
                 </section>
 
-                <section className="mx-5 mt-5 pt-5">
-                  <h4 className="pb-1 text-dark">Outside of Work</h4>
+                <section className="mx-5 mt-5 para">
+                  <h3 className="pb-1 text-dark font-weight-bold">Outside of Work</h3>
                   {/* <div className="card px-4 mb-3 shadow p-3">
                       <div className="text-left pb-3"> */}
                           <p>In my spare time I enjoy travelling, relaxing, watching movies and reading. I collected more recipes than I could cook them myself.

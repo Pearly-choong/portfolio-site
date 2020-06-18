@@ -10,7 +10,7 @@ class Footer extends React.Component{
                  <div className="social-icons py-3">
                      <a className="link linked" href="https://www.linkedin.com/in/pearly-choong/" target="_blank"><i className="fab fa-linkedin"></i></a>
                      <a className="link github" href="https://github.com/Pearly-choong" target="_blank"><i className="fab fa-github"></i></a>
-                     <a className="link behance" href="https://www.behance.net/choongplf52b" target="_blank"><i class="fab fa-behance"></i></a>
+                     <a className="link behance" href="https://www.behance.net/choongplf52b" target="_blank"><i className="fab fa-behance"></i></a>
                  </div>
                  <footer className="my-footer-bg pb-3 pt-5 px-1">
                      This website was built with React.js 
