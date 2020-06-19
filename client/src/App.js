@@ -50,20 +50,8 @@ class App extends React.Component{
       return(
          <div className="App">
                <header className="App-header">   
-               <img src={logo} className="App-logo" alt="logo" /> 
+                  <img src={logo} className="App-logo" alt="logo" /> 
                   <button className="btn mt-5 my-enter-btn" onClick={this.home}><span>Enter</span> </button>  
-                           
-                  {/* <img src={logo} className="App-logo" alt="logo" /> 
-                  <button className="btn mt-5 animated-arrow" onClick={this.home}>  <svg width="277" height="62">
-                  <defs>
-                   <linearGradient id="grad1">
-                  <stop offset="0%" stop-color="#FF8282"/>
-                  <stop offset="100%" stop-color="#E178ED" />
-                   </linearGradient>
-                  </defs>
-                   <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="266" height="50"></rect>
-                   </svg><span>Who Am I?</span></button>  
-                         */}
                 </header> 
             
                   {/* <Navbar.Brand onClick={this.home}><img src={logo} className="App-logo" alt="logo"/></Navbar.Brand>  */}
