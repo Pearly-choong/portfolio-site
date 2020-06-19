@@ -137,7 +137,8 @@ class About extends React.Component {
                   {/* <div className="card px-4 mb-3 shadow p-3">
                       <div className="text-left pb-3"> */}
                           <p>In my spare time I enjoy travelling, relaxing, watching movies and reading. I collected more recipes than I could cook them myself.
-                            I love to eat, always exploring all kinds of foods, also from different countries.</p>
+                            I love to eat, always exploring all kinds of foods, also from different countries. I also like to watch some funny variety show to relax from stress.
+                            Enjoyed family time and catch up with friend whenever possible. </p>
                       {/* </div>
                   </div> */}
                 </section>
