@@ -13,7 +13,7 @@ class Footer extends React.Component{
                      <a className="link behance" href="https://www.behance.net/choongplf52b" target="_blank"><i className="fab fa-behance"></i></a>
                  </div>
                  <footer className="my-footer-bg pb-3 pt-5 px-1">
-                     This website was built with React.js 
+                     This website was built with React 
                      <a href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> Website on Github</a><br/>
                      &copy; 2020 Pearly Choong | Designed and Developed by <a href="https://www.pearlychoong.com"> Pearly Choong</a>
                 </footer>

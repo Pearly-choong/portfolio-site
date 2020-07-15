@@ -20,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy-production": "react-scripts build && scp -r ./build/* cplchoong@134.122.16.6:/var/www/pearlychoong.com/html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

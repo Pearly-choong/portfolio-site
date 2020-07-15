@@ -80,7 +80,7 @@ class Navigation extends React.Component{
                             {/* <Nav.Link className="pr-4 text-dark" onClick={this.work}>WORK</Nav.Link> */}
                             <Nav.Link className="pr-4" onClick={this.about}>ABOUT</Nav.Link>
                             {/* <Nav.Link className="pr-4" onClick={this.contact}>CONTACT</Nav.Link> */}
-                            <Nav.Link className="pr-4" href="https://drive.google.com/file/d/1-TdpBzPFKq91l6rGX6pl5k0C9X9L8e4w/view?usp=sharing" target="_blank">CV</Nav.Link>
+                            <Nav.Link className="pr-4" href="https://drive.google.com/file/d/126DgcfatIOynUJvvnufSAitkf3mqfgBN/view?usp=sharing" target="_blank">CV</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>              
                 </Navbar> 
