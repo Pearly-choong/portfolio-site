@@ -2,8 +2,8 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import './Work.scss';
 import Portfolio from '../portfolio/Portfolio';
-
-import $ from 'jquery';
+import Modal from '../modal/Modal';
+// import $ from 'jquery';
 
 class Work extends React.Component {
     
