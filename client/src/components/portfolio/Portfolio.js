@@ -1,4 +1,5 @@
 import React from 'react';
+import './Portfolio.scss';
 import portfolio1 from '../../images/homeAtomation.png';
 import portfolio2 from '../../images/MockupStrangerThings3.png';
 import portfolio3 from '../../images/MockupAmericanos.png';
@@ -167,9 +168,13 @@ class Portfolio extends React.Component{
         console.log(cardComponent);
 
         return(
-            <div className="row py-5 mx-0">
-                {cardComponent}
+          <div className="my-background">
+            <div className="container">
+              <div className="row py-5 mx-0">
+                  {cardComponent}
+              </div>
             </div>
+          </div>
         )
     }
 

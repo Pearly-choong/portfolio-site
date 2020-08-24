@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Home.scss';
-import background from '../../background.png';
+import background from '../../bg.png';
+import Img from '../../images/img01.jpg';
 import Navigation from '../navigation/Navigation';
-import Work from '../work/Work';
+import Project from '../showProject/ShowProject';
 import Portfolio from '../portfolio/Portfolio';
 // import About from '../about/About';
 import Footer from '../footer/Footer';
@@ -26,45 +27,95 @@ class Home extends React.Component {
     //   ReactDOM.render(workSection, document.getElementById('root'));
     // }  
 
-    work = ()=> {
-      console.log('Work');
-      const workSection = (
+    // work = ()=> {
+    //   console.log('Work');
+    //   const workSection = (
+    //     <div> 
+    //     <Navigation/>  
+    //     <Work/>
+    //     <Footer/>
+    //     </div> 
+    //   )
+
+    //   ReactDOM.render(workSection, document.getElementById('root'));
+    // }
+    portfolio = ()=> {
+      console.log('Portfolio');
+      const portfolioSection = (
         <div> 
         <Navigation/>  
-        <Work/>
+        <Portfolio/>
         <Footer/>
         </div> 
       )
 
-      ReactDOM.render(workSection, document.getElementById('root'));
-    }
+      ReactDOM.render(portfolioSection, document.getElementById('root'));
+    }  
 
 
     render(){
-          const myBackground = {
-            width: '100%',
+          // const myBackground = {
+          //   width: '100%',
+          //   height: 'auto'
+          // }
+
+            const myImg = {
+            maxWidth: '100%',
             height: 'auto'
-            // backgroundImage: `url(${background})`,
-            //backgroundSize: 'cover',  
+            // objectFit: 'cover'
           }
 
-
           
-          const steps = [
-            'Hi, I am Pearly. 👩🏻' , 1500,
-            'I am UI/UX Designer. 👩🏻‍🎨 ', 1500,
-            'I am Front-end Developer. 👩🏻‍💻', 1500,
-            'I am based in Wellington, New Zealand. 🇳🇿', 1500,
-            'Hi, I am Pearly. UI/UX Designer & Front-end Developer based in Wellington, New Zealand.', 2000
-          ]
+          // const steps = [
+          //   // 'Hi, I am Pearly. 👩🏻 Web Designer 👩🏻‍🎨 & Web Developer 👩🏻‍💻 based in Wellington, New Zealand.' , 1500,
+          //   'Hello, my name is Pearly. 👩🏻' , 1500,
+          //   'I am a Web Designer. 👩🏻‍🎨 ', 1500,
+          //   'I am a Web Developer. 👩🏻‍💻', 1500,
+          //   'Based in Wellington, New Zealand. 🇳🇿', 1500,
+          //   'Hello, my name is Pearly. Web Designer and Developer based in Wellington, New Zealand.', 2000
+          // ]
 
           return(
           // <div className="home-container" style={myBackground}>
           <div>
-          <section id="sec1">
-            <div className="home-container">
-              <img style={myBackground} src={background} alt="background"/>
-              <div className="intro">
+            <div className="home-container row">
+              {/* <img style={myBackground} src={background} alt="background"/> */}
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+              <img className="d-block" style={myImg} src={Img} alt="image"/>
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-8 py-5 px-5 mw-100">
+               
+                {/* <h1 className="display-3 text-color">PEARLY CHOONG</h1> */}
+                {/* <h3 className="text-dark pb-3">WEB DESIGNER & DEVELOPER</h3> */}
+                
+                <h2 className="my-title">I'm a web designer 👩🏻‍🎨 and developer 👩🏻‍💻 , where I'm passionate about UI/UX design and web development. </h2>
+                <br/>
+                 
+                <p> I have learnt UX / UI design, front-end and back-end development at <a className="home-btn" href="https://www.yoobee.ac.nz/" target="_blank">Yoobee Colleges</a>. 
+                    In my two years at Yoobee College, I’ve completed a great deal of assignment on web development, design trends 
+                    and best practices, including Programming Languages, Frameworks and Library, Principles of user Experience Design 
+                    and Web Application Design.
+                    See my<button className="btn-link home-btn" onClick={this.portfolio}> &nbsp;projects</button> or download my <a className="home-btn" href="https://drive.google.com/file/d/1b_6YBSBWxtzRDAROHFJIhMQsNgHl7Yg4/view?usp=sharing" target="_blank" target="_blank">CV</a> to learn more about me.
+                </p>
+                <p>In my spare time I enjoy travelling, relaxing, watching movies and reading. I collected more recipes than I could cook them myself.
+                    I love to eat, always exploring all kinds of foods, also from different countries. I also like to watch some funny variety shows to relax from stress.
+                    Enjoy family time and catch up with friends whenever possible. </p>
+
+                <p className="mt-5">CONTACT ME at <a className="my-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></p>
+                 <div className="social-icons py-3 mb-5">
+                     <a className="link linked" href="https://www.linkedin.com/in/pearly-choong/" target="_blank"><i className="fab fa-linkedin"></i></a>
+                     <a className="link github" href="https://github.com/Pearly-choong" target="_blank"><i className="fab fa-github"></i></a>
+                     <a className="link behance" href="https://www.behance.net/choongplf52b" target="_blank"><i className="fab fa-behance"></i></a>
+                 </div>
+                 <footer className="my-footer-bg px-1">
+                     This website was built with React 
+                     <a href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> Code in Github</a><br/>
+                     &copy; 2020 Designed and Developed by Pearly Choong
+                </footer>
+                
+                 {/* <div className="col-lg-6">
+                 <img style={myImg} src={Img} alt="image"/>
+                 </div> */}
                 {/* <h2 className="intro__nameFont mill">
                   <span class="text-wrapper">
                     <span class="line line1"></span>
@@ -72,36 +123,26 @@ class Home extends React.Component {
                   </span>
                 </h2> */}
                 {/* <h2 className="intro__nameFont">Hi, I'm Pearly.</h2> */}
-                <Typical wrapper="span" steps={steps} loop={1} className={'intro__titleFont'} />
+                {/* <Typical wrapper="span" steps={steps} loop={1} className={'intro__titleFont'} /> */}
                 {/* <h1 className="intro__titleFont">UI/UX Designer & Front-end Developer based in Wellington, New Zealand.</h1> */}
                 {/* <button className="my-btn" onClick={this.about}>More About Me</button> */}
               </div>
-              <div className="indicator">
-                <p className="pb-4">Selected works</p>           
+              {/* <div className="indicator">
+                <p className="pb-4">Selected Projects</p>           
                 <span></span>
                 <span></span>
                 <span></span>
-              </div>  
+              </div>   */}
             </div>
-          </section>
-          <section id="sec2"> 
+         
+          {/* <section id="sec2"> 
             <div className="container home-content">
-            {/* <div className="text-center mt-5 mb-3 py-3">
-              <h1 className="page-title">Portfolio</h1>        
-            </div> */}
+           
             <Portfolio/>
               
-            {/* <button className="my-btn mb-5" onClick={this.work}>See All Works</button> */}
             </div>
-            {/* <BackToTop
-              showOnScrollUp
-              showAt={1000}
-              speed={1500}
-              easing="easeInOutQuint"
-            >
-              <span className="back-to-top">Back to top</span>
-             </BackToTop>  */}
-          </section> 
+          
+          </section>  */}
           </div>
         );
     

@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './Navigation.scss';
 import { Navbar, Nav} from 'react-bootstrap';
 import Home from '../home/Home';
-import Work from '../work/Work';
+import Project from '../showProject/ShowProject';
 import About from '../about/About';
 import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
 import logoSignature from '../../logo.png';
+import Portfolio from '../portfolio/Portfolio';
+import PortfolioCard from '../portfolioCard/PortfolioCard';
+import App from '../../App';
 
 class Navigation extends React.Component{
     home = ()=> {
@@ -16,24 +19,24 @@ class Navigation extends React.Component{
           <div> 
           <Navigation/>  
           <Home/>
-          <Footer/>
+          {/* <Footer/> */}
           </div> 
         )
   
         ReactDOM.render(homeSection, document.getElementById('root'));
       }
 
-    work = ()=> {
-        console.log('Work');
-        const workSection = (
+    portfolio = ()=> {
+        console.log('Portfolio');
+        const portfolioSection = (
           <div> 
           <Navigation/>  
-          <Work/>
+          <Portfolio/>
           <Footer/>
           </div> 
         )
   
-        ReactDOM.render(workSection, document.getElementById('root'));
+        ReactDOM.render(portfolioSection, document.getElementById('root'));
       }  
 
     about = ()=> {
@@ -62,11 +65,22 @@ class Navigation extends React.Component{
         ReactDOM.render(contactSection, document.getElementById('root'));
       }  
 
+      landing = ()=> {
+        console.log('Landing');
+        const landingSection = (
+          <div> 
+          <App/>  
+          </div> 
+        )
+  
+        ReactDOM.render(landingSection, document.getElementById('root'));
+      }
+
     render(){
         return(
             <div className="pt-4">
                 <Navbar collapseOnSelect expand="lg">  
-                    <Navbar.Brand onClick={this.home}><img src={logoSignature} alt="logo"/></Navbar.Brand>
+                    <Navbar.Brand onClick={this.landing}><img src={logoSignature} alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
                         <Nav className="mr-auto">
@@ -77,8 +91,8 @@ class Navigation extends React.Component{
                         </Nav>
                         <Nav>
                             <Nav.Link className="pr-4" onClick={this.home}>HOME</Nav.Link>
-                            <Nav.Link className="pr-4" onClick={this.work}>WORK</Nav.Link>
-                            <Nav.Link className="pr-4" onClick={this.about}>ABOUT</Nav.Link>
+                            <Nav.Link className="pr-4" onClick={this.portfolio}>PORTFOLIO</Nav.Link>
+                            {/* <Nav.Link className="pr-4" onClick={this.about}>ABOUT</Nav.Link> */}
                             {/* <Nav.Link className="pr-4" onClick={this.contact}>CONTACT</Nav.Link> */}
                             <Nav.Link className="pr-4" href="https://drive.google.com/file/d/1b_6YBSBWxtzRDAROHFJIhMQsNgHl7Yg4/view?usp=sharing" target="_blank">CV</Nav.Link>
                         </Nav>

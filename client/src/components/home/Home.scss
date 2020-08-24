@@ -2,14 +2,29 @@
 
 
 .home-container{
-    position: relative;
-    
+    //position: relative;
+    background-color: $my-background-color;
+    height: auto;
+    //max-width: 100%;
 }
-// .home-content{
-//     width: 100%;
-//     height: auto;
-//     margin-top: 20px;
-// }
+
+.home-btn{
+    background-color: inherit;
+    border: none;
+    color: $theme-primary-color;
+    text-decoration: underline;
+    font-size: 1.1rem;
+    font-family: $body-font;
+}
+
+.home-btn:hover{
+    color: $theme-third-color;
+}
+
+.my-title{
+    color: $theme-dark-pink-color;
+}
+
 
 .intro {
   /* display: flex;
@@ -21,6 +36,11 @@
   transform: translate(-50%, -50%);
   position: absolute;
   width: 75%;
+  
+}
+
+.text-color {
+    color: $theme-primary-color;
 }
 
 
@@ -55,22 +75,22 @@
 // }
 
 
-.my-btn{
-    border: 2px solid $theme-button-link-color; 
-    color: $theme-button-link-color;
-    // background-color: $theme-button-link-color;
-    padding: 7px 20px;
-    border-radius: 10px; 
-    font-size: 0.8rem;
-    font-family: $body-font;
-    transition: background-color 0.2s ease-out, color 0.2s ease-out;
-}
+// .my-btn{
+//     border: 2px solid $theme-button-link-color; 
+//     color: $theme-button-link-color;
+//     // background-color: $theme-button-link-color;
+//     padding: 7px 20px;
+//     border-radius: 10px; 
+//     font-size: 0.8rem;
+//     font-family: $body-font;
+//     transition: background-color 0.2s ease-out, color 0.2s ease-out;
+// }
 
-.my-btn:hover, .my-btn:active{
-    background-color: $theme-button-link-color;
-    color: white;
-    transition: background-color 0.3s ease-in, color 0.3s ease-in;
-}
+// .my-btn:hover, .my-btn:active{
+//     background-color: $theme-button-link-color;
+//     color: white;
+//     transition: background-color 0.3s ease-in, color 0.3s ease-in;
+// }
   
 
 // .my-btn2::after{

@@ -4,7 +4,7 @@ import './Footer.scss';
 class Footer extends React.Component{
     render(){
         return (
-             <div className="text-center">
+             <div className="my-background text-center">
                  <hr className="break-line"></hr>
                  <p className="mt-5">CONTACT ME: <a className="my-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></p>
                  <div className="social-icons py-3">
@@ -14,8 +14,8 @@ class Footer extends React.Component{
                  </div>
                  <footer className="my-footer-bg pb-3 pt-5 px-1">
                      This website was built with React 
-                     <a href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> Website on Github</a><br/>
-                     &copy; 2020 Pearly Choong | Designed and Developed by <a href="https://www.pearlychoong.com"> Pearly Choong</a>
+                     <a href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> Code in Github</a><br/>
+                     &copy; 2020 Designed and Developed by Pearly Choong
                 </footer>
             </div>
         )
