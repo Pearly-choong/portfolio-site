@@ -91,28 +91,35 @@ class Home extends React.Component {
                 <h2 className="my-title">I'm a web designer 👩🏻‍🎨 and developer 👩🏻‍💻 , where I'm passionate about UI/UX design and web development. </h2>
                 <br/>
                  
-                <p> I have learnt UX / UI design, front-end and back-end development at <a className="home-btn" href="https://www.yoobee.ac.nz/" target="_blank">Yoobee Colleges</a>. 
+                <p> I have learnt UX / UI design, front-end and back-end development at <a className="home-link" href="https://www.yoobee.ac.nz/" target="_blank">Yoobee Colleges</a>. 
                     In my two years at Yoobee College, I’ve completed a great deal of assignment on web development, design trends 
                     and best practices, including Programming Languages, Frameworks and Library, Principles of user Experience Design 
                     and Web Application Design.
-                    See my<button className="btn-link home-btn" onClick={this.portfolio}> &nbsp;projects</button> or download my <a className="home-btn" href="https://drive.google.com/file/d/1b_6YBSBWxtzRDAROHFJIhMQsNgHl7Yg4/view?usp=sharing" target="_blank" target="_blank">CV</a> to learn more about me.
+                    See my<button className="btn-link home-link" onClick={this.portfolio}> &nbsp;projects</button> or download my <a className="home-link" href="https://drive.google.com/file/d/1pyzoEhF1-LQusQRa-fKU5Agi_fMyBArg/view?usp=sharing" target="_blank" target="_blank">CV</a> to learn more about me.
+                    My website was hand coded and built with React 
+                     <a className="home-link" href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> view code in Github</a>
                 </p>
                 <p>In my spare time I enjoy travelling, relaxing, watching movies and reading. I collected more recipes than I could cook them myself.
                     I love to eat, always exploring all kinds of foods, also from different countries. I also like to watch some funny variety shows to relax from stress.
                     Enjoy family time and catch up with friends whenever possible. </p>
-
+                <div className="float-left text-left">
+                <Footer/>  
+                </div>  
+                {/* <div className="row footer-container">
+                <div className="col-xs-12 col-sm-6 col-md-6 col-xl-6">
                 <p className="mt-5">CONTACT ME at <a className="my-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></p>
                  <div className="social-icons py-3 mb-5">
                      <a className="link linked" href="https://www.linkedin.com/in/pearly-choong/" target="_blank"><i className="fab fa-linkedin"></i></a>
                      <a className="link github" href="https://github.com/Pearly-choong" target="_blank"><i className="fab fa-github"></i></a>
                      <a className="link behance" href="https://www.behance.net/choongplf52b" target="_blank"><i className="fab fa-behance"></i></a>
                  </div>
+                 </div>
+                 <div className="col-xs-12 col-sm-6 col-md-6 col-xl-6">
                  <footer className="my-footer-bg px-1">
-                     This website was built with React 
-                     <a href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> Code in Github</a><br/>
                      &copy; 2020 Designed and Developed by Pearly Choong
                 </footer>
-                
+                </div>
+                </div> */}
                  {/* <div className="col-lg-6">
                  <img style={myImg} src={Img} alt="image"/>
                  </div> */}
@@ -134,7 +141,7 @@ class Home extends React.Component {
                 <span></span>
               </div>   */}
             </div>
-         
+            
           {/* <section id="sec2"> 
             <div className="container home-content">
            
@@ -144,6 +151,7 @@ class Home extends React.Component {
           
           </section>  */}
           </div>
+          
         );
     
     }

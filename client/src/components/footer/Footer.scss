@@ -6,6 +6,10 @@
   // border: 1px solid $theme-dark-pink-color;
 }
 
+// .footer-container{
+//   position: relative;
+// }
+
 
 .my-footer-bg{
     width: 100%;
@@ -13,6 +17,8 @@
     font-size: 0.8rem;
     font-family: $body-font;
     // background-color: #F9F4F4;
+    //position : absolute;
+    //bottom: 0;
 }
 
 .my-email{

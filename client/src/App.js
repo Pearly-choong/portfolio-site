@@ -64,7 +64,7 @@ class App extends React.Component{
                   <div className="container">
                   <Typical wrapper="span" steps={steps} loop={1} className={'intro__titleFont'} />
                   </div>   
-                  <button className="btn mt-5 pt-5 my-enter-btn" onClick={this.home}><span>Click to enter the site..</span> </button>       
+                  <button className="btn mt-5 pt-5 my-enter-btn" onClick={this.home}><span><u>Click to enter the site..</u></span> </button>       
                 </header> 
                
                   {/* <Navbar.Brand onClick={this.home}><img src={logo} className="App-logo" alt="logo"/></Navbar.Brand>  */}

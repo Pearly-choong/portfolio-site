@@ -1,5 +1,13 @@
 /* mobile display only */
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
+    .my-enter-btn{
+        font-size: 1rem;
+    }
+    
+    .my-title {
+        font-size: 1.6rem;
+    }
+
     .back-to-top{
         display: none;
     }
@@ -39,9 +47,16 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
     p {
-        font-size: 1rem;;
+        font-size: 1.5rem;;
       }
     
+    .home-link{
+        font-size: 1.5rem;
+    } 
+   
+    .my-footer-bg, .my-footer-bg a{
+        font-size: 1.2rem;
+    }
     // style home page
     .intro__nameFont {
         font-size: 2.2rem;
@@ -84,6 +99,10 @@
         font-size: 1.1rem;;
       }
     
+    .home-link{
+        font-size: 1.1rem;
+    }
+
     //style homepage
     .intro {
         top: 50%;
@@ -138,7 +157,15 @@
 
 /* Large devices (tablet landscape/laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
-         
+    
+    .home-link{
+        font-size: 1.1rem;
+    }
+
+    .my-footer-bg, .my-footer-bg a{
+        font-size: 0.9rem;
+    }
+  
     .indicator {
         top: 100%;
     }

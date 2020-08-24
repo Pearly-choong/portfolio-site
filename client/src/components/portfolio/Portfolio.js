@@ -173,6 +173,7 @@ class Portfolio extends React.Component{
               <div className="row py-5 mx-0">
                   {cardComponent}
               </div>
+               <hr className="break-line"></hr>
             </div>
           </div>
         )
