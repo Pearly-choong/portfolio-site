@@ -18,7 +18,9 @@ class PortfolioCard extends React.Component{
           img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} challenge={this.props.challenge}
           outcome={this.props.outcome} myRole={this.props.myRole} research={this.props.research} analyse={this.props.analyse} design={this.props.design} 
           design2={this.props.design2}/>
+          <div className="text-center">
           <Footer/>
+          </div>
           </div> 
         )
   

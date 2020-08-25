@@ -24,21 +24,21 @@
         font-size: 1.2rem;;
     }
 
-    .my-links a {
-        font-size: 1rem;
-    }
+    // .my-links a {
+    //     font-size: 1rem;
+    // }
 
     .my-contact li, .my-profile-img {
         text-align: center;
     }
 
-    .my-footer-bg{
-        font-size: 0.6rem;
-    }
+    // .my-footer-bg{
+    //     font-size: 0.6rem;
+    // }
 
-    footer a {
-        font-size: 0.7rem;;
-    }
+    // footer a {
+    //     font-size: 0.7rem;;
+    // }
 
 }
 
@@ -47,15 +47,15 @@
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px){
     p {
-        font-size: 1.5rem;;
+        font-size: 1.1rem;;
       }
     
     .home-link{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     } 
    
     .my-footer-bg, .my-footer-bg a{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     // style home page
     .intro__nameFont {
@@ -162,6 +162,7 @@
         font-size: 1.1rem;
     }
 
+
     .my-footer-bg, .my-footer-bg a{
         font-size: 0.9rem;
     }
@@ -216,6 +217,9 @@
 
 
 @media only screen and (min-width: 1360px) {
+    .my-img-size{
+        width: 1200px;
+    }
 
     .indicator {      
         top: 68%;
