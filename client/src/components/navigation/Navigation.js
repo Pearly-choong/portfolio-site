@@ -78,7 +78,7 @@ class Navigation extends React.Component{
 
     render(){
         return(
-            <div className="pt-4">
+            <div className="pt-4 nav-bg-color">
                 <Navbar collapseOnSelect expand="lg">  
                     <Navbar.Brand onClick={this.landing}><img src={logoSignature} alt="logo"/></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -90,7 +90,7 @@ class Navigation extends React.Component{
                             <Nav.Link onClick={this.home}>CONTACT</Nav.Link> */}
                         </Nav>
                         <Nav>
-                            <Nav.Link className="pr-4" onClick={this.home}>HOME</Nav.Link>
+                            <Nav.Link className="pr-4" onClick={this.home}>ABOUT</Nav.Link>
                             <Nav.Link className="pr-4" onClick={this.portfolio}>PORTFOLIO</Nav.Link>
                             {/* <Nav.Link className="pr-4" onClick={this.about}>ABOUT</Nav.Link> */}
                             {/* <Nav.Link className="pr-4" onClick={this.contact}>CONTACT</Nav.Link> */}

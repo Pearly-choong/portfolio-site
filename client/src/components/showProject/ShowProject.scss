@@ -7,6 +7,15 @@
 }
 
 .page-title{
-    font-size: 1.8rem;;
+    font-size: 1.8rem;
+    color: $theme-dark-pink-color;
 }
 
+
+.my-links a, .fab .fa-github {
+    color: $theme-primary-color;
+}
+
+.my-links a:hover {
+    color: $theme-third-color;
+}
