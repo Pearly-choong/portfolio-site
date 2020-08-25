@@ -22,6 +22,9 @@ import RMealKit from '../../images/mealkit/RMealKit.jpg';
 import AMealKit from '../../images/mealkit/AMealKit.jpg';
 import DMealKit from '../../images/mealkit/DMealKit.jpg';
 import DMealKit2 from '../../images/mealkit/DMealKit2.jpg';
+import TreatMe from '../../images/treatme/Treatme.jpg';
+import TreatMe2 from '../../images/treatme/Treatme1.jpg';
+import ProjectBg from '../../images/treatme/blank.jpg';
 import REbook from '../../images/ebook/REbook.jpg';
 import AEbook from '../../images/ebook/AEbook.jpg';
 import DEbook from '../../images/ebook/DEbook.jpg';
@@ -89,11 +92,11 @@ class Portfolio extends React.Component{
                   brief: 'This project is to work as a team to build an application that use an API to produce a web interface. A C2C platform that allows users to register / login their account, to sell and buy baking goods through online. Registered member able to update thier profile, add new, update or delete their product list.',
                   challenge: 'Redesign the website for Americano Breakfast Restaurant and improve user experience, wanting to make the website more user friendly.',
                   outcome:'Developed one-page adaptive website by showcasing the dining experience and adverstising menu items with business contact information for potential visitors',
-                  myRole:'UX Research, Identify Target Audience, Usability Testing, Wireframing and creating prototypes for Tablets Version Design, Coding.'
-                  // research: RAmericano,
-                  // analyse: AAmericano,
-                  // design: DAmericano,
-                  // design2: DStranger2  
+                  myRole:'UX Research, Identify Target Audience, Usability Testing, Wireframing and creating prototypes for Tablets Version Design, Coding.',
+                  research: TreatMe,
+                  analyse: TreatMe2,
+                  design: ProjectBg,
+                  design2: ProjectBg  
                 },
                 {
                   id: 3,
@@ -112,7 +115,7 @@ class Portfolio extends React.Component{
                   research: RStranger,
                   analyse: AStranger,
                   design: DStranger,
-                  design2: DStranger2  
+                  design2: ProjectBg  
                 }
                 // {
                 //   id: 2,

@@ -60,11 +60,11 @@ class App extends React.Component{
       return(
          <div className="App">
                <header className="App-header">   
-                  {/* <img src={logo} className="App-logo" alt="logo" />  */}
-                  <div className="container">
+                  <img src={logo} className="App-logo" alt="logo" /> 
+                  <div className="container text-center pt-5">
                   <Typical wrapper="span" steps={steps} loop={1} className={'intro__titleFont'} />
                   </div>   
-                  <button className="btn mt-5 pt-5 my-enter-btn" onClick={this.home}><span><u>Click to enter the site..</u></span> </button>       
+                  <button className="btn mt-5 pt-5 my-enter-btn" onClick={this.home}><span><u>Enter the site..</u></span> </button>       
                 </header> 
                
                   {/* <Navbar.Brand onClick={this.home}><img src={logo} className="App-logo" alt="logo"/></Navbar.Brand>  */}
