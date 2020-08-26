@@ -27,13 +27,11 @@ class Home extends React.Component {
 
     render(){
     
-
             const myImg = {
             maxWidth: '100%',
             height: 'auto'
            // objectFit: 'cover'
           }
-
 
 
           return(
