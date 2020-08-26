@@ -2,12 +2,15 @@
 A portfolio that showcase example of my works. 
 
 
-Contact: <br>
+Contact: </br>
 choongpl@gmail.com </br>
-https://www.linkedin.com/in/pearly-choong/
+https://www.linkedin.com/in/pearly-choong/</br>
+
+Website: </br>
+https://www.pearlychoong.com/
 
 ----------------------------------
-Technology Used: <br>
+Technology Used: </br>
 * React 
 * react-bootstrap
 * node-sass

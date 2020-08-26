@@ -10,25 +10,6 @@ a {
   background-color: white;
 }
 
-// Navbar a:hover{
-//   color: $theme-button-link-color;
-//   text-decoration: underline;
-// }
-
-// .navbar-inverse .navbar-nav>a:hover {
-//   color: $theme-button-link-color;
-//   text-decoration: underline;
-//   }
-
-/* Navbar Nav Nav.Link{
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
-} */
-
-
-// .navbar-light .navbar-brand {
-//   color: rgba(0, 0, 0, 0.9);
-// }
 
 .navbar-light .navbar-brand {
   color: black;
@@ -53,13 +34,6 @@ a {
   color: $theme-primary-color;
 }
 
-// .navbar-light .navbar-text {
-//   color: rgba(0, 0, 0, 0.5);
-// }
-
-// .navbar-light .navbar-text a {
-//   color: $theme-primary-color;
-// }
 
 .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
   color: $theme-primary-color;

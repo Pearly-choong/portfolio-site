@@ -4,8 +4,6 @@ import portfolio1 from '../../images/MockupMealKit.png';
 import portfolio2 from '../../images/homeAtomation.png';
 import portfolio3 from '../../images/treatme mockup2.png';
 import portfolio4 from '../../images/MockupStrangerThings3.png';
-import portfolio5 from '../../images/MockupEbookApp.png';
-import portfolio6 from '../../images/MockupSalonWebsite.png';
 import PortfolioCard from '../portfolioCard/PortfolioCard';
 import RHome from '../../images/homeAutomation/RHome.jpg';
 import AHome from '../../images/homeAutomation/AHome.jpg';
@@ -14,10 +12,6 @@ import DHome2 from '../../images/homeAutomation/DHome2.jpg';
 import RStranger from '../../images/strangerThings/RStranger.jpg';
 import AStranger from '../../images/strangerThings/AStranger.jpg';
 import DStranger from '../../images/strangerThings/DStranger.jpg';
-import DStranger2 from '../../images/strangerThings/DStranger2.jpg';
-import RAmericano from '../../images/americanoRestaurant/RAmericano.jpg';
-import AAmericano from '../../images/americanoRestaurant/AAmericano.jpg';
-import DAmericano from '../../images/americanoRestaurant/DAmericano.jpg';
 import RMealKit from '../../images/mealkit/RMealKit.jpg';
 import AMealKit from '../../images/mealkit/AMealKit.jpg';
 import DMealKit from '../../images/mealkit/DMealKit.jpg';
@@ -25,12 +19,7 @@ import DMealKit2 from '../../images/mealkit/DMealKit2.jpg';
 import TreatMe from '../../images/treatme/Treatme.jpg';
 import TreatMe2 from '../../images/treatme/Treatme1.jpg';
 import ProjectBg from '../../images/treatme/blank.jpg';
-import REbook from '../../images/ebook/REbook.jpg';
-import AEbook from '../../images/ebook/AEbook.jpg';
-import DEbook from '../../images/ebook/DEbook.jpg';
-import RSalon from '../../images/salon/RSalon.jpg';
-import ASalon from '../../images/salon/ASalon.jpg';
-import DSalon from '../../images/salon/DSalon.jpg';
+
 
 class Portfolio extends React.Component{
 
@@ -45,7 +34,6 @@ class Portfolio extends React.Component{
                   title: 'Meal Kit Delivery Service',
                   category: 'UX Research | UI | Web Development | CMS',
                   tag: 'WordPress + PHP + WooCommerce + Bootstrap',
-                  toolUsed: 'Wordpress, Visual Studio Code, Github, Figma, Trello, InDesign, Survey Monkey, Digital Ocean',
                   caseStudy: 'https://drive.google.com/file/d/1EUlKgbdcT27heweOk3y_LrK2twmZGmYk/view?usp=sharing',
                   liveSite: 'http://68.183.98.69/',
                   github: 'https://github.com/Pearly-choong/mealkit-service-wp-theme' , 
@@ -65,7 +53,6 @@ class Portfolio extends React.Component{
                   title: 'Home Automation',
                   category: 'UX Research | UI | Front-end Development',
                   tag: 'HTML + SASS + JS + Jquery', 
-                  toolUsed: 'Trello, Google Doc, Google Form, InVision, Photoshop, Illustrator, Atom, Koala, Github, Xtensio',
                   caseStudy: 'https://drive.google.com/file/d/1s8mv3NcjJitT15AV3bOHbycnE9B2dMqY/view?usp=sharing',
                   liveSite: 'https://github.com/Pearly-choong/zoneSmartHomeAutomation',
                   github: 'https://github.com/Pearly-choong/zoneSmartHomeAutomation',
@@ -85,7 +72,6 @@ class Portfolio extends React.Component{
                   title: 'Niche Market App',
                   category: 'UX Research | UI | Full Stack Web Development',
                   tag: 'Bootstrap SASS, Javascript, JQuery, Node.js',
-                  toolUsed: 'Trello, Google Doc, Google Form, UXPin, Atom, Koala, Github, Xtensio',
                   caseStudy: 'https://drive.google.com/file/d/1G9XTh4H8Yzb7hJ5tbXQKjOR7fGPyytka/view?usp=sharing',
                   liveSite: 'http://167.172.140.162/summative3/frontEnd/',
                   github: 'https://github.com/Pearly-choong/summative3',
@@ -104,7 +90,6 @@ class Portfolio extends React.Component{
                   title: 'Stranger Things 3',
                   category: 'Front-end Development',
                   tag: 'HTML + CSS + JS',
-                  toolUsed: 'Google Doc, Atom',
                   caseStudy: 'https://drive.google.com/file/d/1GVMp1wWzOyT2Cygu6uHlNAeoCADueBuD/view?usp=sharing',
                   liveSite: 'https://pearly-choong.github.io/tvShowWebsite/',
                   github: 'https://github.com/Pearly-choong/tvShowWebsite',
@@ -117,63 +102,7 @@ class Portfolio extends React.Component{
                   design: DStranger,
                   design2: ProjectBg  
                 }
-                // {
-                //   id: 2,
-                //   imageUrl: portfolio3,
-                //   title: 'Americanos Breakfast Restaurant',
-                //   category: 'Website Redesign',
-                //   tag: 'UX + UI + HTML + SASS + JS',
-                //   toolUsed: 'Trello, Google Doc, Google Form, UXPin, Atom, Koala, Github, Xtensio',
-                //   caseStudy: 'Not available',
-                //   liveSite: 'https://pearly-choong.github.io/Formative1.2/',
-                //   github: 'https://github.com/Pearly-choong/Formative1.2',
-                //   brief: 'This is a group work assignment at Yoobee College. Me and another two people were working in a group to review and improve an existing website\s user experience. After that, use the UX brief created to develop a website individually.',
-                //   challenge: 'Redesign the website for Americano Breakfast Restaurant and improve user experience, wanting to make the website more user friendly.',
-                //   outcome:'Developed one-page adaptive website by showcasing the dining experience and adverstising menu items with business contact information for potential visitors',
-                //   myRole:'UX Research, Identify Target Audience, Usability Testing, Wireframing and creating prototypes for Tablets Version Design, Coding.',
-                //   research: RAmericano,
-                //   analyse: AAmericano,
-                //   design: DAmericano,
-                //   design2: DStranger2  
-                // },
-                // {
-                //   id: 4,
-                //   imageUrl: portfolio5,
-                //   title: 'Ebook App',
-                //   category: 'Single Page App',
-                //   tag: 'UI + HTML + Bootstrap + SASS + JS + JQuery',
-                //   toolUsed: 'UXPin, Trello, Google Doc, Atom, Github',
-                //   caseStudy: 'https://drive.google.com/file/d/1P5VkUeVY1-dIjWOXls0DKOx1TpR2xKbd/view?usp=sharing',
-                //   liveSite: 'https://pearly-choong.github.io/ebookApp/',
-                //   github: 'https://github.com/Pearly-choong/ebookApp' , 
-                //   brief: 'Create a single page app that will implement basic use cases which included view list, view detail and filter items by category.',
-                //   challenge: 'Use javascript to maniputlate the DOM, implement simple algorithms, design and develop a delightful user experience web app for the client.',
-                //   outcome:'An application have functionality to show/hide UI components based on user interaction.',
-                //   myRole:'Identify Business Requirement and User Rquirement, Competitor Analysis, Sketches, Wireframes, Prototyping, Write algorithm, Create FlowChart.',
-                //   research: REbook,
-                //   analyse: AEbook,
-                //   design: DEbook,
-                //   design2: DStranger2
-                // },
-                // {
-                //   id: 5,
-                //   imageUrl: portfolio6,
-                //   title: 'Service Industry Website',
-                //   category: 'Website Redesign',
-                //   tag: 'UI + HTML + CSS',
-                //   toolUsed: 'Google Doc, Sublime, Illustrator',
-                //   caseStudy: 'https://drive.google.com/file/d/1JKgtLBd6BdQOi8Ew4mwJYsqqbG2nVqXG/view?usp=sharing',
-                //   liveSite: 'https://pearly-choong.github.io/salonWebsite/',
-                //   github: 'https://github.com/Pearly-choong/salonWebsite' , 
-                //   brief: 'This is an assignment from Web design course. I have chosen to redesign an existing salon website, and develop with HTML and CSS.',
-                //   challenge: 'Needed a new small website of around four-five pages to showcase the brand and introduce salon team members on the site by displaying images and brief bio of each member.',
-                //   outcome:'A usable and aesthetically appealing online platform with brand identity.',
-                //   myRole:'User Research, Ideation, Sketches, Wireframes, Website Design, Coding.',
-                //   research: RSalon,
-                //   analyse: ASalon,
-                //   design: DSalon,
-                //   design2: DStranger2
-                // }                   
+                     
             ]
         }
     }
@@ -183,7 +112,7 @@ class Portfolio extends React.Component{
         const cardComponent = this.state.cards.map((card)=>{
             return (
                <PortfolioCard key={card.id} imgUrl={card.imageUrl} title={card.title} cat={card.category} 
-               tag={card.tag} toolUsed={card.toolUsed} cStudy={card.caseStudy} github={card.github} liveSite={card.liveSite} 
+               tag={card.tag} cStudy={card.caseStudy} github={card.github} liveSite={card.liveSite} 
                brief={card.brief} challenge={card.challenge} outcome={card.outcome} myRole={card.myRole} research={card.research} 
                analyse={card.analyse} design={card.design} design2={card.design2}/> 
             )

@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import './Navigation.scss';
 import { Navbar, Nav} from 'react-bootstrap';
 import Home from '../home/Home';
-import Project from '../showProject/ShowProject';
 import About from '../about/About';
-import Contact from '../contact/Contact';
 import Footer from '../footer/Footer';
 import logoSignature from '../../logo.png';
 import Portfolio from '../portfolio/Portfolio';
@@ -54,18 +52,6 @@ class Navigation extends React.Component{
         ReactDOM.render(aboutSection, document.getElementById('root'));
       }  
 
-      contact = ()=> {
-        console.log('Contact');
-        const contactSection = (
-          <div> 
-          <Navigation/>  
-          <Contact/>
-          <Footer/>
-          </div> 
-        )
-  
-        ReactDOM.render(contactSection, document.getElementById('root'));
-      }  
 
       landing = ()=> {
         console.log('Landing');

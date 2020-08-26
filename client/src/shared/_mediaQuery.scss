@@ -24,21 +24,20 @@
         font-size: 1.2rem;;
     }
 
-    // .my-links a {
-    //     font-size: 1rem;
-    // }
+    .social-icons .link {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+      } 
+    
+    
+      .social-icons .link:hover {
+        padding: 5px;
+        color: white;
+        margin-left: -5px;
+        transform: translateX(10px) rotate(360deg);
+      }
 
-    .my-contact li, .my-profile-img {
-        text-align: center;
-    }
-
-    // .my-footer-bg{
-    //     font-size: 0.6rem;
-    // }
-
-    // footer a {
-    //     font-size: 0.7rem;;
-    // }
 
 }
 
@@ -57,12 +56,9 @@
     .my-footer-bg, .my-footer-bg a{
         font-size: 1rem;
     }
-    // style home page
-    .intro__nameFont {
-        font-size: 2.2rem;
-    }
     
-    .intro__titleFont {
+    
+    .intro-font {
         font-size: 2.5rem;
         margin-bottom: 60px;
     }
@@ -103,17 +99,8 @@
         font-size: 1.1rem;
     }
 
-    //style homepage
-    .intro {
-        top: 50%;
-        left: 55%;
-      }
-
-    .intro__nameFont {
-        font-size: 3rem;
-    }
     
-    .intro__titleFont {
+    .intro-font {
         font-size: 3.5rem;
         margin-bottom: 100px;
     }
@@ -177,15 +164,8 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .intro {
-        top: 35%;
-      }
 
-    .intro__nameFont {
-        font-size: 3.3rem;
-    }
-    
-    .intro__titleFont {
+    .intro-font {
         font-size: 3.7rem;
         margin-bottom: 100px;
     }

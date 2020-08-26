@@ -1,26 +1,6 @@
 @import "../../shared/_variables.scss";
 
 
-
-
-//=================================
-
-// #greyscale img{
-//     -webkit-filter: grayscale(100%);
-//     filter: grayscale(100%);
-//     -webkit-transition: .3s ease-in-out;
-//     transition: .3s ease-in-out; 
-// }
-
-// #greyscale:hover img{
-//     -webkit-filter: grayscale(0);
-//     filter: grayscale(0);
-// }
-
-// .img-thumbnail{
-//   border: 3px solid white;
-// }
-
 figure.hover-content{
     color: #fff;
     position: relative;
@@ -96,9 +76,7 @@ figure.hover-content * {
     transition-delay: 0.3s;
     color: white;
   }
-//   figure.snip0015 h2 span {
-//     font-weight: 800;
-//   }
+
 figure.hover-content h6{
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
@@ -182,6 +160,22 @@ figure.hover-content h6{
   transform: scale(1.6);
 }
 
-// .caption-color {
-//     color: #234ef3;
+
+
+//=================================
+
+// #greyscale img{
+//     -webkit-filter: grayscale(100%);
+//     filter: grayscale(100%);
+//     -webkit-transition: .3s ease-in-out;
+//     transition: .3s ease-in-out; 
+// }
+
+// #greyscale:hover img{
+//     -webkit-filter: grayscale(0);
+//     filter: grayscale(0);
+// }
+
+// .img-thumbnail{
+//   border: 3px solid white;
 // }

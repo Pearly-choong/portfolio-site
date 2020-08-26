@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './PortfolioCard.scss';
-import Modal from '../modal/Modal';
 import ShowProject from '../showProject/ShowProject';
 import Navigation from '../navigation/Navigation';
 import Footer from '../footer/Footer';
@@ -14,7 +13,7 @@ class PortfolioCard extends React.Component{
           <div> 
           <Navigation/>  
           {/* <Work/> */}
-          <ShowProject title={this.props.title} category={this.props.cat} tag={this.props.tag} toolUsed={this.props.toolUsed} cStudy={this.props.cStudy} 
+          <ShowProject title={this.props.title} category={this.props.cat} tag={this.props.tag} cStudy={this.props.cStudy} 
           img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} challenge={this.props.challenge}
           outcome={this.props.outcome} myRole={this.props.myRole} research={this.props.research} analyse={this.props.analyse} design={this.props.design} 
           design2={this.props.design2}/>
@@ -27,21 +26,10 @@ class PortfolioCard extends React.Component{
         ReactDOM.render(showProjectSection, document.getElementById('root'));
       }
 
-    modal = ()=> {
-        const modalContent = (
-          <Modal title={this.props.title} category={this.props.cat} tag={this.props.tag} toolUsed={this.props.toolUsed} cStudy={this.props.cStudy} 
-          img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} challenge={this.props.challenge}
-          outcome={this.props.outcome} myRole={this.props.myRole} research={this.props.research} analyse={this.props.analyse} design={this.props.design} 
-          design2={this.props.design2}/>
-        )
-        ReactDOM.render(modalContent, document.getElementById('root'));
-      }
+   
 
     render(){
         return(
-            // <div id="greyscale" className="col-sm-12 col-md-6 col-lg-4 col-xl-4 pb-3" style={{width: '25rem'}}>
-            //     <img src={this.props.imgUrl} className="card-img-top" alt="Image"/>
-            // </div>
             
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" style={{width: '35rem'}}>
                 <figure className="hover-content shadow">   
