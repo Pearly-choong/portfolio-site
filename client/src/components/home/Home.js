@@ -55,7 +55,7 @@ class Home extends React.Component {
                     and best practices, including Programming Languages, Frameworks and Library, Principles of user Experience Design 
                     and Web Application Design.
                     See my<button className="btn-link home-link" onClick={this.portfolio}> &nbsp;projects</button> or 
-                    download my <a className="home-link" href="https://drive.google.com/file/d/1Nnj7VsxdEBL6LoyRUj04jZrBBh_eqty4/view?usp=sharing" target="_blank" target="_blank">CV</a> to learn more about me.
+                    download my <a className="home-link" href="https://drive.google.com/file/d/1bChH0_D7srCu4aP042VVF7bFQXzgpZL-/view?usp=sharing" target="_blank" target="_blank">CV</a> to learn more about me.
                     My website was hand coded and built with React 
                      <a className="home-link" href="https://github.com/Pearly-choong/portfolio-site" target="_blank"> view code in Github</a>
                 </p>
