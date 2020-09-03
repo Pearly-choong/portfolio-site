@@ -27,11 +27,11 @@ class Home extends React.Component {
 
     render(){
     
-            const myImg = {
-            maxWidth: '100%',
-            height: 'auto'
-           // objectFit: 'cover'
-          }
+          //   const myImg = {
+          //   maxWidth: '100%',
+          //   height: 'auto'
+          //  // objectFit: 'cover'
+          // }
 
 
           return(
@@ -39,10 +39,10 @@ class Home extends React.Component {
           <div>
             <div className="home-container row">
               {/* <img style={myBackground} src={background} alt="background"/> */}
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
-                <img className="d-block my-img-size" style={myImg} src={Img} alt="image"/>
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                <img className="my-img-size" src={Img} alt="image"/>
               </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-8 py-5 px-5 mw-100">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 pt-5 px-5 mw-100">
                
                 {/* <h1 className="display-3 text-color">PEARLY CHOONG</h1> */}
                 {/* <h3 className="text-dark pb-3">WEB DESIGNER & DEVELOPER</h3> */}

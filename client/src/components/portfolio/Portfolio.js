@@ -54,7 +54,7 @@ class Portfolio extends React.Component{
                   category: 'UX Research | UI | Front-end Development',
                   tag: 'HTML + SASS + JS + Jquery', 
                   caseStudy: 'https://drive.google.com/file/d/1s8mv3NcjJitT15AV3bOHbycnE9B2dMqY/view?usp=sharing',
-                  liveSite: 'https://github.com/Pearly-choong/zoneSmartHomeAutomation',
+                  liveSite: 'https://pearly-choong.github.io/zoneSmartHomeAutomation/',
                   github: 'https://github.com/Pearly-choong/zoneSmartHomeAutomation',
                   brief: 'An assignment at Yoobee College. I was tasked to design an application that makes connecting, controlling and using smart home devices that have functionality to show/hide UI components based on user interaction. Primary targeted on iphone 6/7/8 design. ',
                  // brief: 'An assignment at Yoobee College. I was tasked to design an application that makes connecting, controlling and using smart home devices useful, relevant and enjoyable. An existing electronics company is planning to release a new service for homeowners. Using a series of connected devices (smoke detectors, cameras, audio devices, lights, blind controls, etc) they intend to give customers control of their home and awareness of it’s health and security. ',

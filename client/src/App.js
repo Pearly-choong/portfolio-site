@@ -19,11 +19,14 @@ class App extends React.Component{
     )
 
     ReactDOM.render(homeSection, document.getElementById('root'));
+
+
+
   }
     render(){
       const steps = [   
         'Hello, my name is Pearly 👩🏻 ', 1500,
-        'Welcome to my Portfolio!', 1500
+        'Welcome to my Portfolio!', 1500,
       ]
 
       return(

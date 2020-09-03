@@ -25,8 +25,8 @@ class ShowProject extends React.Component {
                 </div>
                 <div className="my-4 text-center row my-links">
                   <a className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6" href={this.props.github} target="_blank"><span><i className="fab fa-github pr-2"></i></span>Code in Github</a>
-                  <p className="text-muted col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">Live Site Coming Soon</p>
-                  {/* <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href={this.props.liveSite} target="_blank"><span><i className="fab fa-chrome pr-2"></i></span>Live Site</a> */}
+                  {/* <p className="text-muted col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">Live Site Coming Soon</p> */}
+                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href={this.props.liveSite} target="_blank"><span><i className="fab fa-chrome pr-2"></i></span>Live Site</a>
                 </div>
               </div>
               </div>
