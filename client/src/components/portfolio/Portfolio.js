@@ -96,7 +96,7 @@ class Portfolio extends React.Component{
                   brief: 'Assignment project from web course. I was tasked to create a one page adaptive or responsive website to promote existing TV shows.',
                   challenge: 'To promote TV shows, inform potential visitors that a new season is coming soon.',
                   outcome:'Website will include a trailer,  provide season release date and countdown the days towards it, poster or images, a synopsis of the plot story, links to social media.',
-                  myRole:'Competitor Analysis Research, Identify Target Audience, Coding.',
+                  myRole:'Competitor Analysis Research, Identify Target Audience, Design, Coding.',
                   research: RStranger,
                   analyse: AStranger,
                   design: DStranger,

@@ -33,7 +33,7 @@ class PortfolioCard extends React.Component{
             
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" style={{width: '35rem'}}>
                 <figure className="hover-content shadow">   
-                    <img src={this.props.imgUrl} alt="Image"/>
+                    <img src={this.props.imgUrl} alt=""/>
                     <figcaption className="d-flex flex-column justify-content-center">
                         <h5>{this.props.title}</h5>
                         <p className="pt-1">{this.props.tag}</p>
