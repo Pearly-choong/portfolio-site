@@ -21,3 +21,49 @@
 .my-links a:hover {
     color: $theme-third-color;
 }
+
+
+
+.project-link {
+    background-color: $theme-primary-color;
+    position: relative;
+    transition: all .35s;
+    text-decoration: none;
+    font-family: $header-font;   
+    color: white;
+    border: none;
+}
+
+.project-link-fs {
+    font-size: 1.5rem;
+}
+
+.project-link span {
+    position: relative;
+    z-index: 2;
+}
+
+.project-link:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: $theme-secondary-color;
+    transition: all .35s;
+}
+
+
+.project-link:hover {
+    background-color: $theme-secondary-color;
+    color: $theme-primary-color;
+    border-color: $theme-primary-color;
+    text-decoration: none;
+}
+
+
+.project-link:hover:after {
+    width: 100%;
+}
+  

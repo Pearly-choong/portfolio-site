@@ -103,7 +103,8 @@ figure.hover-content h6{
     background-color: inherit;
     color: #ffffff;
     text-decoration: underline;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-family: $header-font;
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
     border: none;
@@ -145,7 +146,9 @@ figure.hover-content h6{
 
   figure.hover-content:hover figcaption a:hover, figure.hover-content:hover figcaption button:hover {
     color: $theme-line-color;
+    //text-transform: capitalize;
   }
+
 
 
   /*Zoom In*/

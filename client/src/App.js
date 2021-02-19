@@ -1,11 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import logo from './logo2.svg';
+//import logo from './logo2.svg';
 import './App.scss';
 import Home from './components/home/Home';
 import Navigation from './components/navigation/Navigation';
 import Typical from 'react-typical';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 
+AOS.init({
+  easing: 'ease-in-sine',
+});
 
 class App extends React.Component{
   home = ()=> {
@@ -25,18 +30,20 @@ class App extends React.Component{
   }
     render(){
       const steps = [   
-        'Hello, my name is Pearly 👩🏻 ', 1500,
-        'Welcome to my Portfolio!', 1500,
+        //'Hello  👋🏼 ', 2000,
+        'Hello, my name is Pearly 👩🏻', 2000,
+        'Welcome to my portfolio !', 2000,
       ]
 
       return(
          <div className="App">
                <header className="App-header">   
-                  <img src={logo} className="App-logo" alt="logo" /> 
+                  {/* <img src={logo} className="App-logo" alt="logo" />  */}
                   <div className="container text-center pt-5">
-                  <Typical wrapper="span" steps={steps} loop={1} className={'intro-font'} />
+                  <Typical wrapper="span" steps={steps} loop={Infinity} className={'intro-font'} />
                   </div>   
-                  <button className="btn mt-5 pt-5 my-enter-btn" onClick={this.home}><span><u>Enter the site..</u></span> </button>       
+                  <button className="btn mt-5 py-3 px-5 my-enter-btn project-link shadow-lg p-3 mb-5 rounded" onClick={this.home}><span>Enter the site..</span> </button>
+                  {/* <button className="btn mt-5 pt-5 my-enter-btn project-link" onClick={this.home}><span><u>Enter the site..</u></span> </button>               */}
                 </header> 
         </div>
        

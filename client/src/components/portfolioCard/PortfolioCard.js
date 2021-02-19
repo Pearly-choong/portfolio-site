@@ -14,9 +14,9 @@ class PortfolioCard extends React.Component{
           <Navigation/>  
           {/* <Work/> */}
           <ShowProject title={this.props.title} category={this.props.cat} tag={this.props.tag} cStudy={this.props.cStudy} 
-          img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} challenge={this.props.challenge}
-          outcome={this.props.outcome} myRole={this.props.myRole} research={this.props.research} analyse={this.props.analyse} design={this.props.design} 
-          design2={this.props.design2}/>
+          img={this.props.imgUrl} liveSite={this.props.liveSite} github={this.props.github} brief={this.props.brief} overview={this.props.overview} 
+          problem={this.props.problem} goal={this.props.goal} audience={this.props.audience} myRole={this.props.myRole} research={this.props.research} 
+          analyse={this.props.analyse} design={this.props.design} design2={this.props.design2}/>
           <div className="text-center">
           <Footer/>
           </div>
@@ -36,7 +36,7 @@ class PortfolioCard extends React.Component{
                     <img src={this.props.imgUrl} alt=""/>
                     <figcaption className="d-flex flex-column justify-content-center">
                         <h5>{this.props.title}</h5>
-                        <p className="pt-1">{this.props.tag}</p>
+                        <p className="pt-1 tag-size">{this.props.tag}</p>
                         {/* <a className="pt-1" href={this.props.liveSite} target="_blank">View Project</a> */}
                         <button className="btn-link" onClick={this.showProject}>View Project</button> 
                         {/* <button className="btn-link" onClick={this.modal}>Case Study</button>                      */}
