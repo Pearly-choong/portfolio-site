@@ -12,6 +12,7 @@ import DHome2 from '../../images/homeAutomation/DHome2.jpg';
 import RStranger from '../../images/strangerThings/RStranger.jpg';
 import AStranger from '../../images/strangerThings/AStranger.jpg';
 import DStranger from '../../images/strangerThings/DStranger.jpg';
+import DStranger2 from '../../images/strangerThings/DStranger2.jpg';
 import RMealKit from '../../images/mealkit/RMealKit.jpg';
 import AMealKit from '../../images/mealkit/AMealKit.jpg';
 import DMealKit from '../../images/mealkit/DMealKit.jpg';
@@ -19,7 +20,8 @@ import DMealKit2 from '../../images/mealkit/DMealKit2.jpg';
 import RTreatme from '../../images/treatme/RTreatme.jpg';
 import ATreatme from '../../images/treatme/ATreatme.jpg';
 import DTreatme from '../../images/treatme/DTreatme.jpg';
-import ProjectBg from '../../images/treatme/blank.jpg';
+import DTreatme2 from '../../images/treatme/DTreatme2.jpg';
+//import ProjectBg from '../../images/strangerThings/blank.jpg';
 
 
 class Portfolio extends React.Component{
@@ -61,7 +63,7 @@ class Portfolio extends React.Component{
                   brief: 'An assignment at Yoobee College. I was tasked to design an application that makes connecting, controlling and using smart home devices that have functionality to show/hide UI components based on user interaction. Primary targeted on iphone 6/7/8 design. ',
                   overview : 'Zone Smart Home Automation is an application which allows user to control smart home devices in one place with a simple and elegant interface. ',
                   problem: 'An existing electronics company is planning to release a new service for homeowners. They have developed a range of smart home devices such as smart plugs, lights, cameras, alarms, doors etc. While they are intended in creating a new smart home automation control app package with their own brand. Current existing home automation provider, held back by outdated UX and complicated for users to learn and navigate.',
-                  audience: 'The primary target users of the Zone Smart Home Automation app are young professionals working in the creative services industry. Aged between 25-34, home owner, exisiting user. These users have a strong preference for mobile-first.',
+                  audience: 'The primary target users of the Zone Smart Home Automation app are young professionals working in the creative services industry. Ages between 25 and 34, home owner, exisiting user. These users have a strong preference for mobile-first.',
                   goal:'To create new ways for customers to engage with the brand to increase awareness and drive sales. Design an easy to navigate smart home automation app that accessible for mobile and tablet / wall mount sizes so that customers can remotely control their home from anywhere. ',
                   myRole:'Involved in all web and app design stages from concept to final end implementation. UX Research, Ideation, Concept Creation, User Flow, Wireframes, Prototypes, UI design, Usability Testing, Coding.',
                   research: RHome,
@@ -78,16 +80,16 @@ class Portfolio extends React.Component{
                   caseStudy: 'https://drive.google.com/file/d/1G9XTh4H8Yzb7hJ5tbXQKjOR7fGPyytka/view?usp=sharing',
                   liveSite: 'http://167.172.140.162/summative3/frontEnd/',
                   github: 'https://github.com/Pearly-choong/summative3',
-                  brief: 'This project is to work as a team to build an application that use an API to produce a web interface. A C2C platform that allows users to register / login their account, to sell and buy baking goods through online. Registered member able to update thier profile, add new, update or delete their product list.',
+                  brief: 'This project is to work as a team to build an application that use an API to produce a web interface. A C2C platform that allows users to register / login their account, to sell and buy baking goods through online. Registered member able to update thier profile, add new, update or delete their listing.',
                   overview: 'Treat Me app is a C2C (Consumer to consumer) platformas match buyers with sellers, the type of e-commerce is made up of online classified or forums where individuals can buy and sell their baked goods.',
                   problem:'There’s no online C2C platform for selling/buying baked goods in the current market. A lot of home bakers would like to do the startup but do not have enough funds. Our client would like to create a C2C market space for these users to sell their baked goods and buy online. The platform should allow the buyer to post a product with its associated details, while buyers should be able to view, leave comments and ask questions about the products.',
                   audience: 'The primary target users of the Treat Me app are self-employed/unemployed home baker that interested in buying/selling cakes or donuts and wanting to make some small income, 70% female: 30% male; While the secondary target audience is full-time employment that also is home baker, would dream to be a master chief however does not like the lifestyle that comes with it so prefers to do it low key and in their own time without added pressure.',
                   goal:'The aim of this project was to allow home bakers to list their baked goods online and sell them.  Our objective was to design and create an intuitive and easy-to-use platform that allows sellers to sell their baking through images and description, and buyers to navigate through.',
-                  myRole:'UX Research, Identify Target Audience, Usability Testing, Wireframing and creating prototypes for Tablets Version Design, Coding.',
+                  myRole:'UX Research, Identify Target Audience, Usability Testing, Wireframing and creating prototypes for Mobile Version, Coding.',
                   research: RTreatme,
                   analyse: ATreatme,
                   design: DTreatme,
-                  design2: ProjectBg  
+                  design2: DTreatme2  
                 },
                 {
                   id: 3,
@@ -98,15 +100,16 @@ class Portfolio extends React.Component{
                   caseStudy: 'https://drive.google.com/file/d/1GVMp1wWzOyT2Cygu6uHlNAeoCADueBuD/view?usp=sharing',
                   liveSite: 'https://pearly-choong.github.io/tvShowWebsite/',
                   github: 'https://github.com/Pearly-choong/tvShowWebsite',
-                  brief: 'Assignment project from web course. I was tasked to create and design a one page adaptive or responsive website to promote existing TV shows.',
-                  challenge: 'To promote TV shows, inform potential visitors that a new season is coming soon.',
-                  outcome:'Website will include a trailer,  provide season release date and countdown the days towards it, poster or images, a synopsis of the plot story, links to social media.',
-                  goal:'A custom WordPress theme website was designed and developed for Meal Kits delivery services that allow visitors to be able access information relating to the services provided. They also intend to showcase examples of thier meal kit menu, telling stories of their services to give potential customers a more intimate view of the business and thier relationship with clients.',
+                  brief: 'Assignment project from web course. I was tasked to create and design a one page adaptive and responsive website to promote existing TV shows.',
+                  overview: 'This is a website to promote Stranger Things Season 3 TV series. The website provided a trailer, character poster image, synopsis of the plot story, countdown days and social media link.',
+                  problem: 'Stranger Things is one of the most popular streaming shows in the world. As a lot of fans will always want to know if there is a new season coming up and what would be the continuing story. I was tasked to create a theme website to promote this TV series, to inform potential visitors that a new season is coming.',
+                  audience:'The audience of this website aimed at people between ages 15 and 29 and had watched every episode of Netflix show “Stranger Things” season one and two.',
+                  goal:'To have an attractive user experience that immerses the audience in the world of suspense and science fiction.',
                   myRole:'Competitor Analysis Research, Identify Target Audience, Design, Coding.',
                   research: RStranger,
                   analyse: AStranger,
                   design: DStranger,
-                  design2: ProjectBg  
+                  design2: DStranger2  
                 }
                      
             ]

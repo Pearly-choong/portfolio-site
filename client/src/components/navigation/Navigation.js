@@ -62,7 +62,7 @@ class Navigation extends React.Component{
                         <Nav>
                             <Nav.Link className="pr-4" onClick={this.home}>ABOUT</Nav.Link>
                             <Nav.Link className="pr-4" onClick={this.portfolio}>PORTFOLIO</Nav.Link>
-                            <Nav.Link className="pr-4" href="https://drive.google.com/file/d/1aEVYliCopixlbpmpYZjiwSMXCnGrkb19/view?usp=sharing" target="_blank">CV</Nav.Link>
+                            <Nav.Link className="pr-4" href="https://drive.google.com/file/d/1bOu8HIdF3uVLn8_SBcX9ejFHBOX5DQm9/view?usp=sharing" target="_blank">RESUME</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>              
                 </Navbar> 
