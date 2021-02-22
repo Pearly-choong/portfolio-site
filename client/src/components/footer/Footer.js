@@ -5,7 +5,7 @@ import './Footer.scss';
 class Footer extends React.Component{
     render(){
         return (
-             <div className="my-background">
+             <div className="my-background contact-group">
                  {/* <hr className="break-line"></hr> */}
                  {/* <div className="col-xs-12 col-sm-6 col-md-6 col-xl-6"> */}
                  <p className="pt-5">CONTACT ME at<a className="my-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></p>

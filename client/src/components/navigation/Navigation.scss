@@ -11,11 +11,11 @@ a {
 }
 
 
-.navbar-light .navbar-brand {
+.navbar-light .navbar-brand, .router-link {
   color: black;
 }
 
-.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
+.navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus, .router-link:hover, .router-link:focus {
   color: $theme-primary-color;
 }
 

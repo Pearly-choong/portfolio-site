@@ -22,7 +22,8 @@ import ATreatme from '../../images/treatme/ATreatme.jpg';
 import DTreatme from '../../images/treatme/DTreatme.jpg';
 import DTreatme2 from '../../images/treatme/DTreatme2.jpg';
 //import ProjectBg from '../../images/strangerThings/blank.jpg';
-
+import Navigation from '../navigation/Navigation';
+import Footer from '../footer/Footer';
 
 class Portfolio extends React.Component{
 
@@ -131,12 +132,16 @@ class Portfolio extends React.Component{
 
         return(
           <div className="my-background">
+            <Navigation />
             <div className="container">
               <div className="row py-5 mx-0">
                   {cardComponent}
               </div>
             </div>
             <hr className="break-line"></hr>
+            <div className="text-center">
+             <Footer/>
+            </div>
           </div>
         )
     }

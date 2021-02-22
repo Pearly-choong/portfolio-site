@@ -4,6 +4,7 @@ import './ShowProject.scss';
 import Navigation from '../navigation/Navigation';
 import Portfolio from '../portfolio/Portfolio';
 import Footer from '../footer/Footer';
+import { Link } from 'react-router-dom';
 
 class ShowProject extends React.Component {
     
@@ -25,14 +26,15 @@ class ShowProject extends React.Component {
     render(){
           
           return(
-          <div> 
+          <div>
+            <Navigation /> 
             <div className="text-center mt-5 py-3">
               <h1 className="page-title">{this.props.title}</h1>        
             </div>   
             <div className="portfolio-content container">
               {/* <Portfolio/> */}
               <div className="row">
-              <img data-aos="fade-right" data-aos-duration="500" src={this.props.img} alt="Scenes" className="m-auto d-block col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" />
+              <img data-aos="fade-right" data-aos-duration="500" src={this.props.img} alt="Images" className="m-auto d-block col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" />
               <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" data-aos="fade-left" data-aos-duration="500">
                 <div className="row px-3 pt-5">
                   <h5 className="my-title font-weight-bold">{this.props.category}</h5> 
@@ -71,19 +73,23 @@ class ShowProject extends React.Component {
                 </div>
                 <div className="info-container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                 <h4 className="pt-4 pl-3 text-dark">Design Process:  </h4>
-                  <img src={this.props.research} alt="Scenes" className="w-100 m-auto d-block" />
-                  <img src={this.props.analyse} alt="Scenes" className="w-100 m-auto d-block" />
-                  <img src={this.props.design} alt="Scenes" className="w-100 m-auto d-block" />
-                  <img src={this.props.design2} alt="Scenes" className="w-100 m-auto d-block" />
+                  <img src={this.props.research} alt="Images" className="w-100 m-auto d-block" />
+                  <img src={this.props.analyse} alt="Images" className="w-100 m-auto d-block" />
+                  <img src={this.props.design} alt="Images" className="w-100 m-auto d-block" />
+                  <img src={this.props.design2} alt="Images" className="w-100 m-auto d-block" />
                 </div>
                 <div className="my-3 text-center row my-links">
                   <a className="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" href={this.props.cStudy} target="_blank" rel="noopener noreferrer"><span><i className="far fa-file-pdf pr-2"></i></span>Read Full Documentation</a>
                 </div>
                 <div className="my-3 text-center d-flex justify-content-center wrapper py-5">
-                <button className="btn-link py-2 px-4 project-link project-link-fs shadow p-3 mb-5 rounded" onClick={this.portfolio}><span>View Other Projects</span></button> 
+                {/* <button className="btn-link py-2 px-4 project-link project-link-fs shadow p-3 mb-5 rounded" onClick={this.portfolio}><span>View Other Projects</span></button>  */}
+                <Link to="/Portfolio" className="btn-link py-2 px-4 project-link project-link-fs shadow p-3 mb-5 rounded"><span>View Other Projects</span></Link> 
                 </div>
             </div>  
             <hr className="break-line"></hr>
+            <div className="text-center">
+             <Footer/>
+            </div>
           </div>
           
         )

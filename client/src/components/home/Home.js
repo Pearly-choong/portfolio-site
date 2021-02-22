@@ -5,7 +5,7 @@ import Img from '../../images/img01.jpg';
 import Navigation from '../navigation/Navigation';
 import Portfolio from '../portfolio/Portfolio';
 import Footer from '../footer/Footer';
-
+import { Link } from 'react-router-dom';
 
 class Home extends React.Component {
 
@@ -32,15 +32,15 @@ class Home extends React.Component {
           //   height: 'auto'
           //  // objectFit: 'cover'
           // }
-
-
+          
           return(
          
           <div>
+            <Navigation />
             <div className="home-container row">
               {/* <img style={myBackground} src={background} alt="background"/> */}
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-4" data-aos="fade-right">
-                <img className="my-img-size" src={Img} alt=""/>
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 text-center" data-aos="fade-right">
+                <img className="my-img-size" src={Img} alt="Pearly Choong"/>
               </div>
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 pt-5 px-5 mw-100" data-aos="fade-left">
                
@@ -49,12 +49,11 @@ class Home extends React.Component {
                 
                 <h2 className="my-title">I'm a product designer <span role="img" aria-label="designer">👩🏻‍🎨</span> and web developer <span role="img" aria-label="developer">👩🏻‍💻</span> , where I'm passionate about UI/UX design and web development. </h2>
                 <br/>
-                 
                 <p> I have learnt UX / UI design, front-end and back-end development at <a className="home-link" href="https://www.yoobee.ac.nz/" target="_blank" rel="noopener noreferrer">Yoobee Colleges</a>. 
                     In my two years at Yoobee College, I’ve completed a great deal of assignment on web development, design trends 
                     and best practices, including Programming Languages, Frameworks and Library, Principles of user Experience Design 
                     and Web Application Design.
-                    See my<button className="btn-link home-link" onClick={this.portfolio}> &nbsp;projects</button> or 
+                    See my  <Link to="/Portfolio" className="home-link">projects</Link>  or 
                     download my <a className="home-link" href="https://drive.google.com/file/d/1bOu8HIdF3uVLn8_SBcX9ejFHBOX5DQm9/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a> to learn more about me.
                     My website was hand coded and built with React 
                      <a className="home-link" href="https://github.com/Pearly-choong/portfolio-site" target="_blank" rel="noopener noreferrer"> view code in Github</a>
@@ -65,15 +64,8 @@ class Home extends React.Component {
                 <div className="float-left">
                 <Footer/>  
                 </div>
-                
-               
+                        
               </div>
-              {/* <div className="indicator">
-                <p className="pb-4">Selected Projects</p>           
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>   */}
             </div>
             
           </div>
