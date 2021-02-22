@@ -1,5 +1,5 @@
 # Web Portfolio - Pearly Choong
-A portfolio that showcase example of my works. 
+A portfolio that showcases examples of my works. 
 
 
 Contact: </br>
