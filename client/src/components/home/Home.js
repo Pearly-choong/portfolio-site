@@ -55,8 +55,6 @@ class Home extends React.Component {
                    I loved human-centered design methods and processes I learned in study and applied them to my project. 
                     See my  <Link to="/Portfolio" className="home-link"><strong>projects</strong></Link>  or 
                     download my <a className="home-link" href="https://drive.google.com/file/d/1X5-YIGJ2uXAJzYOMglGcQLwi3I5mk-VQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>resume</strong></a> to learn more about me.
-                    You can also view my code on my
-                     <a className="home-link" href="https://github.com/Pearly-choong/portfolio-site" target="_blank" rel="noopener noreferrer"><strong> Github </strong></a>  page.
                 </p>
                 <p>In my spare time, I love to travel, relax and read. I enjoy family time and catch up with friends whenever possible.</p>
               
