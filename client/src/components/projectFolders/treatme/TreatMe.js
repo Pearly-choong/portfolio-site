@@ -78,7 +78,7 @@ class TreatMe extends React.Component {
                 </div>
             </div>  
             <hr className="break-line"></hr>
-            <div className="text-center">
+            <div className="text-center px-5">
              <Footer/>
             </div>
           </div>
