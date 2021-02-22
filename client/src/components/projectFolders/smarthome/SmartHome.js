@@ -24,7 +24,7 @@ class SmartHome extends React.Component {
             <div className="portfolio-content container">
               {/* <Portfolio/> */}
               <div className="row">
-              <img data-aos="fade-right" data-aos-duration="500" src={portfolio2} alt="Images" className="m-auto d-block col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4" />
+              <img data-aos="fade-right" data-aos-duration="500" src={portfolio2} alt="Images" className="m-auto d-block col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4 figure-img" />
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4" data-aos="fade-left" data-aos-duration="500">
                 <div className="row px-3 pt-5">
                   <h5 className="my-title font-weight-bold">UX Research | UI | Front-end Development</h5> 

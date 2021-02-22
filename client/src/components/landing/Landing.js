@@ -33,8 +33,8 @@ class Landing extends React.Component{
   }
     render(){
       const steps = [   
-        //'Hello  👋🏼 ', 2000,
-        'Hello, my name is Pearly 👩🏻', 2000,
+        'Hello  👋🏼 ', 2000,
+        //'Hello, my name is Pearly 👩🏻', 2000,
         'Welcome to my portfolio !', 2000,
       ]
 

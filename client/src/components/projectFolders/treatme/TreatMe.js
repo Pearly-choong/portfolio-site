@@ -25,8 +25,8 @@ class TreatMe extends React.Component {
             <div className="portfolio-content container">
               {/* <Portfolio/> */}
               <div className="row">
-              <img data-aos="fade-right" data-aos-duration="500" src={portfolio3} alt="Images" className="m-auto d-block col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" />
-              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pr-5 pb-4" data-aos="fade-left" data-aos-duration="500">
+              <img data-aos="fade-right" data-aos-duration="500" src={portfolio3} alt="Images" className="m-auto d-block col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4 figure-img" />
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4" data-aos="fade-left" data-aos-duration="500">
                 <div className="row px-3 pt-5">
                   <h5 className="my-title font-weight-bold">UX Research | UI | Full Stack Web Development</h5> 
                   <p>This project is to work as a team to build an application that use an API to produce a web interface. A C2C platform that allows users to register / login their account, to sell and buy baking goods through online. Registered member able to update thier profile, add new, update or delete their listing.</p><br/>
