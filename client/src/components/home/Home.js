@@ -52,7 +52,7 @@ class Home extends React.Component {
                     outside of my comfort zone, and have an innate desire to build user-interfaces that will intuitively solve problems and create a seamless experience for the end user.
                 </p>
                 <p>I graduated from <a className="home-link" href="https://www.yoobee.ac.nz/" target="_blank" rel="noopener noreferrer"><strong>Yoobee Colleges</strong></a>, Wellington with a diploma in <strong>Web and UX Design</strong>. 
-                   I loved human-centered design methods and processes I learned in study and applied them to my project. 
+                   I loved the human-centered design methods and processes I learned in my study and applied them to my project. 
                     See my  <Link to="/Portfolio" className="home-link"><strong>projects</strong></Link>  or 
                     download my <a className="home-link" href="https://drive.google.com/file/d/1X5-YIGJ2uXAJzYOMglGcQLwi3I5mk-VQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>resume</strong></a> to learn more about me.
                 </p>

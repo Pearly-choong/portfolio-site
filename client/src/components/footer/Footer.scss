@@ -45,6 +45,16 @@ a:hover{
   color: $theme-third-color
 }
 
+.contact-group a {
+  font-size: 2rem;
+  color: black;
+}
+
+.contact-group a:hover {
+  text-decoration: none;
+  color: $theme-primary-color;
+}
+
 
 .social-icons .link {
   display: inline-block;

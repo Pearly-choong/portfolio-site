@@ -9,6 +9,7 @@ import RMealKit from '../../../images/mealkit/RMealKit.jpg';
 import AMealKit from '../../../images/mealkit/AMealKit.jpg';
 import DMealKit from '../../../images/mealkit/DMealKit.jpg';
 import DMealKit2 from '../../../images/mealkit/DMealKit2.jpg';
+import { FaGithub, FaChrome, FaFilePdf } from 'react-icons/fa';
 
 class MealKit extends React.Component {
     
@@ -33,9 +34,9 @@ class MealKit extends React.Component {
                   <p>Skills : UX/UI + WordPress + PHP + WooCommerce + Bootstrap</p><br/>
                 </div>
                 <div className="my-4 text-center row my-links">
-                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="https://github.com/Pearly-choong/mealkit-service-wp-theme" target="_blank" rel="noopener noreferrer"><span><i className="fab fa-github pr-2"></i></span>Code in Github</a>
+                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="https://github.com/Pearly-choong/mealkit-service-wp-theme" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaGithub/></span>Code in Github</a>
                   {/* <p className="text-muted col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">Live Site Coming Soon</p> */}
-                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="http://68.183.98.69/" target="_blank" rel="noopener noreferrer"><span><i className="fab fa-chrome pr-2"></i></span>Live Site</a>
+                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="http://68.183.98.69/" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaChrome/></span>Live Site</a>
                 </div>
               </div>
               </div>
@@ -69,7 +70,7 @@ class MealKit extends React.Component {
                   <img src={DMealKit2} alt="Images" className="w-100 m-auto d-block" />
                 </div>
                 <div className="my-3 text-center row my-links">
-                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" href='https://drive.google.com/file/d/1EUlKgbdcT27heweOk3y_LrK2twmZGmYk/view?usp=sharing' target="_blank" rel="noopener noreferrer"><span><i className="far fa-file-pdf pr-2"></i></span>Read Full Documentation</a>
+                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" href='https://drive.google.com/file/d/1EUlKgbdcT27heweOk3y_LrK2twmZGmYk/view?usp=sharing' target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaFilePdf/></span>Read Full Documentation</a>
                 </div>
                 <div className="my-3 text-center d-flex justify-content-center wrapper py-5">
                 {/* <button className="btn-link py-2 px-4 project-link project-link-fs shadow p-3 mb-5 rounded" onClick={this.portfolio}><span>View Other Projects</span></button>  */}
