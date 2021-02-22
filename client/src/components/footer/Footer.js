@@ -11,9 +11,6 @@ class Footer extends React.Component{
                      <a className="link mx-2" href="https://www.linkedin.com/in/pearly-choong/" target="_blank" rel="noopener noreferrer"><FaLinkedin/> </a>
                      <a className="link mx-2" href="https://github.com/Pearly-choong" target="_blank" rel="noopener noreferrer"> <FaGithub/> </a>
                      <a className="link mx-2" href="https://www.behance.net/choongplf52b" target="_blank" rel="noopener noreferrer"> <FaBehance/></a>
-                     {/* <a className="link linked" href="https://www.linkedin.com/in/pearly-choong/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
-                     <a className="link github" href="https://github.com/Pearly-choong" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
-                     <a className="link behance" href="https://www.behance.net/choongplf52b" target="_blank" rel="noopener noreferrer"><i className="fab fa-behance"></i></a> */}
                  </div>
                  <p className="pt-1">CONTACT ME at<a className="my-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></p>
                  <footer className="my-footer-bg pb-5">
