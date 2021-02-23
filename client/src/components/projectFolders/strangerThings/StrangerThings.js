@@ -30,7 +30,7 @@ class StrangerThings extends React.Component {
                   <h5 className="my-title font-weight-bold">UX Research | UI | Front-end Development</h5> 
                   <p>Assignment project from web course. I was tasked to create and design a one page adaptive and responsive website to promote existing TV shows.</p><br/>
                   <hr className="break-line"></hr>
-                  <p>Skills : UX/UI + HTML + CSS + Javascript</p><br/>
+                  <p>Skills : UX/UI + HTML + CSS + JavaScript</p><br/>
                 </div>
                 <div className="my-4 text-center row my-links">
                   <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="https://github.com/Pearly-choong/tvShowWebsite" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaGithub/></span>Code in Github</a>
@@ -68,8 +68,9 @@ class StrangerThings extends React.Component {
                   <img src={DStranger} alt="Images" className="w-100 m-auto d-block" />
                   <img src={DStranger2} alt="Images" className="w-100 m-auto d-block" />
                 </div>
-                <div className="my-3 text-center row my-links">
-                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" href="https://drive.google.com/file/d/1GVMp1wWzOyT2Cygu6uHlNAeoCADueBuD/view?usp=sharing" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaFilePdf/></span>Read Full Documentation</a>
+                <div className="my-3 ml-5 d-flex flex-column my-links">
+                  <a className="py-2" href="https://drive.google.com/file/d/1GVMp1wWzOyT2Cygu6uHlNAeoCADueBuD/view?usp=sharing" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaFilePdf/></span>Read Full Documentation</a>
+                  <a className="py-2" href="https://pearly-choong.github.io/tvShowWebsite/" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaChrome/></span>Live Site</a>
                 </div>
                 <div className="my-3 text-center d-flex justify-content-center wrapper py-5">
                 {/* <button className="btn-link py-2 px-4 project-link project-link-fs shadow p-3 mb-5 rounded" onClick={this.portfolio}><span>View Other Projects</span></button>  */}

@@ -31,7 +31,7 @@ class TreatMe extends React.Component {
                   <h5 className="my-title font-weight-bold">UX Research | UI | Full Stack Web Development</h5> 
                   <p>This project is to work as a team to build an application that use an API to produce a web interface. A C2C platform that allows users to register / login their account, to sell and buy baking goods through online. Registered member able to update thier profile, add new, update or delete their listing.</p><br/>
                   <hr className="break-line"></hr>
-                  <p>Skills : UX/UI + Bootstrap SASS, Javascript, JQuery, Node.js</p><br/>
+                  <p>Skills : UX/UI + Bootstrap SASS, JavaScript, JQuery, Node.js</p><br/>
                 </div>
                 <div className="my-4 text-center row my-links">
                   <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="https://github.com/Pearly-choong/summative3" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaGithub/></span>Code in Github</a>
@@ -69,8 +69,9 @@ class TreatMe extends React.Component {
                   <img src={DTreatme} alt="Images" className="w-100 m-auto d-block" />
                   <img src={DTreatme2} alt="Images" className="w-100 m-auto d-block" />
                 </div>
-                <div className="my-3 text-center row my-links">
-                  <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" href="https://drive.google.com/file/d/1G9XTh4H8Yzb7hJ5tbXQKjOR7fGPyytka/view?usp=sharing" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaFilePdf/></span>Read Full Documentation</a>
+                <div className="my-3 ml-5 d-flex flex-column my-links">
+                  <a className="py-2" href="https://drive.google.com/file/d/1G9XTh4H8Yzb7hJ5tbXQKjOR7fGPyytka/view?usp=sharing" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaFilePdf/></span>Read Full Documentation</a>
+                  <a className="py-2" href="https://www.figma.com/proto/prLyTgW5E2gwcL5yxx5weD/treatme?node-id=1039%3A532&scaling=scale-down" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaChrome/></span>Prototypes</a>
                 </div>
                 <div className="my-3 text-center d-flex justify-content-center wrapper py-5">
                 {/* <button className="btn-link py-2 px-4 project-link project-link-fs shadow p-3 mb-5 rounded" onClick={this.portfolio}><span>View Other Projects</span></button>  */}
