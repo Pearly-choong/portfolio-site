@@ -54,7 +54,7 @@ class Home extends React.Component {
                 <p>I graduated from <a className="home-link" href="https://www.yoobee.ac.nz/" target="_blank" rel="noopener noreferrer"><strong>Yoobee Colleges</strong></a>, Wellington with a diploma in <strong>Web and UX Design</strong>. 
                    I loved the human-centered design methods and processes I learned in my study and applied them to my project. 
                     See my  <Link to="/Portfolio" className="home-link"><strong>projects</strong></Link>  or 
-                    download my <a className="home-link" href="https://drive.google.com/file/d/1X5-YIGJ2uXAJzYOMglGcQLwi3I5mk-VQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>resume</strong></a> to learn more about me.
+                    download my <a className="home-link" href="https://drive.google.com/file/d/14qxZB3HPx1v5Qz9J55J05wKQOZIQAOW8/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>resume</strong></a> to learn more about me.
                 </p>
                 <p>In my spare time, I love to travel, relax and read. I enjoy family time and catch up with friends whenever possible.</p>
               

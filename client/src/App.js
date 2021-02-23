@@ -8,6 +8,7 @@ import { Routes } from "./views/Routes";
 
 AOS.init({
   easing: 'ease-in-sine',
+  disable: 'mobile',
 });
 
 class App extends React.Component{
