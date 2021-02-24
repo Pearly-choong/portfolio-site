@@ -30,7 +30,7 @@ class StrangerThings extends React.Component {
                   <h5 className="my-title font-weight-bold">UX Research | UI | Front-end Development</h5> 
                   <p>Assignment project from web course. I was tasked to create and design a one page adaptive and responsive website to promote existing TV shows.</p><br/>
                   <hr className="break-line"></hr>
-                  <p>Skills : UX/UI + HTML + CSS + JavaScript</p><br/>
+                  <p>Skills : UX/UI + HTML5 + CSS3 + JavaScript</p><br/>
                 </div>
                 <div className="my-4 text-center row my-links">
                   <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="https://github.com/Pearly-choong/tvShowWebsite" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaGithub/></span>Code in Github</a>

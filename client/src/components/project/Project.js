@@ -37,7 +37,7 @@ class Portfolio extends React.Component{
                         <img src={portfolio2} alt="images"/>
                         <figcaption className="d-flex flex-column justify-content-center">
                             <h5>Home Automation</h5>
-                            <p className="pt-1 tag-size">UX/UI + HTML + SASS + JavaScript + Jquery</p>
+                            <p className="pt-1 tag-size">UX/UI + HTML5 + SASS + JavaScript + Jquery</p>
                             <Link to='/Portfolio-HomeAutomation-Project' className="btn-link">View Project</Link>          
                         </figcaption>
                     </figure>
@@ -59,7 +59,7 @@ class Portfolio extends React.Component{
                         <img src={portfolio4} alt="images"/>
                         <figcaption className="d-flex flex-column justify-content-center">
                             <h5>Stranger Things 3</h5>
-                            <p className="pt-1 tag-size">UX/UI + HTML + CSS + JavaScript</p>
+                            <p className="pt-1 tag-size">UX/UI + HTML5 + CSS3 + JavaScript</p>
                             <Link to='/Portfolio-StrangerThings3-Project' className="btn-link">View Project</Link>          
                         </figcaption>
                     </figure>

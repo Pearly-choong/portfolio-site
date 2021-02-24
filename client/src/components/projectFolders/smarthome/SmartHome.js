@@ -30,7 +30,7 @@ class SmartHome extends React.Component {
                   <h5 className="my-title font-weight-bold">UX Research | UI | Front-end Development</h5> 
                   <p>An assignment at Yoobee College. I was tasked to design an application that makes connecting, controlling and using smart home devices that have functionality to show/hide UI components based on user interaction. Primary targeted on iphone 6/7/8 design.</p><br/>
                   <hr className="break-line"></hr>
-                  <p>Skills : UX/UI + HTML + SASS + JavaScript + Jquery</p><br/>
+                  <p>Skills : UX/UI + HTML5 + SASS + JavaScript + Jquery</p><br/>
                 </div>
                 <div className="my-4 text-center row my-links">
                   <a className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" href="https://github.com/Pearly-choong/zoneSmartHomeAutomation" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaGithub/></span>Code in Github</a>
