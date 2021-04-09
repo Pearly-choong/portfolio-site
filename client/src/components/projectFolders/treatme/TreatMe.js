@@ -47,7 +47,7 @@ class TreatMe extends React.Component {
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">My Role:  </h4>
-                    <p>UX Research, Identify Target Audience, Usability Testing, Wireframing and creating prototypes for Mobile Version, Coding.</p>
+                    <p>UX Research, Identify Target Audience, Usability Testing, Site Map, Wireframing and creating prototypes for Desktop Version, Coding.</p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">The Problem:  </h4>
