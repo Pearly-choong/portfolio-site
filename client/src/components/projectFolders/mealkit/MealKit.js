@@ -47,7 +47,7 @@ class MealKit extends React.Component {
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">My Role:  </h4>
-                    <p>UX Research, Ideation, Concept Creation, User Flow, Sketches, Wireframes, Usability Testing, Website Design, Coding, Writing User Documentation</p>
+                    <p>UX Research, Ideation, Concept Creation, User Flow, Sketches, Wireframes, Usability Testing, Website Design, Coding, Acceptance Testing, Broswer Testing, Writing User Documentation</p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Challenge:  </h4>
@@ -71,6 +71,7 @@ class MealKit extends React.Component {
                 </div>
                 <div className="my-3 ml-5 d-flex flex-column my-links">
                   <a className="py-2" href='https://drive.google.com/file/d/1EUlKgbdcT27heweOk3y_LrK2twmZGmYk/view?usp=sharing' target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaFilePdf/></span>Read Full Documentation</a>
+                  <a className="py-2" href='https://drive.google.com/file/d/1R2XA9iN_3udGZfL-eIs9g7khhb-bUgZb/view?usp=sharing' target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaFilePdf/></span>Testing Report</a>
                   <a className="py-2" href="http://68.183.98.69/" target="_blank" rel="noopener noreferrer"><span className="pr-2"><FaChrome/></span>Live Site</a>
                 </div>
                 {/* <div className="my-3 text-center d-flex justify-content-center wrapper pt-5">

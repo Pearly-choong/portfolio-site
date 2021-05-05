@@ -69,7 +69,7 @@ class Navigation extends React.Component{
                         <Nav>
                             <Link to="/About" className="pr-4 router-link">ABOUT</Link>
                             <Link to="/Portfolio" className="pr-4 router-link">PORTFOLIO</Link>
-                            <a className="pr-4 router-link" href="https://drive.google.com/file/d/14qxZB3HPx1v5Qz9J55J05wKQOZIQAOW8/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a>                          
+                            {/* <a className="pr-4 router-link" href="https://drive.google.com/file/d/14qxZB3HPx1v5Qz9J55J05wKQOZIQAOW8/view?usp=sharing" target="_blank" rel="noopener noreferrer">RESUME</a>                           */}
                         </Nav>
                     </Navbar.Collapse>              
                 </Navbar> 
