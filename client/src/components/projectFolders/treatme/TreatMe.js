@@ -29,7 +29,7 @@ class TreatMe extends React.Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4" data-aos="fade-left" data-aos-duration="500">
                 <div className="row px-3 pt-5">
                   <h5 className="my-title font-weight-bold">UX Research | UI | Full Stack Web Development</h5> 
-                  <p>This project is to work as a team to build an application that use an API to produce a web interface. A C2C platform that allows users to register / login their account, to sell and buy baking goods through online. Registered member able to update thier profile, add new, update or delete their listing.</p><br/>
+                  <p>This project is to work as a team to build an application that uses an API to produce a web interface. A C2C platform that allows users to register/ log in to their account, to sell and buy baking goods online. Registered members able to update their profile, add new, update or delete their listing.</p><br/>
                   <hr className="break-line"></hr>
                   <p>Skills : UX/UI + Bootstrap SASS, JavaScript, JQuery, Node.js</p><br/>
                 </div>
@@ -43,7 +43,7 @@ class TreatMe extends React.Component {
                 <div className="container text-left my-5">
                   <div data-aos="fade-up" data-aos-easing="linear">
                     <h4 className="pt-2 text-dark">Overview:  </h4>
-                    <p>Treat Me app is a C2C (Consumer to consumer) platformas match buyers with sellers, the type of e-commerce is made up of online classified or forums where individuals can buy and sell their baked goods. </p>
+                    <p>Treat Me app is a C2C (Consumer to consumer) platform that matches buyers with sellers, the type of e-commerce is made up of online classified or forums where individuals can buy and sell their baked goods. </p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">My Role:  </h4>
@@ -59,7 +59,7 @@ class TreatMe extends React.Component {
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Project Goal:  </h4>
-                    <p>The aim of this project was to allow home bakers to list their baked goods online and sell them.  Our objective was to design and create an intuitive and easy-to-use platform that allows sellers to sell their baking through images and description, and buyers to navigate through.</p>
+                    <p>This project aimed to allow home bakers to list their baked goods online and sell them.  Our objective was to design and create an intuitive and easy-to-use platform that allows sellers to sell their baking through images and description, and buyers to navigate through.</p>
                   </div>
                 </div>
                 <div className="info-container" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">

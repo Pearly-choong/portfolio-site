@@ -28,7 +28,7 @@ class SmartHome extends React.Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4" data-aos="fade-left" data-aos-duration="500">
                 <div className="row px-3 pt-5">
                   <h5 className="my-title font-weight-bold">UX Research | UI | Front-end Development</h5> 
-                  <p>An assignment at Yoobee College. I was tasked to design an application that makes connecting, controlling and using smart home devices that have functionality to show/hide UI components based on user interaction. Primary targeted on iphone 6/7/8 design.</p><br/>
+                  <p>An assignment at Yoobee College. I was tasked to design an application that makes connecting, controlling, and using smart home devices that have the functionality to show/hide UI components based on user interaction. Primary targeted on Iphone 6/7/8 design.</p><br/>
                   <hr className="break-line"></hr>
                   <p>Skills : UX/UI + HTML5 + SASS + JavaScript + Jquery</p><br/>
                 </div>
@@ -50,7 +50,7 @@ class SmartHome extends React.Component {
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Challenge:  </h4>
-                    <p>An existing electronics company is planning to release a new service for homeowners. They have developed a range of smart home devices such as smart plugs, lights, cameras, alarms, doors etc. While they are intended in creating a new smart home automation control app package with their own brand. Current existing home automation provider, held back by outdated UX and complicated for users to learn and navigate.</p>
+                    <p>An existing electronics company is planning to release a new service for homeowners. They have developed a range of smart home devices such as smart plugs, lights, cameras, alarms, doors, etc. While they are intended in creating a new smart home automation control app package with their own brand. Current existing home automation provider, held back by outdated UX and complicated for users to learn and navigate.</p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Users & Audience:  </h4>

@@ -49,7 +49,7 @@ class Home extends React.Component {
                 <h2 className="my-title">A UI/UX designer <span role="img" aria-label="designer">👩🏻‍🎨</span> and developer <span role="img" aria-label="developer">👩🏻‍💻</span> with a particular interest in user experience design and future technologies. </h2>
                 <br/>
                 <p> I'm a passionate person when it comes to solving problems through design thinking and web development. I enjoy researching, planning, and development. I like working in a challenging environment, 
-                    outside of my comfort zone, and have an innate desire to build user-interfaces that will intuitively solve problems and create a seamless experience for the end user.
+                    outside of my comfort zone, and have an innate desire to build user interfaces that will intuitively solve problems and create a seamless experience for the end user.
                 </p>
                 <p>I graduated from <a className="home-link" href="https://www.yoobee.ac.nz/" target="_blank" rel="noopener noreferrer"><strong>Yoobee Colleges</strong></a>, Wellington with a diploma in <strong>Web and UX Design</strong>. 
                    I loved the human-centered design methods and processes I learned in my study and applied them to my projects. 

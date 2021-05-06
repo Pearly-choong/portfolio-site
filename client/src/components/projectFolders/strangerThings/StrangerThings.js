@@ -28,7 +28,7 @@ class StrangerThings extends React.Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4" data-aos="fade-left" data-aos-duration="500">
                 <div className="row px-3 pt-5">
                   <h5 className="my-title font-weight-bold">UX Research | UI | Front-end Development</h5> 
-                  <p>Assignment project from web course. I was tasked to create and design a one page adaptive and responsive website to promote existing TV shows.</p><br/>
+                  <p>Assignment project from web course. I was tasked to create and design a one-page adaptive and responsive website to promote existing TV shows.</p><br/>
                   <hr className="break-line"></hr>
                   <p>Skills : UX/UI + HTML5 + CSS3 + JavaScript</p><br/>
                 </div>
@@ -42,7 +42,7 @@ class StrangerThings extends React.Component {
                 <div className="container text-left my-5">
                   <div data-aos="fade-up" data-aos-easing="linear">
                     <h4 className="pt-2 text-dark">Overview:  </h4>
-                    <p>This is a website to promote Stranger Things Season 3 TV series. The website provided a trailer, character poster image, synopsis of the plot story, countdown days and social media link. </p>
+                    <p>This is a website to promote Stranger Things Season 3 TV series. The website provided a trailer, character poster image, synopsis of the plot story, countdown days, and social media link. </p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">My Role:  </h4>
@@ -50,7 +50,7 @@ class StrangerThings extends React.Component {
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Challenge:  </h4>
-                    <p>Stranger Things is one of the most popular streaming shows in the world. As a lot of fans will always want to know if there is a new season coming up and what would be the continuing story. I was tasked to create a theme website to promote this TV series, to inform potential visitors that a new season is coming.</p>
+                    <p>Stranger Things is one of the most popular streaming shows in the world. A lot of fans will always want to know if there is a new season coming up and what would be the continuing story. I was tasked to create a theme website to promote this TV series, to inform potential visitors that a new season is coming.</p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Users & Audience:  </h4>

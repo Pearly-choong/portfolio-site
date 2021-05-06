@@ -29,7 +29,7 @@ class MealKit extends React.Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 pr-5 pb-4 project-desc" data-aos="fade-left" data-aos-duration="500">
                 <div className="row px-3 pt-5">
                   <h5 className="my-title font-weight-bold">UX Research | UI | Web Development | CMS</h5> 
-                  <p>A custom WordPress theme website was designed and developed for Meal Kits delivery services that allow visitors to be able access information relating to the services provided. They also intend to showcase examples of thier meal kit menu, telling stories of their services to give potential customers a more intimate view of the business and their relationship with clients.</p><br/>
+                  <p>A custom WordPress theme website was designed and developed for Meal Kits delivery services that allow visitors to be able to access information relating to the services provided. They also intend to showcase examples of their meal kit menu, telling stories of their services to give potential customers a more intimate view of the business and their relationship with clients.</p><br/>
                   <hr className="break-line"></hr>
                   <p>Skills : UX/UI + WordPress + PHP + WooCommerce + Bootstrap</p><br/>
                 </div>
@@ -47,7 +47,7 @@ class MealKit extends React.Component {
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">My Role:  </h4>
-                    <p>UX Research, Ideation, Concept Creation, User Flow, Sketches, Wireframes, Usability Testing, Website Design, Coding, Acceptance Testing, Broswer Testing, Writing User Documentation</p>
+                    <p>UX Research, Ideation, Concept Creation, User Flow, Sketches, Wireframes, Usability Testing, Website Design, Coding, Acceptance Testing, Broswer Testing, Writing User Documentation.</p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Challenge:  </h4>
@@ -55,7 +55,7 @@ class MealKit extends React.Component {
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Users & Audience:  </h4>
-                    <p>The target users of the M-Kit delivery service website are professional busy working group people or couples/family. These users love exploring new recipes, want to save time on preparing food, and don’t like to spend time shopping for groceries.</p>
+                    <p>The target users of the M-Kit delivery service website are a professional busy working group people or couples/family. These users love exploring new recipes, want to save time on preparing food, and don’t like to spend time shopping for groceries.</p>
                   </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">
                     <h4 className="pt-5 text-dark">Project Goal:  </h4>
