@@ -3,7 +3,7 @@ import Home from '../components/home/Home';
 //import Portfolio from '../components/portfolio/Portfolio';
 import Project from '../components/project/Project';
 //import Navigation from '../components/navigation/Navigation';
-import Landing from '../components/landing/Landing';
+//import Landing from '../components/landing/Landing';
 //import App from '../App';
 import ShowProject from '../components/showProject/ShowProject';
 import MealKit from '../components/projectFolders/mealkit/MealKit';
@@ -20,7 +20,11 @@ export const Routes = ()=> {
             {/* <App/> */}
             {/* <Navigation/> */}
             <Switch>
-                <Route exact path="/Landing" component={Landing} />
+                {/* <Route exact path="/Landing" component={Landing} />
+                <Route exact path="/">
+                    <Redirect to="/Landing" />    
+                </Route> */}
+                <Route exact path="/Landing" component={Home} />
                 <Route exact path="/">
                     <Redirect to="/Landing" />    
                 </Route>
