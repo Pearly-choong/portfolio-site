@@ -93,7 +93,7 @@ class SmartHome extends React.Component {
                   </ul> 
 
                 <div className="info-container">
-                {/* <h4 className="pt-4 pl-3 text-dark">Design Process:  </h4> */}
+              
                   <img src={RHome} alt="Images" className="w-100 m-auto d-block" />
                   <img src={AHome} alt="Images" className="w-100 m-auto d-block" />
                   <img src={DHome} alt="Images" className="w-100 m-auto d-block" />

@@ -67,8 +67,7 @@ class UxWellington extends React.Component {
 
                   <h2 className="pt-5 pb-3">Goals</h2>
                   <p>The research for this project had two goals:</p>
-                  {/* <p><strong>1. Exploration: </strong> Better understand the community member’s desires, painpoints and interest in participate in UX Wellington.</p>
-                  <p><strong>2. Potential Event: </strong>What they would like to see future UX Wellington events? Are there any things they would like to take away from UX Wellington?</p> */}
+                  
                   <ol className="pl-3">
                     <li><strong>Exploration: </strong> Better understand the community member’s desires, painpoints and interest in participate in UX Wellington.</li>
                     <li><strong>Potential Event: </strong>What they would like to see future UX Wellington events? Are there any things they would like to take away from UX Wellington?</li>

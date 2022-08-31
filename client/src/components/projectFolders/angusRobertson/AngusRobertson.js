@@ -98,7 +98,7 @@ class AngusRobertson extends React.Component {
                   {/* </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"> */}
                     <h2 className="pt-5 pb-3">Constraints  </h2>
-                    {/* <p>The solutions must adhere to the following constraints</p> */}
+                    
                     <ul className="pl-5">
                       <li>Reward system cannot be a monetised reward (i.e. discounts or financial benefits for participating).</li>
                       <li>No user to user social interaction elements (i.e. chat or other means of communicating with each other as this opens up risks regarding abuse & moderation).</li>
