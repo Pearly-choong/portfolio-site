@@ -20,7 +20,7 @@ class SmartHome extends React.Component {
             <Navigation />   
             <div className="portfolio-content container">
 
-              <img data-aos="fade-right" data-aos-duration="500" src={portfolio2} alt="Images" className="img-fluid mx-auto d-block pb-4 figure-img" />
+              <img src={portfolio2} alt="Images" className="img-fluid mx-auto d-block pb-4 figure-img" />
               {/* <Portfolio/> */}
               <div className="text-left mt-3 py-3">
                 <h1 className="page-title">Home Automation</h1>

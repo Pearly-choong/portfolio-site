@@ -21,7 +21,7 @@ class TreatMe extends React.Component {
             <Navigation /> 
          
             <div className="portfolio-content container">
-            <img data-aos="fade-right" data-aos-duration="500" src={portfolio3} alt="Images" className="container-fluid img-fluid mx-auto d-block pb-4 figure-img" />
+            <img src={portfolio3} alt="Images" className="container-fluid img-fluid mx-auto d-block pb-4 figure-img" />
               <div className="text-left mt-3 py-3">
                   <h1 className="page-title">Niche Market App</h1>
                   <p>

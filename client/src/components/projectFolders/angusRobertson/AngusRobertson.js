@@ -36,7 +36,7 @@ class AngusRobertson extends React.Component {
               
             <div className="portfolio-content container">
             
-             <img data-aos="fade-right" data-aos-duration="500" src={portfolio5} alt="Images" className="img-fluid mx-auto d-block pb-4 figure-img" />
+             <img src={portfolio5} alt="Images" className="img-fluid mx-auto d-block pb-4 figure-img" />
               {/* <Portfolio/> */}
               <div className="text-left mt-3 py-3">
               <h1 className="page-title">Angus & Robertson UX Project</h1>
@@ -221,7 +221,7 @@ class AngusRobertson extends React.Component {
                   
                     <div className="my-links text-center">
                     <a href="https://www.figma.com/proto/VKLeqD1kkI4byupVY7jCmm/Angus-Robertson?node-id=63%3A2708&scaling=scale-down&page-id=63%3A2707&starting-point-node-id=63%3A2708&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
-                      <img data-aos="zoom-in" src={FinalPrototype} alt="Images" className="w-100 m-auto d-block pt-3"/>
+                      <img src={FinalPrototype} alt="Images" className="w-100 m-auto d-block pt-3"/>
                       View Prototype
                     </a>
                     </div>

@@ -20,7 +20,7 @@ class StrangerThings extends React.Component {
             <Navigation /> 
               
             <div className="portfolio-content container">
-            <img data-aos="fade-right" data-aos-duration="500" src={portfolio4} alt="Images" className="container-fluid img-fluid mx-auto d-block pb-4 figure-img" />
+            <img src={portfolio4} alt="Images" className="container-fluid img-fluid mx-auto d-block pb-4 figure-img" />
             <div className="text-left mt-3 py-3">
               <h1 className="page-title">Stranger Things 3</h1>
               <p>
@@ -85,8 +85,8 @@ class StrangerThings extends React.Component {
                 
                 
               <div className="my-5 text-center d-flex flex-wrap justify-content-between  pt-5">
-                <Link to="/Portfolio" className="bottom-nav mx-3"><span>ALL</span></Link> 
-                <Link to="/Portfolio-AngusRobertson-Project" className="bottom-nav mx-3"><span>NEXT: ANGUS & ROBERTSON ➜</span></Link>         
+                <Link to="/Portfolio" className="bottom-nav mx-2"><span>ALL</span></Link> 
+                <Link to="/Portfolio-AngusRobertson-Project" className="bottom-nav mx-2"><span>NEXT: ANGUS & ROBERTSON ➜</span></Link>         
               </div>
 
               </div>

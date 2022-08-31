@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Home.scss';
-import Img from '../../images/profileImg.jpg';
+import Img from '../../images/profileImg3.jpg';
 import Navigation from '../navigation/Navigation';
 import Portfolio from '../portfolio/Portfolio';
 import Footer from '../footer/Footer';
@@ -39,10 +39,10 @@ class Home extends React.Component {
             <Navigation />
             <div className="home-container row">
               {/* <img style={myBackground} src={background} alt="background"/> */}
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 m-position" data-aos="fade-right">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 m-position">
                 <img className="my-img-size" src={Img} alt="Pearly Choong"/>
               </div>
-              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 pt-5 px-5 mw-100" data-aos="fade-left">
+              <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 pt-5 px-5 mw-100">
                 {/* <h1 className="display-3 text-color">PEARLY CHOONG</h1> */}
                 {/* <h3 className="text-dark pb-3">WEB DESIGNER & DEVELOPER</h3> */}
                 <h2>Hi! I'm Pearly :)</h2>

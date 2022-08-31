@@ -22,7 +22,7 @@ class MealKit extends React.Component {
             <Navigation /> 
              
             <div className="portfolio-content container">
-              <img data-aos="fade-right" data-aos-duration="500" src={portfolio1} alt="Images" className="container-fluid img-fluid mx-auto d-block pb-4 figure-img" />
+              <img src={portfolio1} alt="Images" className="container-fluid img-fluid mx-auto d-block pb-4 figure-img" />
               <div className="text-left mt-3 py-3">
                   <h1 className="page-title">Meal Kit Delivery Service</h1>
                   <p>
@@ -80,7 +80,7 @@ class MealKit extends React.Component {
 
                   <div className="my-links text-center">
                     <a href="https://www.figma.com/proto/AZrKidxDFiBoX3uGPwZZyr/M-Kit-Website?node-id=2%3A2&scaling=scale-down-width&page-id=0%3A1&starting-point-node-id=2%3A2" target="_blank" rel="noopener noreferrer">
-                      <img data-aos="zoom-in" src={PrototypeMockup} alt="Images" className="w-100 m-auto d-block"/>
+                      <img src={PrototypeMockup} alt="Images" className="w-100 m-auto d-block"/>
                       View Prototype
                     </a>
                     </div>

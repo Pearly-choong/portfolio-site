@@ -24,7 +24,7 @@ class UxWellington extends React.Component {
            
             <div className="portfolio-content container">
 
-            <img data-aos="fade-right" data-aos-duration="500" src={portfolio6} alt="Images" className="img-fluid mx-auto d-block pb-4 figure-img" />
+            <img src={portfolio6} alt="Images" className="img-fluid mx-auto d-block pb-4 figure-img" />
             {/* <Portfolio/> */}
             <div className="text-left mt-3 py-3">
               <h1 className="page-title">UX Wellington Community Research</h1>
