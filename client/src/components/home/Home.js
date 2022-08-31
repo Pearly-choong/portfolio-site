@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Home.scss';
-import Img from '../../images/img01.jpg';
+import Img from '../../images/profileImg.jpg';
 import Navigation from '../navigation/Navigation';
 import Portfolio from '../portfolio/Portfolio';
 import Footer from '../footer/Footer';
@@ -45,8 +45,8 @@ class Home extends React.Component {
               <div className="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-8 pt-5 px-5 mw-100" data-aos="fade-left">
                 {/* <h1 className="display-3 text-color">PEARLY CHOONG</h1> */}
                 {/* <h3 className="text-dark pb-3">WEB DESIGNER & DEVELOPER</h3> */}
-                <h2>I'm Pearly :)</h2>
-                <h2 className="my-title">A UI/UX designer <span role="img" aria-label="designer">👩🏻‍🎨</span> and developer <span role="img" aria-label="developer">👩🏻‍💻</span> with a particular interest in user experience design and future technologies. </h2>
+                <h2>Hi! I'm Pearly :)</h2>
+                <h2 className="my-title pt-2">UI/UX Designer <span role="img" aria-label="designer">👩🏻‍🎨</span> and developer <span role="img" aria-label="developer">👩🏻‍💻</span> with a particular interest in user experience design and future technologies. </h2>
                 <br/>
                 <p> I'm a passionate person when it comes to solving problems through design thinking and web development. I enjoy researching, planning, and development. I like working in a challenging environment, 
                     outside of my comfort zone, and have an innate desire to build user interfaces that will intuitively solve problems and create a seamless experience for the end user.
@@ -56,13 +56,14 @@ class Home extends React.Component {
                     See my  <Link to="/Portfolio" className="home-link"><strong>projects</strong></Link>.  
                 </p>
                 {/* <p>or download my <a className="home-link" href="https://drive.google.com/file/d/14qxZB3HPx1v5Qz9J55J05wKQOZIQAOW8/view?usp=sharing" target="_blank" rel="noopener noreferrer"><strong>resume</strong></a> to learn more about me.</p> */}
-                <p>In my spare time, I love to travel, relax and read. I enjoy family time and catch up with friends whenever possible.</p>
+                <p>In my spare time, I enjoy traveling, watching movie series and reading. Reading is one of the ways that I both learn new things and
+                  test my understanding. I enjoy family time and catch up with friends whenever possible.</p>
               
                 <div className="float-left">
                 <Footer/>  
-                </div>
-                        
+                </div>          
               </div>
+          
             </div>
             
           </div>

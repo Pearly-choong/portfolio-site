@@ -60,7 +60,7 @@ class PortfolioCard extends React.Component{
                             pathname:  '/Portfolio-Project' + this.showProject.id,
                             state: this.showProject
                         }}>
-                            View Project
+                            View Project 
                         </Link>
                         {/* <button className="btn-link" onClick={this.modal}>Case Study</button>                      */}
                         {/* <div className="d-flex flex-column justify-content-center pt-1">

@@ -4,6 +4,8 @@ import portfolio1 from '../../images/MockupMealKit.png';
 import portfolio2 from '../../images/homeAtomation.png';
 import portfolio3 from '../../images/treatme mockup2.png';
 import portfolio4 from '../../images/MockupStrangerThings3.png';
+import portfolio5 from '../../images/MockupAG.png';
+import portfolio6 from '../../images/MockupUXWG.png';
 import PortfolioCard from '../portfolioCard/PortfolioCard';
 import RHome from '../../images/homeAutomation/RHome.jpg';
 import AHome from '../../images/homeAutomation/AHome.jpg';
@@ -111,7 +113,47 @@ class Portfolio extends React.Component{
                   analyse: AStranger,
                   design: DStranger,
                   design2: DStranger2  
-                }
+                },
+                {
+                  id: 4,
+                  imageUrl: portfolio5,
+                  title: 'Angus & Robertson',
+                  category: 'UX Research | UI | Web Development | CMS',
+                  tag: 'UX/UI + WordPress + PHP + WooCommerce + Bootstrap',
+                  caseStudy: 'https://drive.google.com/file/d/1EUlKgbdcT27heweOk3y_LrK2twmZGmYk/view?usp=sharing',
+                  liveSite: 'http://68.183.98.69/',
+                  github: 'https://github.com/Pearly-choong/mealkit-service-wp-theme' , 
+                  brief: 'A custom WordPress theme website was designed and developed for Meal Kits delivery services that allow visitors to be able access information relating to the services provided. They also intend to showcase examples of thier meal kit menu, telling stories of their services to give potential customers a more intimate view of the business and their relationship with clients.',
+                  overview: 'This is a WordPress CMS website that is built with a custom theme with a mix of third-party functionality that allows users to explore meal kit delivery services, choose their meal plan, read blog post stories, and find healthy recipes, submit contact and make orders. While also allowing clients to customize the theme easily. ',
+                  problem: 'Until now M-Kit has relied on positive word-of-mouth to engage with new customers, but now they would like to expand the company and grow their customer base by creating an effective online presence.',
+                  audience: 'The target users of the M-Kit delivery service website are professional busy working group people or couples/family. These users love exploring new recipes, want to save time on preparing food, and don’t like to spend time shopping for groceries.',
+                  goal:'To develop a simple and intuitive interface for content administrators to easily manage their content and help clients get their customers to engage with their brand to increase awareness and drive sales.',
+                  myRole:'UX Research, Ideation, Concept Creation, User Flow, Sketches, Wireframes, Usability Testing, Website Design, Coding, Writing User Documentation',
+                  research: RMealKit,
+                  analyse: AMealKit,
+                  design: DMealKit,
+                  design2: DMealKit2
+                },
+                {
+                  id: 5,
+                  imageUrl: portfolio6,
+                  title: 'UX Wellington Case Study',
+                  category: 'UX Research | UI | Web Development | CMS',
+                  tag: 'UX/UI + WordPress + PHP + WooCommerce + Bootstrap',
+                  caseStudy: 'https://drive.google.com/file/d/1EUlKgbdcT27heweOk3y_LrK2twmZGmYk/view?usp=sharing',
+                  liveSite: 'http://68.183.98.69/',
+                  github: 'https://github.com/Pearly-choong/mealkit-service-wp-theme' , 
+                  brief: 'A custom WordPress theme website was designed and developed for Meal Kits delivery services that allow visitors to be able access information relating to the services provided. They also intend to showcase examples of thier meal kit menu, telling stories of their services to give potential customers a more intimate view of the business and their relationship with clients.',
+                  overview: 'This is a WordPress CMS website that is built with a custom theme with a mix of third-party functionality that allows users to explore meal kit delivery services, choose their meal plan, read blog post stories, and find healthy recipes, submit contact and make orders. While also allowing clients to customize the theme easily. ',
+                  problem: 'Until now M-Kit has relied on positive word-of-mouth to engage with new customers, but now they would like to expand the company and grow their customer base by creating an effective online presence.',
+                  audience: 'The target users of the M-Kit delivery service website are professional busy working group people or couples/family. These users love exploring new recipes, want to save time on preparing food, and don’t like to spend time shopping for groceries.',
+                  goal:'To develop a simple and intuitive interface for content administrators to easily manage their content and help clients get their customers to engage with their brand to increase awareness and drive sales.',
+                  myRole:'UX Research, Ideation, Concept Creation, User Flow, Sketches, Wireframes, Usability Testing, Website Design, Coding, Writing User Documentation',
+                  research: RMealKit,
+                  analyse: AMealKit,
+                  design: DMealKit,
+                  design2: DMealKit2
+                },
                      
             ]
         }

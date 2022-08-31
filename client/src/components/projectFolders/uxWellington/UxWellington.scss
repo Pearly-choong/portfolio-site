@@ -1,0 +1,11 @@
+@import '../../../shared/_variables.scss';
+
+
+
+.bottom-nav {
+  color: black
+}
+
+.bottom-nav:hover{
+    color: $theme-primary-color;
+}

@@ -14,7 +14,7 @@ class Footer extends React.Component{
                  </div>
                  <p className="pt-1">CONTACT ME at<a className="my-email" href="mailto:choongpl@gmail.com? subject=subject text">choongpl@gmail.com</a></p>
                  <footer className="my-footer-bg pb-5">
-                     &copy; 2021 Designed and Developed by <a href="https://www.pearlychoong.com/">Pearly Choong</a> 
+                     &copy; 2022 Designed and Developed by <a href="https://www.pearlychoong.com/">Pearly Choong</a> 
                      <span role="img" aria-label="pointer"> &nbsp; 👉🏻 &nbsp; </span><a href="https://github.com/Pearly-choong/portfolio-site" target="_blank" rel="noopener noreferrer">
                         Code in Github
                      </a>

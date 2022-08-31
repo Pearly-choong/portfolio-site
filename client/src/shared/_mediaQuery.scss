@@ -28,6 +28,10 @@
         font-size: 1.8rem;;
     }
 
+    h2 {
+        font-size: 1.5rem;;
+    }
+
     h4 {
         font-size: 1.2rem;;
     }
@@ -59,14 +63,18 @@
 
     .tag-size {
         margin: auto;
-        width: 90%;
-        text-align: center;
-        padding-left: 30px;
+        //width: 90%;
+        text-align: left;
+        padding-bottom: 10px;
+        font-size: 1rem;
+        //padding-left: 30px;
     }
 
     .project-link-fs {
         font-size: 1rem;
     }
+
+
 
     // .my-footer-bg {
     //     padding-left: 2.5rem;
@@ -139,7 +147,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    p {
+    p, li {
         font-size: 1.1rem;;
       }
     

@@ -25,17 +25,17 @@
 
 
 .project-link {
-    background-color: $theme-primary-color;
+    background-color: $theme-secondary-color;
     position: relative;
     transition: all .35s;
     text-decoration: none;
     font-family: $header-font;   
-    color: white;
+    color: $theme-primary-color;
     border: none;
 }
 
 .project-link-fs {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .project-link span {
@@ -56,9 +56,9 @@
 
 
 .project-link:hover {
-    background-color: $theme-secondary-color;
+    background-color: $theme-primary-color;
     color: $theme-primary-color;
-    border-color: $theme-primary-color;
+    border-color: $theme-secondary-color;
     text-decoration: none;
 }
 

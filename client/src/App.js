@@ -2,8 +2,9 @@ import React from 'react';
 import './App.scss';
 import AOS from 'aos';
 import "aos/dist/aos.css";
-import { BrowserRouter as Router } from 'react-router-dom';
-import { Routes } from "./views/Routes";
+// import { BrowserRouter as Router } from 'react-router-dom';
+// import { Routes } from "./views/Routes";
+//import ScrollToTop from './views/ScrollToTop';
 
 
 AOS.init({
@@ -16,12 +17,14 @@ class App extends React.Component{
     render(){
 
       return(
+        
          <div className="App"> 
          
-         <Router>
+        {/* <Router>
            <Routes/>
-          </Router>   
+        </Router>    */}
         </div>
+       
        
       )
     }

@@ -10,7 +10,10 @@ import MealKit from '../components/projectFolders/mealkit/MealKit';
 import SmartHome from '../components/projectFolders/smarthome/SmartHome';
 import TreatMe from '../components/projectFolders/treatme/TreatMe';
 import StrangerThings from '../components/projectFolders/strangerThings/StrangerThings';
+import AngusRobertson from '../components/projectFolders/angusRobertson/AngusRobertson';
+import UxWellington from '../components/projectFolders/uxWellington/UxWellington';
 import {Route, Switch, Redirect } from 'react-router-dom';
+// import ScrollToTop from './ScrollToTop';
 
 
 export const Routes = ()=> {
@@ -19,6 +22,7 @@ export const Routes = ()=> {
         <div>
             {/* <App/> */}
             {/* <Navigation/> */}
+            {/* <ScrollToTop> */}
             <Switch>
                 {/* <Route exact path="/Landing" component={Landing} />
                 <Route exact path="/">
@@ -35,8 +39,11 @@ export const Routes = ()=> {
                 <Route exact path="/Portfolio-HomeAutomation-Project" component={SmartHome} />
                 <Route exact path="/Portfolio-NicheMarketApp-Project" component={TreatMe} />
                 <Route exact path="/Portfolio-StrangerThings3-Project" component={StrangerThings} />
+                <Route exact path="/Portfolio-AngusRobertson-Project" component={AngusRobertson} />
+                <Route exact path="/Portfolio-UxWellington-Project" component={UxWellington} />
                 {/* <Route exact path="/Resume" render={() => (window.open = 'https://drive.google.com/file/d/1bOu8HIdF3uVLn8_SBcX9ejFHBOX5DQm9/view?usp=sharing')} /> */}
             </Switch>
+            
         </div>
     );
 }

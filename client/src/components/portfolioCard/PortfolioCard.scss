@@ -10,7 +10,7 @@ figure.hover-content{
     max-width: 550px;
     max-height: 550px;
     width: 100%;
-    background: #000000;
+    //background: #000000;
     text-align: center;
     font-family: $body-font;
 }
@@ -110,9 +110,9 @@ figure.hover-content h6{
     border: none;
   }
 
-  figure.hover-content:hover img {
-    opacity: 0.35;
-  }
+  // figure.hover-content:hover img {
+  //   opacity: 0.35;
+  // }
 
   figure.hover-content:hover figcaption h5 {
     opacity: 1;
