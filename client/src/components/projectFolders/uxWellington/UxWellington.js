@@ -2,6 +2,7 @@ import React from 'react';
 //import ReactDOM from 'react-dom';
 import './UxWellington.scss';
 // import '../../navigation/Navigation.scss';
+import '../../projectFolders/mealkit/MealKit.scss';
 import Navigation from '../../navigation/Navigation';
 import Footer from '../../footer/Footer';
 import { Link } from 'react-router-dom';
@@ -57,15 +58,15 @@ class UxWellington extends React.Component {
 
               <div className="container text-left my-5 pb-5">
                 
-                  <h2 className="pb-3">Project Overview  </h2>
+                  <h3 className="pb-3">Project Overview  </h3>
                   <p>
                   In 2021, there has been a decrease in community engagement among UX Wellington members post-covid-19. In collaboration with another UXer volunteer, Yana, we decided to conduct a research and discovered the best ways to engage UX community members both in-person and online. We started by creating a research plan and proposed it to UX community stakeholders. We then completed user research, conducted interviews, distribute a survey, and analyze collated data and ideation from our findings. Throughout this process, we received
                   feedback from our stakeholders and community member.</p>
                 
-                  <h2 className="pt-5 pb-3">Problems</h2>
+                  <h3 className="pt-5 pb-3">Problems</h3>
                   <p>There were less senior UXers were attending events and signing up to speak at events after covid. Whereas, there were more beginner UXers who want to enter the UX field were coming to events. Furthemore, we also identified there’s small turnout from the event  (people who sign up with events but do not attend).</p>    
 
-                  <h2 className="pt-5 pb-3">Goals</h2>
+                  <h3 className="pt-5 pb-3">Goals</h3>
                   <p>The research for this project had two goals:</p>
                   
                   <ol className="pl-3">
@@ -74,14 +75,14 @@ class UxWellington extends React.Component {
                   </ol>
                   
 
-                  <h2 className="pt-5 pb-3">Process</h2>
+                  <h3 className="pt-5 pb-3">Process</h3>
                   <h4 className="pt-3">Discovery</h4>
                   <p>To get an overview of possible stakeholder issues and the problem currently faced, we first conducted an interview with two UX community organisers. 
                      Below are the findings from the stakeholder interviews.
                   </p>
                   <img src={StakeholderInterview} alt="Images" className="w-100 m-auto d-block py-3"/>
                   
-                  <h4 className="pt-5">Research</h4>
+                  <h3 className="pt-5">Research</h3>
                   <p className="font-weight-bold">A few research questions:</p>
                   <ul className="pl-5">
                     <li>How long have you been working in UX for?</li>
@@ -92,7 +93,7 @@ class UxWellington extends React.Component {
                     <li>What times/days are best for you to attend events such as these?</li>
                   </ul>
 
-                  <p className="pt-5 font-weight-bold">User Survery</p>
+                  <h4 className="pt-5">User Survery</h4>
                   <p>We distributed the survey via meetup and UX Wellington Slack channel. A total of 71 responses were received.</p>
                   <ul className="pl-5">
                     <li><strong>40.8% of the participants were Senior</strong> and the challenges they face the most is conducting research with limited resources. </li>
@@ -108,7 +109,7 @@ class UxWellington extends React.Component {
                     <span role="img" aria-label="emoji">🧐</span>
                  </div>
 
-                 <p className="pt-5 font-weight-bold">User Interview</p>
+                 <h4 className="pt-5">User Interview</h4>
                  <p>To gain an in-depth understanding of the user’s values, attitudes, desires and experiences, we also conducted user interview. Six participants were interviewed remotely. 
                    There were three senior participants, one intermediate participant, and two junior participants.
                    The focus of the interview was to determine whether the members were interested in attending/speaking at UX Wellington events, to identify their reasons for not participating as much, and to identify what kind of events they enjoyed and wanted to see more of in the future.
@@ -130,7 +131,7 @@ class UxWellington extends React.Component {
                  <p>Then we took the responses through a <strong>card sorting </strong>exercise to find common themes amongst the participants.</p> 
                  <img src={FutureEvent} alt="Images" className="w-100 m-auto d-block pb-3"/>
                  
-                 <p className="pt-5 font-weight-bold">Synthesis & Insights</p>
+                 <h4 className="pt-5">Synthesis & Insights</h4>
                  <p>We have categorized the findings into four key insights. </p>
                  <ol className="pl-4">
                    <li className="font-weight-bold">Upskilling and Learning</li>
@@ -156,7 +157,7 @@ class UxWellington extends React.Component {
                    </p>
                  </ol>
 
-                 <h4 className="pt-5">Ideation</h4>
+                 <h3 className="pt-5">Ideation</h3>
                  <p className="pt-3">After synthesizing the key insights, we brainstormed possible solutions, keying in on "how might we" questions:</p>
                  <ul className="pl-5">
                    <li>How might we improve engagement with speaker volunteers? </li>
@@ -188,7 +189,7 @@ class UxWellington extends React.Component {
                   </div>
 
 
-                  <h2 className="pt-5 pb-3 text-dark">Reflects and What's Next</h2>
+                  <h3 className="pt-5 pb-3 text-dark">Reflects and What's Next</h3>
                   <p>The research of this project is a challenge, together with the schedule and finding participants for user interviews. I learned that <strong>crafting a clear research plan and setting up a project timeframe is pivotal to a research project</strong> because it identifies and helps define your focus, method, 
                     purpose and goals while also outlining the research project from start to finish. By conducting series of user experience research, I learned that <strong>good research help meets user goals.</strong> Having <strong>support and feedback from senior researchers helped us to find the best direction</strong> and complete the research successfully.</p>
                   <p>I found that spent your own spare time to work on a volunteer work it needs a lot of effort and motivation. Therefore, <strong>it is motivating to have a teammate willing to join together for a volunteer side project as this helps to motivate us to stay focused, track our progress and achieve our goals.</strong>   </p>

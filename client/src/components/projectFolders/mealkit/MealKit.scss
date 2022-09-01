@@ -7,10 +7,14 @@
 }
 
 .page-title{
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     color: $theme-dark-pink-color;
 }
 
+.title-font {
+    // font-family: $header-font;
+    font-size: 1.6rem;
+}
 
 .my-links a, .fab .fa-github {
     color: $theme-primary-color;

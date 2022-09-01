@@ -1,6 +1,7 @@
 import React from 'react';
 //import ReactDOM from 'react-dom';
-import './AngusRobertson.scss';
+// import './AngusRobertson.scss';
+import '../../projectFolders/mealkit/MealKit.scss';
 import Navigation from '../../navigation/Navigation';
 import Footer from '../../footer/Footer';
 import { Link } from 'react-router-dom';
@@ -70,7 +71,7 @@ class AngusRobertson extends React.Component {
               
                 <div className="container text-left my-5">
                   {/* <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"> */}
-                    <h2 className="pb-3">Who is Angus & Robertson?  </h2>
+                    <h3 className="pb-3">Who is Angus & Robertson?  </h3>
                     <p>
                     Angus & Robertson has been a major player in the Australian book industry since it was started by two migrant Scotsmen in Sydney in 1886. As an iconic Australian name for book buyers, Angus & Robertson expanded to have stores in every major Australian city and became a dependable and widely available outlet for Australian book buyers.
                     </p>
@@ -83,9 +84,10 @@ class AngusRobertson extends React.Component {
                     
                   {/* </div> */}
                   {/* <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"> */}
-                  <h2 className="pt-5 pb-3">The Problem</h2>
+                  <h3 className="pt-5 pb-3">The Problem</h3>
                     <p>There is a lack of user engagement when it comes to creating lists and reviews for a community hub of recommendations, excitement, and stimulation of site exploration leading to additional purchases. </p>        
-                    <h2 className="pt-5 pb-3">Challenges</h2>       
+                    
+                  <h3 className="pt-5 pb-3">Challenges</h3>       
                     <p>1. Close the gap between users buying and becoming inactive in their system.</p>
                     <p>2. To create a gamified experience to boost organic content and reach in turn boosting sales.</p>                 
                     <p>3. Create an environment where users can: 
@@ -97,7 +99,7 @@ class AngusRobertson extends React.Component {
                       </ul></p>
                   {/* </div>
                   <div data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000"> */}
-                    <h2 className="pt-5 pb-3">Constraints  </h2>
+                    <h3 className="pt-5 pb-3">Constraints  </h3>
                     
                     <ul className="pl-5">
                       <li>Reward system cannot be a monetised reward (i.e. discounts or financial benefits for participating).</li>
@@ -106,7 +108,7 @@ class AngusRobertson extends React.Component {
                     
                   {/* </div> */}
                   <div className="info-container">
-                    <h2 className="pt-5 pb-3">How Might We? </h2>
+                    <h3 className="pt-5 pb-3">How Might We? </h3>
                     <p>Below are the questions that helped to inform the design strategies:</p>
                     <ul className="ml-5">
                         <li>How might we <strong>create an engaging, fun, and safe community</strong> to share across?</li>
@@ -117,7 +119,7 @@ class AngusRobertson extends React.Component {
                       </ul>
                   </div>
                   <div className="info-container">
-                    <h2 className="pt-5 pb-3">Solution</h2>
+                    <h3 className="pt-5 pb-3">Solution</h3>
                       <div className="solution-container">
                         <h5 className="font-weight-bold text-dark">Personalised Profile and Gamified Reward System</h5> 
                         <p>I created and redesigned a personalized profile that incorporates more gamification and community involvement.</p>
@@ -157,7 +159,7 @@ class AngusRobertson extends React.Component {
                    
                   </div>
                   <div className="container">
-                    <h2 className="pt-5 pb-3">Research and Development</h2>
+                    <h3 className="pt-5 pb-3">Research and Development</h3>
                     <h4 className="pt-5 pb-3">Design Thinking Approach</h4>
                     <p>This illustration is a brief of how I discover, approach and solve the problem.</p>
                     <img src={DesignThinkingIllustration} alt="Images" className="w-100 m-auto d-block"/>
@@ -174,17 +176,6 @@ class AngusRobertson extends React.Component {
                     <img src={CardSort1} alt="Images" className="w-100 m-auto d-block pt-3"/>
                     <img src={CardSort2} alt="Images" className="w-100 m-auto d-block"/>
                     
-                    <h4 className="mt-5 mb-3">Major Insights</h4>
-                    <ol className="pl-4">
-                      <li className="font-weight-bold">Trusted Reviews</li>
-                        <p>Highlight the visibility of verified trusted reviews and recommendations, allow readers to verify the validity of reviews they are reading.</p>
-                      <li className="font-weight-bold">Recognition and ability to share achivements</li>
-                        <p>Incentivize users for their interactions. E.g. leaving reviews, recommendations and sharing.</p>
-                        <li className="font-weight-bold">Simplify reviewing process and allowing readers to customize their lists</li>
-                        <p>Community engagement with books (showing the number of reads, list adds and reviews).</p>
-                      <li className="font-weight-bold">Feeling empowered to encourage further engagement</li>
-                        <p>Simplify reviewing process and allowing readers to customize their lists.</p>
-                    </ol>
 
                     <h4 className="mt-5 mb-3">Target User & Persona</h4>
                     <p>The next task was deciding the target users to know who we are designing for. According to the user interview, there were two main groups of readers, who are positive and resistant in terms of user engagement and gamification system. At this point, I want to focus on the positive group which is our primary target audience. So I created a persona to define the chosen types of users and understand their frustration and their goals.</p>
@@ -197,11 +188,23 @@ class AngusRobertson extends React.Component {
                    
                     <h4 className="mt-5 mb-3">Balancing User Needs With Business Goals</h4>
                     <p>The initial user research uncovered various areas of opportunity from user’s need. And for the MVP I kept in mind the business goals and organizational capacity and decided to focus upon some key areas. 
-                      From the meeting point of both the business and user, opportunities for solutions are present in the following points: <strong>highlighting verified trusted reviews and recommendations, offering users incentives for their interactions, allowing readers to customize their booklists and enhancing the reader experience by integrating a community engagement platform.</strong> 
+                      From the meeting point of both the business and user, opportunities for solutions are present in the following points: 
                     </p>
+
+                    <ol className="pl-4">
+                      <li className="font-weight-bold">Trusted Reviews</li>
+                        <p>Highlight the visibility of verified trusted reviews and recommendations, allow readers to verify the validity of reviews they are reading.</p>
+                      <li className="font-weight-bold">Recognition and ability to share achivements</li>
+                        <p>Incentivize users for their interactions. E.g. leaving reviews, recommendations and sharing.</p>
+                        <li className="font-weight-bold">Simplify reviewing process and allowing readers to customize their lists</li>
+                        <p>Community engagement with books (showing the number of reads, list adds and reviews).</p>
+                      <li className="font-weight-bold">Feeling empowered to encourage further engagement</li>
+                        <p>Simplify reviewing process and allowing readers to customize their lists.</p>
+                    </ol>
+
                     <img src={UXOpportunities} alt="Images" className="w-100 m-auto d-block pt-3"/>
                     
-                    <h2 className="pt-5 pb-3">Ideate & Design </h2>
+                    <h3 className="pt-5 pb-3">Ideate & Design </h3>
                     <h4 className="mt-5 mb-3">Setting Up the Structure </h4>
                     <p>I refined the concept with research outcomes in-line with our business goals and went through a few rounds of iteration using hand sketching. I also came up with a revised and simplified information architecture that focused on products page and profile page. </p>
                     <img src={UserFlow} alt="Images" className="w-100 m-auto d-block pt-3"/>
@@ -217,7 +220,7 @@ class AngusRobertson extends React.Component {
                     <img src={Wireframe1} alt="Images" className="w-100 m-auto d-block pt-3"/>
                     <img src={Wireframe2} alt="Images" className="w-100 m-auto d-block pt-3 mb-4"/>
                 
-                   <h2 className="pt-5 pb-3 mt-5 text-dark">High-fidelity Prototype</h2> 
+                   <h3 className="pt-5 pb-3 mt-5 text-dark">High-fidelity Prototype</h3> 
                   
                     <div className="my-links text-center">
                     <a href="https://www.figma.com/proto/VKLeqD1kkI4byupVY7jCmm/Angus-Robertson?node-id=63%3A2708&scaling=scale-down&page-id=63%3A2707&starting-point-node-id=63%3A2708&show-proto-sidebar=1" target="_blank" rel="noopener noreferrer">
@@ -228,7 +231,7 @@ class AngusRobertson extends React.Component {
                 </div>
                 
                 <div className="container mt-5">
-                  <h2 className="pt-5 pb-3 text-dark">Testing</h2> 
+                  <h3 className="pt-5 pb-3 text-dark">Testing</h3> 
                   <p>To uncover the usability issue of my design, I showed the high-fidelity prototype to all the usability study participants and gained very positive feedbacks. During each test session, I was specifically looking for feedback on: </p>
                   <ul className="pl-3">
                     <li>Sign-in process</li>
@@ -247,7 +250,7 @@ class AngusRobertson extends React.Component {
                 </div>
 
                 <div className="container pt-5">
-                  <h2 className="pt-5 pb-3 text-dark">Takeaways</h2>
+                  <h3 className="pt-5 pb-3 text-dark">Takeaways</h3>
                   <p>For me, this was my first UX project incorporating gamification elements, the process was fun as well as challenging because I still have a lot to learn about UX design. It was also my first time <strong>using Miro as an online visual collaboration tool</strong>. I find it an extremely interactive whiteboard tool to work online among the team. </p> 
                   <p>The main takeaways is that the <strong>user interview helps pinpoint your problem statement</strong> even though there are plenty of articles and resources online, <strong>the experience share with you directly by users is more valuable and usable information. </strong> 
                      I have also learned that <strong>asking questions allows a better understanding of direction, which leads to maximum time efficiency.</strong>  </p>

@@ -26,7 +26,7 @@ class MealKit extends React.Component {
               <div className="text-left mt-3 py-3">
                   <h1 className="page-title">Meal Kit Delivery Service</h1>
                   <p>
-                  A custom WordPress theme website was designed and developed for Meal Kits delivery services that allow visitors to be able to access information relating to the services provided. They also intend to showcase examples of their meal kit menu, telling stories of their services to give potential customers a more intimate view of the business and their relationship with clients.
+                  A custom WordPress theme website was designed and developed for a Meal Kits delivery services that allow visitors to be able to access information relating to the services provided. 
                   </p>                     
               </div> 
               
@@ -54,17 +54,19 @@ class MealKit extends React.Component {
 
                 <div className="container text-left my-5 pb-5">
                   
-                    <h2 className="pb-3">Project Overview  </h2>
-                    <p>This is a WordPress CMS website that is built with a custom theme with a mix of third-party functionality that allows users to explore meal kit delivery services, choose their meal plan, read blog post stories, and find healthy recipes, submit contact and make orders. While also allowing clients to customize the theme easily. </p>
+                    <h3 className="pb-3">Getting stuck in a food rut? Lack of time to shop for groceries?  </h3>
+                    <p>M-kit is a company who offer one of the most convenient ways meal kit delivery services that can keep customer eating healthy and time saving while having a busy
+                       lifestyle but still want to do home-made meals. This is a WordPress CMS website that is built with a custom theme with a mix of third-party functionality that allows users to explore meal kit delivery services, choose their meal plan, read blog post stories, and find healthy recipes, submit contact and make orders.  </p>
                                  
-                    <h2 className="pt-5 pb-3">Challenge  </h2>
-                    <p>Until now M-Kit has relied on positive word-of-mouth to engage with new customers, but now they would like to expand the company and grow their customer base by creating an effective online presence.</p>    
+                    <h3 className="pt-5 pb-3">Problem and Solution  </h3>
+                    <p>There is no website for M-Kit's business. Until now, M-Kit has relied on word-of-mouth advertising to engage with new customers, but now they aim to expand the company and grow their customer base online.</p>
+                    <p>M-Kit wants to create a website for their Meal Kit delivery service. Websites can feature information about the services offered, showcase menus, and provide blogs.</p>    
                   
-                    <h2 className="pt-5 pb-3">Project Goal </h2>
-                    <p>To develop a simple and intuitive interface for content administrators to easily manage their content and help clients get their customers to engage with their brand to increase awareness and drive sales.</p>
+                    <h3 className="pt-5 pb-3">Project Goal </h3>
+                    <p>I aimed to create a simple and intuitive interface so that content administrators can easily manage their content and help clients increase awareness of and drive sales with their brand.</p>
                               
                
-                  <h2 className="pt-5">Research and Development  </h2>
+                  <h3 className="pt-5">Research and Development  </h3>
                     <img src={RMealKit} alt="Images" className="w-100 m-auto d-block" />
                     <img src={AMealKit} alt="Images" className="w-100 m-auto d-block" />
                     <img src={DMealKit} alt="Images" className="w-100 m-auto d-block" />

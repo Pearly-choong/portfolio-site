@@ -25,7 +25,7 @@ class StrangerThings extends React.Component {
               <h1 className="page-title">Stranger Things 3</h1>
               <p>
               This is a website to promote Stranger Things Season 3 TV series. The website provided a trailer, character poster image, synopsis of the plot story, countdown days, and social media link. 
-              An assignment project from web course. I was tasked to create and design a one-page adaptive and responsive website to promote existing TV shows.
+              It is an assignment project from web course. I was tasked to create and design a one-page adaptive and responsive website to promote existing TV shows.
               </p>        
                 
             </div> 
@@ -52,26 +52,25 @@ class StrangerThings extends React.Component {
             <hr className="break-line mt-5 pt-5"></hr>
 
               <div className="container text-left my-5">
-                  <h2 className="pb-3">Overview</h2>
-                    <p>Stranger Things is one of the most popular streaming shows in the world. A lot of fans will always want to know if there is a new season coming up and what would be the continuing story. I was tasked to create a theme website to promote this TV series, to inform potential visitors that a new season is coming.</p>
-                 
-                    <h2 className="pt-5 pb-3">Users and Audiences</h2>
-                    <p>The audience of this website aimed at people between ages 15 and 29 and had watched every episode of Netflix show “Stranger Things” season one and two.</p>
-               
-                    <h2 className="pt-5 pb-3">Site Purpose</h2>
+                  <h3 className="pb-3">Are you a fan of the Stranger Things TV series?</h3>
+                    <p>Many fans will always want to know whether there will be another season for the TV series and what will continue in the story. This theme website for the TV series was created to keep fans informed and to help promote the show.</p>
+                            
+                    <h3 className="pt-5 pb-3">Site Purpose</h3>
                     <ul className="ml-4">
                       <li>Promote upcoming TV shows by informing potential visitors about the new season. Show the release date for season 3 and count down the days to it.</li>
                       <li>Discover what's the plot about, watch the trailer, learn about the characters, and discover what is happening each season.</li>
                       <li>Provide visitors with the opportunity to connect and share their thoughts via the official social media links as well as a link to the official Netflix website.</li>
                     </ul>
 
+                    <h3 className="pt-5 pb-3">Users and Audiences</h3>
+                    <p>The audience of this website aimed at people between ages 15 and 29 and had watched every episode of Netflix show “Stranger Things” season one and two.</p>
 
-                    <h2 className="pt-5 pb-3">Project Goal  </h2>
+                    <h3 className="pt-5 pb-3">Project Goal  </h3>
                     <p>To have an attractive user experience that immerses the audience in the world of suspense and science fiction.</p>
                  
                
                 
-                <h2 className="pt-5 pb-3">Research and Development  </h2>
+                <h3 className="pt-5 pb-3">Research and Development  </h3>
                   <img src={RStranger} alt="Images" className="w-100 m-auto d-block" />
                   <img src={AStranger} alt="Images" className="w-100 m-auto d-block" />
                   <img src={DStranger} alt="Images" className="w-100 m-auto d-block" />

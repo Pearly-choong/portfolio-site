@@ -1,3 +1,5 @@
+// *** NOT USING THIS COMPONENTS ***
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import logo from './logo2.svg';

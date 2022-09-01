@@ -1,3 +1,5 @@
+// *** NOT USING THIS COMP0NENTS ***
+
 import React from 'react';
 import './Portfolio.scss';
 import portfolio1 from '../../images/MockupMealKit.png';

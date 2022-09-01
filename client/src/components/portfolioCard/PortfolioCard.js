@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './PortfolioCard.scss';
+// *** NOT USING THIS COMP0NENTS ***
+
 import ShowProject from '../showProject/ShowProject';
 import Navigation from '../navigation/Navigation';
 import Footer from '../footer/Footer';

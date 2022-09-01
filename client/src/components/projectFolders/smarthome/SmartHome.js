@@ -23,7 +23,7 @@ class SmartHome extends React.Component {
               <img src={portfolio2} alt="Images" className="img-fluid mx-auto d-block pb-4 figure-img" />
               {/* <Portfolio/> */}
               <div className="text-left mt-3 py-3">
-                <h1 className="page-title">Home Automation</h1>
+                <h1 className="page-title">Web App Design for Home Automation</h1>
                 <p>
                   An application I designed for a student project, that allows user to control smart home devices in one place with a simple and elegant interface. 
                   Primary targeted on Iphone 6/7/8 design.
@@ -54,16 +54,15 @@ class SmartHome extends React.Component {
               
                 <div className="text-left">
                   
-                    <h2 className="pb-3 text-dark">Overview</h2>
+                    <h3 className="pb-3 text-dark">Project Overview</h3>
                     <p>
-                    An existing electronics company is planning to release a new service for homeowners. They have developed a range of smart home devices such as smart plugs, lights, cameras, alarms, doors, etc. 
-                    While they are intended in creating a new smart home automation control app package with their own brand. Current existing home automation provider, held back by outdated UX and complicated for users to learn and navigate. 
-                    </p>
-                    <p>In this project, I researched the client background, and some of the current app that offered a similar service/functionality. Analysed the strengths and weaknesses of existing apps. 
-                       I had also conducted a range of user research methods to identify our users' needs, behaviors, and motivations, as well as the problem and possible solutions.
+                    Zone Home Automation was planning to release a new service for homeowners. They have developed a range of smart home devices such as smart plugs, lights, cameras, alarms, doors, etc. 
+                    They are intended in creating a new smart home automation control app package with their own brand. While the current existing home automation provider, held back by outdated UX and complicated for users to learn and navigate. 
+                    <strong> My job was to design and build a new home automation app that would improve the user experience.</strong>
                     </p>
                     
-                    <h2 className="pt-5 pb-3">Project Goals</h2>
+                    
+                    <h3 className="pt-5 pb-3">Project Goals</h3>
                     <h5>User Goals</h5>
                     <ul className="pl-5">
                       <li>Able to see a series of connected devices in their home and will be able to
@@ -76,12 +75,12 @@ class SmartHome extends React.Component {
                       <li>A web app and accessible for mobile and tablet / wall mount sizes so that customers can remotely control their home from anywhere.</li>
                     </ul>
                                           
-                    <h2 className="pt-5 pb-3">Project Challenge</h2>
+                    <h3 className="pt-5 pb-3">Project Challenge</h3>
                     <p>This is an individual project to develop a web app from conception to final end implementation in a short timeframe. This includes all phases of the design thinking process and development.</p>               
                 </div>
                 
-                  <h2 className="pt-5 pb-3">Research </h2>
-                  <p>In this project, I conducted four types of research which including survey, interviews, competitor analysis and card sort. 
+                  <h3 className="pt-5 pb-3">Research </h3>
+                  <p>In this project, I conducted four types of research which including <strong>survey, interviews, competitor analysis and card sort</strong>. 
                      User research methods allow us to find similarities between our target audience and recognize their needs. 
                      It is research that prevents us from designing for ourselves. 
                     </p>
@@ -106,8 +105,8 @@ class SmartHome extends React.Component {
                 </div>
                 
                 <div className="container pt-5">
-                  <h2 className="pt-5 pb-3 text-dark">Highlights and Takeaways</h2>
-                  <p><strong>1) Focus on the mvp (minimum viable product).</strong> With a tight deadline and a need to be conservative with design changes, I decided to focus on designed and developed the top features that users would want use. </p> 
+                  <h3 className="pt-5 pb-3 text-dark">Highlights and Takeaways</h3>
+                  <p><strong>1) Focus on the mvp (minimum viable product).</strong> With a tight deadline and a need to be conservative with design changes, I decided to focus on designing and developing the top features that users would want use. </p> 
                   <p><strong>2) User Testing.</strong> I had a 3 rounds of user testing to validate those feature functionality and UI improvements. From initial wireframe, 2nd iteration wireframes and hi-fidelity wireframes. I also conducted the final usability testing on the completed web application to make sure that user managed to navigate the app easily and without confusing.</p>
                   <p>As a final thoughts, the time limit made the development process more intense than the traditional waterfall process, but the end result was definitely worth it. Focusing on the most important issue and solving the essential problems simultaneously is one of the most efficient ways to design and iterate a product.</p>
                 </div>

@@ -69,24 +69,26 @@ class TreatMe extends React.Component {
               </div> */}
                 <div className="container text-left my-5">
                   
-                    <h2 className="pt-2">Project Overview  </h2>
-                    <p>Treatme app is a C2C (Consumer to consumer) platform that matches buyers with sellers, the type of e-commerce is made up of online classified or forums where individuals can buy and sell their baked goods. 
-                       Registered members able to update their profile, add new listing, update or delete their listing within the platform.
+                    <h3 className="pt-2">Home bakers need a place to start up their businesses.</h3>
+                    <p>Treatme is a C2C (Consumer to Consumer) platform that matches buyers with sellers using online classifieds and forums where individuals can buy and sell baked goods. 
+                     
                     </p>
                   
-                    <h2 className="pt-5 pb-3">Problem and Solution </h2>
+                    <h3 className="pt-5 pb-3">Problem and Solution </h3>
                     <p>There’s no online consumer-to-comsumer platform for selling/buying baked goods in the current market. A lot of home bakers would like to do the startup but do not have enough funds. 
-                       Treatme would like to create a consumer-to-consumer niche market app to fill the market space for these home bakers to sell and buy baked goods online. The platform should allow the buyer to post a product with its associated details, while buyers should be able to view, leave comments and ask questions about the products.</p>
+                       Treatme would like to create a consumer-to-consumer niche market app to fill the market space for these home bakers to sell and buy baked goods online. 
+                       The platform should allow the seller to post a product with its associated details, while buyers should be able to view, leave comments and ask questions about the products.
+                    </p>
                  
-                    <h2 className="pt-5 pb-3">Target Users  </h2>
+                    <h3 className="pt-5 pb-3">Target Users  </h3>
                     <p>The primary target users are self-employed or unemployed home baker that interested in buying/selling baked goods and wanting to make some small income. 70% identified as female and 30% identified as male. </p>
                     <p>While the secondary target audience is full-time employment that also is home baker, would dream to be a master chief however does not like the lifestyle that comes with it so prefers to do it low key and in their own time without added pressure.</p>
                 
-                    <h2 className="pt-5 pb-3">Designer Note  </h2>
+                    <h3 className="pt-5 pb-3">Designer Note  </h3>
                     <p>Despite being an academic project, we were working within a context where we could simulate the pressures, constraints, and business goals of working in a real industry.</p>
                  
                 
-                <h2 className="pt-5">Research and Development  </h2>
+                <h3 className="pt-5">Research and Development  </h3>
                   <img src={RTreatme} alt="Images" className="w-100 m-auto d-block" />
                   <img src={ATreatme} alt="Images" className="w-100 m-auto d-block" />
                   <img src={DTreatme} alt="Images" className="w-100 m-auto d-block" />
@@ -99,7 +101,7 @@ class TreatMe extends React.Component {
                 </div>
 
                 <div className="container pt-5">
-                  <h2 className="pt-5 pb-3 text-dark">Highlights and Takeaways</h2>
+                  <h3 className="pt-5 pb-3 text-dark">Highlights and Takeaways</h3>
                   <p><strong>Daily stand-up meeting and regular group updates.</strong> By having the meeting, it allow us to improve communications, identify, highlight and promote quick decision-making for our project. </p> 
                   <p><strong>Collaboration and being supportive of the other team member.</strong> Effective teamwork with good communication among the team members is important. As a group, we set out our end goal and tried to focus to complete together. 
                       It was also our first time working on a group project online, and I had a good experience. Mistakes that were made during the task were also learned so that things can be improved next time. I think a team is only strong when everyone works together and helps each other. </p>
