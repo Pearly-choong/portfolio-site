@@ -147,9 +147,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    p, li {
-        font-size: 1.1rem;;
-      }
+    // p, ul, ol {
+    //     font-size: 1.1rem;;
+    //   }
     
     .home-link{
         font-size: 1.1rem;
@@ -197,7 +197,8 @@
 
 /* Large devices (tablet landscape/laptops/desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) {
-    
+
+
     .home-link{
         font-size: 1.1rem;
     }

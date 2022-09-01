@@ -16,9 +16,9 @@ ReactDOM.render(
     <Routes>
       <ScrollToTop>
         <App />
-      </ScrollToTop>
-     </Routes>
-   </Router>,
+      </ScrollToTop>,
+        </Routes>
+    </Router>,
   
   document.getElementById('root')
 

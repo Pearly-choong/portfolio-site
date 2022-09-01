@@ -76,7 +76,7 @@ class SmartHome extends React.Component {
                       <li>A web app and accessible for mobile and tablet / wall mount sizes so that customers can remotely control their home from anywhere.</li>
                     </ul>
                                           
-                    <h2 className="pt-5 pb-3">Challenge</h2>
+                    <h2 className="pt-5 pb-3">Project Challenge</h2>
                     <p>This is an individual project to develop a web app from conception to final end implementation in a short timeframe. This includes all phases of the design thinking process and development.</p>               
                 </div>
                 

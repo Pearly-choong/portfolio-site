@@ -4,7 +4,7 @@ import Home from '../components/home/Home';
 import Project from '../components/project/Project';
 //import Navigation from '../components/navigation/Navigation';
 //import Landing from '../components/landing/Landing';
-//import App from '../App';
+// import App from '../App';
 import ShowProject from '../components/showProject/ShowProject';
 import MealKit from '../components/projectFolders/mealkit/MealKit';
 import SmartHome from '../components/projectFolders/smarthome/SmartHome';
@@ -12,17 +12,27 @@ import TreatMe from '../components/projectFolders/treatme/TreatMe';
 import StrangerThings from '../components/projectFolders/strangerThings/StrangerThings';
 import AngusRobertson from '../components/projectFolders/angusRobertson/AngusRobertson';
 import UxWellington from '../components/projectFolders/uxWellington/UxWellington';
-import {Route, Switch, Redirect } from 'react-router-dom';
+import {Route, Switch, Redirect} from 'react-router-dom';
 // import ScrollToTop from './ScrollToTop';
 
 
+
 export const Routes = ()=> {
+
+    // function Page () {
+    //     return (
+    //       <div style={{overflowY: 'scroll'}}>
+    //        {props.children}
+    //       </div>
+    //     )
+    //   }
 
     return (
         <div>
             {/* <App/> */}
             {/* <Navigation/> */}
             {/* <ScrollToTop> */}
+            {/* <div id="main" style={{overflowY: 'hidden'}}></div> */}
             <Switch>
                 {/* <Route exact path="/Landing" component={Landing} />
                 <Route exact path="/">

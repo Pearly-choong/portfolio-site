@@ -122,11 +122,11 @@ class AngusRobertson extends React.Component {
                         <h5 className="font-weight-bold text-dark">Personalised Profile and Gamified Reward System</h5> 
                         <p>I created and redesigned a personalized profile that incorporates more gamification and community involvement.</p>
                         <ul className="pl-5">
-                          <li>User profile customization. This feature allows users to update their photos and blurb.</li>
+                          <li>User <strong>profile customization</strong>. This feature allows users to update their photos and blurb.</li>
                           <li>Community members' followings and followers are displayed.</li>
-                          <li>Gamify the user profile by adding badges. Users can earn badges based on the number of series completed, and the number of reviews written.</li>
-                          <li>The dashboard/achievement can be viewed here. Users can see how much they have to go to reach the next level by seeing the progression bar. A list of tasks will be provided for the user to understand what needs to be done in order to earn the badge.</li>
-                          <li>Upon reaching a certain achievement level, a ranking tile will be upgraded.</li>
+                          <li>Gamify the user profile by adding badges. Users can <strong>earn badges</strong> based on the number of series completed, and the number of reviews written.</li>
+                          <li>The <strong>dashboard/achievement</strong> can be viewed here. Users can see how much they have to go to reach the next level by seeing the <strong>progression bar</strong>. A list of tasks will be provided for the user to understand what needs to be done in order to earn the badge.</li>
+                          <li>Upon reaching a certain achievement level, a <strong>ranking tile</strong> will be upgraded.</li>
                         </ul>
                         
                         <p>As the platform offers users the opportunity to create their own space, it increases user engagement, and the gamification element helps to keep them engaged and creates a bit of fun. </p>
@@ -134,10 +134,10 @@ class AngusRobertson extends React.Component {
                         {/* <img src={ProfileScreen} alt="Images" className="m-auto d-block pt-5" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000" /> */}
                         
                         <h5 className="font-weight-bold text-dark mt-5">Community-based</h5> 
-                        <p>When they become a member, user can discover people through the community among the website. They can follow other user and view their badges.</p>
-                        <p>Follow the community feed to stay updated on thier friends' activity, for example, someone reaching the next level, unlocking new badges, or sharing recommended books. It is also possible for Angus and Robertson to post updates or announcements. </p>                       
-                        <p>Due to the constraints of no user to user social interaction element, members won’t be able to add comments or chat with each other on the platform. However, they are allow to interact with the emojis on the news feed posted.</p>
-                        <p>These features give the opportunity to connect with like-minded readers, and also boost the community and members’ engagement. </p>
+                        <p>When they become a member, user can <strong>discover people through the community</strong> among the website. They can follow other user and view their badges.</p>
+                        <p>Follow the <strong>community feed </strong>to stay updated on thier friends' activity, for example, someone reaching the next level, unlocking new badges, or sharing recommended books. It is also possible for Angus and Robertson to post updates or announcements. </p>                       
+                        <p>Due to the constraints of no user to user social interaction element, members won’t be able to add comments or chat with each other on the platform. However, they are allow to <strong>interact with the emojis</strong> on the news feed posted.</p>
+                        <p>These features give the opportunity to <strong>connect with like-minded readers</strong>, and also boost the community and members’ engagement. </p>
                         <img src={CommunityScreen} alt="Images" className="w-100 m-auto d-block pt-3"/>
                         
                         <h5 className="font-weight-bold text-dark mt-5">Booklist</h5> 
@@ -145,13 +145,13 @@ class AngusRobertson extends React.Component {
                         <img src={BooklistScreen} alt="Images" className="w-100 m-auto d-block pt-3"/>
                         
                         <h5 className="font-weight-bold text-dark mt-5">Review</h5>
-                        <p>The review section highlights the visibility of the verified trusted reviews by display of the identity and level of the user who left the reviews. Also, priorities the reviews are written by the following user. </p> 
-                        <p>User can leave their review on a simple and easy pop-up review form. Optional for user to share their review among the community feeds.  </p>
+                        <p>The review section highlights the visibility of the <strong>verified trusted reviews</strong> by <strong>display of the identity and level</strong> of the user who left the reviews. Also, <strong>priorities the reviews are written by the following user.</strong> </p> 
+                        <p>User can leave their review on a simple and easy <strong>pop-up review form.</strong> Optional for user to share their review among the community feeds. Upon submitting the review, the user will be able to <strong>recommend the book to the community</strong> as well. </p>
                         <img src={ReviewScreen} alt="Images" className="w-100 m-auto d-block pt-3"/>
                         
                         <h5 className="font-weight-bold text-dark mt-5">Recommend</h5> 
-                        <p>Users are abe to view all their reviewed items and get notification if someone likes their review. 
-                           This also allow to share / recommend books via social media or among the community feeds. </p>
+                        <p>Users are abe to <strong>view all their reviewed items and get notification</strong> if someone likes their review. 
+                           This also allow to share / recommend books via <strong>social media</strong> or among the community feeds. </p>
                         <img src={RecommendScreen} alt="Images" className="w-100 m-auto d-block pt-3"/>
                       </div>
                    

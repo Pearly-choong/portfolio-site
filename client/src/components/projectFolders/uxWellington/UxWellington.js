@@ -167,12 +167,12 @@ class UxWellington extends React.Component {
                   <p className="pt-3 font-weight-bold">Member Suggestion</p>
                   <ul className="pl-5">
                     <li>Make it easier for speaker to sign up, have a more efficient way to help new speakers (via zoom, call or DM), and provide speaker support. </li>
-                    <li>Offer presentation support and logistic support, communicate a straightforward process of how the speaker will be supported by UX Wellington. </li>
-                    <li>Schedule daytime events. Be flexible for parents or those with less time outside of work. </li>
+                    <li>Offer <strong>presentation support and logistic support</strong>, communicate a straightforward process of how the speaker will be supported by UX Wellington. </li>
+                    <li>Schedule <strong>daytime events.</strong> Be flexible for parents or those with less time outside of work. </li>
                     <li>Have student-focused events and expert focused event.</li>
-                    <li>At event, have an icebreaker so members can talk to new people. </li>
-                    <li>Consider round table panel, seniors could lead a group of discussion.</li>
-                    <li>Be more active on social media and post more blog content related to UX Wellington and information on events coming up.</li>
+                    <li>At event, have an <strong>icebreaker</strong> so members can talk to new people. </li>
+                    <li>Consider <strong>round table panel</strong>, seniors could lead a group of discussion.</li>
+                    <li>Be more active on <strong>social media</strong> and post more blog content related to UX Wellington and information on events coming up.</li>
                   </ul>
                  
                   <p className="pt-3 font-weight-bold">The opportunity we see with our recommendation</p>
